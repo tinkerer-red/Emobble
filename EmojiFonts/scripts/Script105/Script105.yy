@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Script105",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Script105",
+  "parent":{
+    "name":"EmojiFonts",
+    "path":"EmojiFonts.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
