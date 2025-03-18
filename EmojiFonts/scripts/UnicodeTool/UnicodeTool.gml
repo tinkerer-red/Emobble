@@ -84,28 +84,6 @@ function to_codepoint(_high_surrogate, _low_surrogate) {
     return ((_high_surrogate - 0xD800) << 10) + (_low_surrogate - 0xDC00) + 0x10000;
 }
 
-/// Writes a Unicode codepoint into a buffer in UTF-8 encoding
-function buffer_write_codepoint(_buffer, _codepoint) {
-    if (_codepoint <= 0x7F) {
-        buffer_write(_buffer, buffer_u8, _codepoint);
-    }
-    else if (_codepoint <= 0x7FF) {
-        buffer_write(_buffer, buffer_u8, 0xC0 | (_codepoint >> 6));
-        buffer_write(_buffer, buffer_u8, 0x80 | (_codepoint & 0x3F));
-    }
-    else if (_codepoint <= 0xFFFF) {
-        buffer_write(_buffer, buffer_u8, 0xE0 | (_codepoint >> 12));
-        buffer_write(_buffer, buffer_u8, 0x80 | ((_codepoint >> 6) & 0x3F));
-        buffer_write(_buffer, buffer_u8, 0x80 | (_codepoint & 0x3F));
-    }
-    else {
-        buffer_write(_buffer, buffer_u8, 0xF0 | (_codepoint >> 18));
-        buffer_write(_buffer, buffer_u8, 0x80 | ((_codepoint >> 12) & 0x3F));
-        buffer_write(_buffer, buffer_u8, 0x80 | ((_codepoint >> 6) & 0x3F));
-        buffer_write(_buffer, buffer_u8, 0x80 | (_codepoint & 0x3F));
-    }
-}
-
 /// Converts a single hex character ('0'-'9', 'a'-'f', 'A'-'F') to its integer value.
 /// This function only takes in integers values and not strings
 /// Returns -1 if the character is invalid.
