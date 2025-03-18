@@ -339,39 +339,55 @@ def generate_sprite_strip(category, images, keys, size, lite=False):
     base_dir = LITE_SPRITE_DIR if lite else FULL_SPRITE_DIR
     category_folder = os.path.join(base_dir, category)
     os.makedirs(category_folder, exist_ok=True)
-    output_sprite_path = os.path.join(category_folder, f"{category}_{"Lite" if lite else "Full"}_{size}.png")
+    output_sprite_path = os.path.join(category_folder, f"{category}_{'Lite' if lite else 'Full'}_{size}.png")
     metadata_path = os.path.join(category_folder, "metadata.json")
 
     if os.path.exists(output_sprite_path):
         log.info(f"Skipping {output_sprite_path}, already exists.")
         return {}
-    
+
     # If lite, filter only single characters (that do not contain multi-codepoints)
     if lite:
         filtered_images, filtered_keys = filter_lite_emojis(images, keys)
     else:
         filtered_images, filtered_keys = images, keys  # Keep all for full version
 
-    total_width = len(filtered_images) * size
+    if not filtered_images:
+        log.warning(f"No valid images for category {category}. Skipping sprite strip.")
+        return {}
+
+    total_count = len(filtered_images)
+    total_width = total_count * size  # Ensure width is correct
     sprite_strip = Image.new("RGBA", (total_width, size), (0, 0, 0, 0))
-    
+
     metadata = {}
-    
+
     for index, (image, key) in enumerate(zip(filtered_images, filtered_keys)):
         if image is None:
             continue  # Skip empty images
-        
+
         resized_img = image.resize((size, size), Image.LANCZOS)
-        sprite_strip.paste(resized_img, (index * size, 0))
+        x_pos = index * size
+
+        # 🛠 Debugging Log
+        if x_pos + size > total_width:
+            log.error(f"Image at index {index} exceeds the sprite strip bounds: {x_pos + size} > {total_width}")
+            continue  # Skip this image to avoid errors
+
+        sprite_strip.paste(resized_img, (x_pos, 0))
         metadata[key] = index
-    
+
+    # 🛠 Final Debugging Check
+    if sprite_strip.width != total_width:
+        log.error(f"Sprite strip width mismatch: Expected {total_width}, got {sprite_strip.width}")
+
     sprite_strip.save(output_sprite_path)
     log.info(f"Saved sprite strip {output_sprite_path}")
-    
+
     with open(metadata_path, "w", encoding="utf-8") as f:
         json.dump(metadata, f, ensure_ascii=False, indent=4)
     log.info(f"Saved metadata: {metadata_path}")
-    
+
     return metadata
 
 # -- Sprite Strips  ----------------------------------------------------------------------------------------------------------
