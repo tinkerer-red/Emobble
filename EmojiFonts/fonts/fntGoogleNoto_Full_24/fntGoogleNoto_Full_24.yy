@@ -1457,7 +1457,7 @@
   "name":"fntGoogleNoto_Full_24",
   "parent":{
     "name":"Google Noto Colored",
-    "path":"folders/Emojis/Full/Google Noto Colored.yy",
+    "path":"folders/Emojis/Fonts/Full/Google Noto Colored.yy",
   },
   "pointRounding":0,
   "ranges":[

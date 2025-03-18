@@ -1451,7 +1451,7 @@
   "name":"fntOpenmoji_Full_48",
   "parent":{
     "name":"Openmoji",
-    "path":"folders/Emojis/Full/Openmoji.yy",
+    "path":"folders/Emojis/Fonts/Full/Openmoji.yy",
   },
   "pointRounding":0,
   "ranges":[

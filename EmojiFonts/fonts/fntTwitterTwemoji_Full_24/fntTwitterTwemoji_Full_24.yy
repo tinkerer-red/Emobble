@@ -1450,7 +1450,7 @@
   "name":"fntTwitterTwemoji_Full_24",
   "parent":{
     "name":"Twitter - Discord Twemoji",
-    "path":"folders/Emojis/Full/Twitter - Discord Twemoji.yy",
+    "path":"folders/Emojis/Fonts/Full/Twitter - Discord Twemoji.yy",
   },
   "pointRounding":0,
   "ranges":[

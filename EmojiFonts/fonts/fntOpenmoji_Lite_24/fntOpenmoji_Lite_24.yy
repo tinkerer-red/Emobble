@@ -1232,7 +1232,7 @@
   "name":"fntOpenmoji_Lite_24",
   "parent":{
     "name":"Openmoji",
-    "path":"folders/Emojis/Lite/Openmoji.yy",
+    "path":"folders/Emojis/Fonts/Lite/Openmoji.yy",
   },
   "pointRounding":0,
   "ranges":[

@@ -1207,7 +1207,7 @@
   "name":"fntWhatsapp_Lite_24",
   "parent":{
     "name":"WhatsApp",
-    "path":"folders/Emojis/Lite/WhatsApp.yy",
+    "path":"folders/Emojis/Fonts/Lite/WhatsApp.yy",
   },
   "pointRounding":0,
   "ranges":[

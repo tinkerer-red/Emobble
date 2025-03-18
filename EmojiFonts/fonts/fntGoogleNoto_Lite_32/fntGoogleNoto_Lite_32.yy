@@ -1238,7 +1238,7 @@
   "name":"fntGoogleNoto_Lite_32",
   "parent":{
     "name":"Google Noto Colored",
-    "path":"folders/Emojis/Lite/Google Noto Colored.yy",
+    "path":"folders/Emojis/Fonts/Lite/Google Noto Colored.yy",
   },
   "pointRounding":0,
   "ranges":[

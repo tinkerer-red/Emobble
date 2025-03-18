@@ -1203,7 +1203,7 @@
   "name":"fntMicrosoftSegoeUiEmoji_Lite_32",
   "parent":{
     "name":"Microsoft Segoe UI Emoji Colored",
-    "path":"folders/Emojis/Lite/Microsoft Segoe UI Emoji Colored.yy",
+    "path":"folders/Emojis/Fonts/Lite/Microsoft Segoe UI Emoji Colored.yy",
   },
   "pointRounding":0,
   "ranges":[

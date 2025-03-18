@@ -1422,7 +1422,7 @@
   "name":"fntMicrosoftSegoeUiEmoji_Full_24",
   "parent":{
     "name":"Microsoft Segoe UI Emoji Colored",
-    "path":"folders/Emojis/Full/Microsoft Segoe UI Emoji Colored.yy",
+    "path":"folders/Emojis/Fonts/Full/Microsoft Segoe UI Emoji Colored.yy",
   },
   "pointRounding":0,
   "ranges":[

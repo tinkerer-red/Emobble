@@ -1452,7 +1452,7 @@
   "name":"fntWhatsapp_Full_24",
   "parent":{
     "name":"WhatsApp",
-    "path":"folders/Emojis/Full/WhatsApp.yy",
+    "path":"folders/Emojis/Fonts/Full/WhatsApp.yy",
   },
   "pointRounding":0,
   "ranges":[

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"string_replace_all_struct",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"string_replace_all_struct",
+  "parent":{
+    "name":"EmojiFonts",
+    "path":"EmojiFonts.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

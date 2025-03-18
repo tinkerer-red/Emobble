@@ -1231,7 +1231,7 @@
   "name":"fntTwitterTwemoji_Lite_32",
   "parent":{
     "name":"Twitter - Discord Twemoji",
-    "path":"folders/Emojis/Lite/Twitter - Discord Twemoji.yy",
+    "path":"folders/Emojis/Fonts/Lite/Twitter - Discord Twemoji.yy",
   },
   "pointRounding":0,
   "ranges":[

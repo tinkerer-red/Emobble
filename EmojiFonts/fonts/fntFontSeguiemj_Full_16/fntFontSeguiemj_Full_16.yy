@@ -1779,7 +1779,7 @@
   "name":"fntFontSeguiemj_Full_16",
   "parent":{
     "name":"Microsoft Segoe UI Emoji Monochrome",
-    "path":"folders/Emojis/Full/Microsoft Segoe UI Emoji Monochrome.yy",
+    "path":"folders/Emojis/Fonts/Full/Microsoft Segoe UI Emoji Monochrome.yy",
   },
   "pointRounding":0,
   "ranges":[

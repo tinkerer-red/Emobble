@@ -1464,7 +1464,7 @@
   "name":"fntFontNotoemojiMedium_Lite_48",
   "parent":{
     "name":"Google Noto Monochrome",
-    "path":"folders/Emojis/Lite/Google Noto Monochrome.yy",
+    "path":"folders/Emojis/Fonts/Lite/Google Noto Monochrome.yy",
   },
   "pointRounding":0,
   "ranges":[
