@@ -46,21 +46,21 @@ draw_set_alpha(1)
 
 // Render all
 var _off = EMOJI_SIZE, xx = 0;
-scribble_discord(glyph_string).draw(xx,yy)
-xx+=_off;
-scribble_google(glyph_string).draw(xx,yy)
-xx+=_off;
-scribble_google_mono(glyph_string).draw(xx,yy)
-xx+=_off;
-scribble_microsoft(glyph_string).draw(xx,yy)
-xx+=_off;
-scribble_microsoft_mono(glyph_string).draw(xx,yy)
-xx+=_off;
-scribble_openmoji(glyph_string).draw(xx,yy)
-xx+=_off;
-scribble_whatsapp(glyph_string).draw(xx,yy)
-xx+=_off;
-
+//scribble_discord(glyph_string).draw(xx,yy)
+//xx+=_off;
+//scribble_google(glyph_string).draw(xx,yy)
+//xx+=_off;
+//scribble_google_mono(glyph_string).draw(xx,yy)
+//xx+=_off;
+//scribble_microsoft(glyph_string).draw(xx,yy)
+//xx+=_off;
+//scribble_microsoft_mono(glyph_string).draw(xx,yy)
+//xx+=_off;
+//scribble_openmoji(glyph_string).draw(xx,yy)
+//xx+=_off;
+//scribble_whatsapp(glyph_string).draw(xx,yy)
+//xx+=_off;
+//
 scribble(unicode_string).draw(xx,yy)
 
 

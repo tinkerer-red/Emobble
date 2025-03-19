@@ -36,7 +36,8 @@ CONFIG = [
     { "output_folder": "LinkedIn", "url": "https://emojipedia.org/linkedin" },
     { "output_folder": "Mastodon", "url": "https://emojipedia.org/mastodon" },
     { "output_folder": "Messenger", "url": "https://emojipedia.org/messenger" },
-    { "output_folder": "Microsoft", "url": "https://emojipedia.org/microsoft" },
+    { "output_folder": "Windows10", "url": "https://emojipedia.org/microsoft/windows-11" }, #i know what it looks like but this was the only update on windows 11 which had these so its most up to date
+    { "output_folder": "Windows11", "url": "https://emojipedia.org/microsoft" },
     { "output_folder": "Microsoft 3D Fluent", "url": "https://emojipedia.org/microsoft-3D-fluent" },
     { "output_folder": "Mozilla", "url": "https://emojipedia.org/mozilla" },
     { "output_folder": "MSN Messenger", "url": "https://emojipedia.org/msn-messenger" },

@@ -64,7 +64,7 @@ def crop_images(images, keys, final_size=64):
 
     # Ensure we have valid bounding boxes
     if not bbox_data:
-        log.warning("No valid bounding boxes found! Returning original images.")
+        log.debug("No valid bounding boxes found! Returning original images.")
         return images  # Return original images if no valid bounding boxes are found
 
     # Step 2: Remove the top 1% of largest emojis (outliers)
@@ -77,7 +77,7 @@ def crop_images(images, keys, final_size=64):
     filtered_bboxes = [entry for entry in bbox_data if entry[5] <= width_threshold and entry[6] <= height_threshold]
 
     if not filtered_bboxes:
-        log.warning("After removing outliers, no valid emojis remain! Using original bounding boxes.")
+        log.debug("After removing outliers, no valid emojis remain! Using original bounding boxes.")
         filtered_bboxes = bbox_data  # Fallback to all data if filtering removed everything
 
     # Step 3: Find the optimal crop dimensions after filtering
@@ -90,7 +90,7 @@ def crop_images(images, keys, final_size=64):
     crop_height = max_bottom - min_top
     max_dim = max(crop_width, crop_height)  # Ensure a square canvas
 
-    log.info(f"Final bounding box (after outlier removal): {crop_width}x{crop_height}")
+    log.debug(f"Final bounding box (after outlier removal): {crop_width}x{crop_height}")
 
     cropped_images = []
 
@@ -159,7 +159,7 @@ def get_png_images(category):
             key = "".join(chr(int(part, 16)) for part in filename.replace(".png", "").split("-"))
             keys.append(key)
         except Exception as e:
-            log.warning(f"Failed to load image {filename}: {e}")
+            log.debug(f"Failed to load image {filename}: {e}")
 
     images = crop_images(images, keys)
     return images, keys
@@ -236,7 +236,7 @@ def get_font_emojis(font_path):
 
     # Ensure valid emoji glyphs exist
     if not widths or not heights:
-        log.warning(f"No valid emoji glyphs found for font {font_path}.")
+        log.debug(f"No valid emoji glyphs found for font {font_path}.")
         return [], []
 
     # Step 2: Remove the top 3% of outlier emoji sizes
@@ -268,7 +268,7 @@ def get_font_emojis(font_path):
             images.append(temp_canvas)
             keys.append(emoji_char)
         else:
-            log.warning(f"Skipping non-significant glyph: {emoji_char} ({emoji_char.encode('unicode_escape').decode()})")
+            log.debug(f"Skipping non-significant glyph: {emoji_char} ({emoji_char.encode('unicode_escape').decode()})")
 
     images = crop_images(images, keys)
     return images, keys  # Return high-res images and their Unicode keys
@@ -284,7 +284,7 @@ def generate_texture_sheet(category, images, keys, size, lite=False):
     metadata_path = os.path.join(category_folder, "metadata.json")
 
     if os.path.exists(output_texture_path):
-        log.info(f"Skipping {output_texture_path}, already exists.")
+        log.debug(f"Skipping {output_texture_path}, already exists.")
         return {}
 
     # If lite, filter only single characters (that do not contain multi-codepoints)
@@ -324,11 +324,11 @@ def generate_texture_sheet(category, images, keys, size, lite=False):
 
     # Save sheet and metadata
     composite_sheet.save(output_texture_path)
-    log.info(f"Saved {output_texture_path} ({'Lite' if lite else 'Full'})")
+    log.debug(f"Saved {output_texture_path} ({'Lite' if lite else 'Full'})")
 
     with open(metadata_path, "w", encoding="utf-8") as f:
         json.dump(metadata, f, ensure_ascii=False, indent=4)
-    log.info(f"Saved metadata: {metadata_path}")
+    log.debug(f"Saved metadata: {metadata_path}")
 
     return metadata
 
@@ -343,7 +343,7 @@ def generate_sprite_strip(category, images, keys, size, lite=False):
     metadata_path = os.path.join(category_folder, "metadata.json")
 
     if os.path.exists(output_sprite_path):
-        log.info(f"Skipping {output_sprite_path}, already exists.")
+        log.debug(f"Skipping {output_sprite_path}, already exists.")
         return {}
 
     # If lite, filter only single characters (that do not contain multi-codepoints)
@@ -353,7 +353,7 @@ def generate_sprite_strip(category, images, keys, size, lite=False):
         filtered_images, filtered_keys = images, keys  # Keep all for full version
 
     if not filtered_images:
-        log.warning(f"No valid images for category {category}. Skipping sprite strip.")
+        log.debug(f"No valid images for category {category}. Skipping sprite strip.")
         return {}
 
     total_count = len(filtered_images)
@@ -382,11 +382,11 @@ def generate_sprite_strip(category, images, keys, size, lite=False):
         log.error(f"Sprite strip width mismatch: Expected {total_width}, got {sprite_strip.width}")
 
     sprite_strip.save(output_sprite_path)
-    log.info(f"Saved sprite strip {output_sprite_path}")
+    log.debug(f"Saved sprite strip {output_sprite_path}")
 
     with open(metadata_path, "w", encoding="utf-8") as f:
         json.dump(metadata, f, ensure_ascii=False, indent=4)
-    log.info(f"Saved metadata: {metadata_path}")
+    log.debug(f"Saved metadata: {metadata_path}")
 
     return metadata
 
@@ -411,15 +411,19 @@ def generate_all_textures():
         )
 
         if texture_check and sprite_check:
-            log.info(f"Skipping {category} - All texture and sprite sheets already exist.")
+            log.debug(f"Skipping {category} - All texture and sprite sheets already exist.")
             continue
 
         images, keys = get_png_images(category)
+        image_count = len(images)  # Track count per category
+
         for size in TEXTURE_SIZES:
             generate_texture_sheet(category, images, keys, size, lite=False)
             generate_texture_sheet(category, images, keys, size, lite=True)
             generate_sprite_strip(category, images, keys, size, lite=False)
             generate_sprite_strip(category, images, keys, size, lite=True)
+            
+        log.info(f"✅ Processed {image_count} images for category '{category}'.")
 
     for font_name in os.listdir(FONTS_DIR):
         if not font_name.endswith(".ttf"):
@@ -430,16 +434,21 @@ def generate_all_textures():
         # Check if all font texture sheets exist before processing
         if all(os.path.exists(os.path.join(TEXTURE_SHEETS_DIR, tag, category, f"{category}_{size}.png"))
                for tag in ["Full", "Lite"] for size in TEXTURE_SIZES):
-            log.info(f"Skipping {category} - All texture sheets already exist.")
+            log.debug(f"Skipping {category} - All texture sheets already exist.")
             continue
 
         font_path = os.path.join(FONTS_DIR, font_name)
         images, keys = get_font_emojis(font_path)
+        mage_count = len(images)  # Track count per category
         for size in TEXTURE_SIZES:
             generate_texture_sheet(category, images, keys, size, lite=False)
             generate_texture_sheet(category, images, keys, size, lite=True)
             generate_sprite_strip(category, images, keys, size, lite=False)
             generate_sprite_strip(category, images, keys, size, lite=True)
+        
+        log.info(f"✅ Processed {image_count} images for category '{category}'.")
+    
+    log.info("🎉 Texture generation complete!")
 
 
 if __name__ == "__main__":
