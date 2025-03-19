@@ -223,57 +223,57 @@ function buffer_write_codepoint(_buffer, _codepoint) {
 //show_debug_message(__scribble_preparse_buffered("Dagger 🗡️ Test", fntTwitterTwemoji_Lite_16));
 //show_debug_message(__scribble_preparse_buffered("Superhero 🦸‍♂️ Power", fntTwitterTwemoji_Lite_16));
 
-// 🛠 Edge Cases & Stress Testing
+//// 🛠 Edge Cases & Stress Testing
 
-// ✅ Incorrectly formatted start (special characters)
-show_debug_message("")
-show_debug_message(__scribble_preparse_buffered("@#$% 😊 Test", fntTwitterTwemoji_Lite_16));
-show_debug_message(__scribble_preparse_buffered("!123 ❤️ Numbers", fntTwitterTwemoji_Lite_16));
+//// ✅ Incorrectly formatted start (special characters)
+//show_debug_message("")
+//show_debug_message(__scribble_preparse_buffered("@#$% 😊 Test", fntTwitterTwemoji_Lite_16));
+//show_debug_message(__scribble_preparse_buffered("!123 ❤️ Numbers", fntTwitterTwemoji_Lite_16));
 
-// ✅ Incorrectly formatted end (junk characters)
-show_debug_message("")
-show_debug_message(__scribble_preparse_buffered("End of Test 😎 %^&*", fntTwitterTwemoji_Lite_16));
-show_debug_message(__scribble_preparse_buffered("Final ✅ 123!!!", fntTwitterTwemoji_Lite_16));
+//// ✅ Incorrectly formatted end (junk characters)
+//show_debug_message("")
+//show_debug_message(__scribble_preparse_buffered("End of Test 😎 %^&*", fntTwitterTwemoji_Lite_16));
+//show_debug_message(__scribble_preparse_buffered("Final ✅ 123!!!", fntTwitterTwemoji_Lite_16));
 
-// ✅ Unicode + Emoji Mix
-show_debug_message("")
-show_debug_message(__scribble_preparse_buffered("漢字 ❤️ Test", fntTwitterTwemoji_Lite_16));
-show_debug_message(__scribble_preparse_buffered("¡Hola! 👋🏽 ¿Cómo estás?", fntTwitterTwemoji_Lite_16));
+//// ✅ Unicode + Emoji Mix
+//show_debug_message("")
+//show_debug_message(__scribble_preparse_buffered("漢字 ❤️ Test", fntTwitterTwemoji_Lite_16));
+//show_debug_message(__scribble_preparse_buffered("¡Hola! 👋🏽 ¿Cómo estás?", fntTwitterTwemoji_Lite_16));
 
-// ✅ Special ASCII Sequences
-show_debug_message("")
-show_debug_message(__scribble_preparse_buffered("ASCII Test *^_^* ☺️", fntTwitterTwemoji_Lite_16));
-show_debug_message(__scribble_preparse_buffered("Emoticon :) converted? 😃", fntTwitterTwemoji_Lite_16));
+//// ✅ Special ASCII Sequences
+//show_debug_message("")
+//show_debug_message(__scribble_preparse_buffered("ASCII Test *^_^* ☺️", fntTwitterTwemoji_Lite_16));
+//show_debug_message(__scribble_preparse_buffered("Emoticon :) converted? 😃", fntTwitterTwemoji_Lite_16));
 
-// ✅ Emoji Sequences with Extra Spaces
-show_debug_message("")
-show_debug_message(__scribble_preparse_buffered("    Extra Space 😊 Test    ", fntTwitterTwemoji_Lite_16));
-show_debug_message(__scribble_preparse_buffered("👨‍👩‍👦‍👦     Family with space", fntTwitterTwemoji_Lite_16));
+//// ✅ Emoji Sequences with Extra Spaces
+//show_debug_message("")
+//show_debug_message(__scribble_preparse_buffered("    Extra Space 😊 Test    ", fntTwitterTwemoji_Lite_16));
+//show_debug_message(__scribble_preparse_buffered("👨‍👩‍👦‍👦     Family with space", fntTwitterTwemoji_Lite_16));
 
-// ✅ Unicode Control Characters
-show_debug_message("")
-show_debug_message(__scribble_preparse_buffered("Test\u200BHidden Zero Width Space", fntTwitterTwemoji_Lite_16));
-show_debug_message(__scribble_preparse_buffered("🚀 Rocket\u202ETest Right-To-Left", fntTwitterTwemoji_Lite_16));
+//// ✅ Unicode Control Characters
+//show_debug_message("")
+//show_debug_message(__scribble_preparse_buffered("Test\u200BHidden Zero Width Space", fntTwitterTwemoji_Lite_16));
+//show_debug_message(__scribble_preparse_buffered("🚀 Rocket\u202ETest Right-To-Left", fntTwitterTwemoji_Lite_16));
 
-// ✅ Overloaded Emojis & Symbols
-show_debug_message("")
-show_debug_message(__scribble_preparse_buffered("🔴🔵⚫⚪🔺🔻🔸🔹🔶🔷 Stars & Shapes", fntTwitterTwemoji_Lite_16));
-show_debug_message(__scribble_preparse_buffered("♠️♥️♣️♦️ Cards", fntTwitterTwemoji_Lite_16));
+//// ✅ Overloaded Emojis & Symbols
+//show_debug_message("")
+//show_debug_message(__scribble_preparse_buffered("🔴🔵⚫⚪🔺🔻🔸🔹🔶🔷 Stars & Shapes", fntTwitterTwemoji_Lite_16));
+//show_debug_message(__scribble_preparse_buffered("♠️♥️♣️♦️ Cards", fntTwitterTwemoji_Lite_16));
 
-// ✅ Broken / Partial Emoji Data
-show_debug_message("")
-show_debug_message(__scribble_preparse_buffered("🚀 Rocket \u1F680 Broken", fntTwitterTwemoji_Lite_16));
-show_debug_message(__scribble_preparse_buffered("\u200D\u200D Zero Width Joiners", fntTwitterTwemoji_Lite_16));
+//// ✅ Broken / Partial Emoji Data
+//show_debug_message("")
+//show_debug_message(__scribble_preparse_buffered("🚀 Rocket \u1F680 Broken", fntTwitterTwemoji_Lite_16));
+//show_debug_message(__scribble_preparse_buffered("\u200D\u200D Zero Width Joiners", fntTwitterTwemoji_Lite_16));
 
-// ✅ Double Emojis Stacked
-show_debug_message("")
-show_debug_message(__scribble_preparse_buffered("🎵🎶 Music Notes Together", fntTwitterTwemoji_Lite_16));
-show_debug_message(__scribble_preparse_buffered("💡💬 Ideas & Chat", fntTwitterTwemoji_Lite_16));
+//// ✅ Double Emojis Stacked
+//show_debug_message("")
+//show_debug_message(__scribble_preparse_buffered("🎵🎶 Music Notes Together", fntTwitterTwemoji_Lite_16));
+//show_debug_message(__scribble_preparse_buffered("💡💬 Ideas & Chat", fntTwitterTwemoji_Lite_16));
 
-// ✅ Extreme Edge Case: Long Mixed Emoji String
-show_debug_message("")
-show_debug_message(__scribble_preparse_buffered("🤔🤷‍♂️💭 Thinking... 🤔🤷‍♂️💭", fntTwitterTwemoji_Lite_16));
-show_debug_message(__scribble_preparse_buffered("👩‍🚀👨‍🚀🧑‍🚀 Astronaut Crew 👩‍🚀👨‍🚀🧑‍🚀", fntTwitterTwemoji_Lite_16));
+//// ✅ Extreme Edge Case: Long Mixed Emoji String
+//show_debug_message("")
+//show_debug_message(__scribble_preparse_buffered("🤔🤷‍♂️💭 Thinking... 🤔🤷‍♂️💭", fntTwitterTwemoji_Lite_16));
+//show_debug_message(__scribble_preparse_buffered("👩‍🚀👨‍🚀🧑‍🚀 Astronaut Crew 👩‍🚀👨‍🚀🧑‍🚀", fntTwitterTwemoji_Lite_16));
 
 
 ///@ignore
@@ -553,78 +553,78 @@ function is_rtl_character(_char) {
 
 
 
-var str = "Hello World!";
-show_debug_message(str);
-show_debug_message(split_by_unicode_formatting(str));
-show_debug_message("");
-//[
-//    {format: "ltr", str: "Hello World!", anchor_right: false}
-//]
-var str = "\u202E<Hello World!>";
-show_debug_message(str);
-show_debug_message(split_by_unicode_formatting(str));
-show_debug_message("");
-//[
-//    {format: "rtl", str: "Hello World!", anchor_right: true}
-//]
-var str = "\u202D<Hello> \u202E<World!>\u202C<Back to normal.>";
-show_debug_message(str);
-show_debug_message(split_by_unicode_formatting(str));
-show_debug_message("");
-//[
-//    {format: "ltr", str: "Hello ", anchor_right: false},
-//    {format: "rtl", str: "World!", anchor_right: false},
-//    {format: "ltr", str: " Back to normal.", anchor_right: false}
-//]
-var str = "<Start >\u202B<[R-T-L]>\u202C< Middle >\u202A<[L-T-R]>\u202C< End>";
-show_debug_message(str);
-show_debug_message(split_by_unicode_formatting(str));
-show_debug_message("");
-//[
-//    {format: "ltr", str: "Start ‫[R-T-L]‬ Middle ‪[L-T-R]‬ End", anchor_right: false},
-//]
-var str = "<First Line>\n\u202E<[Right to Left]>\n<Back to [LTR]>";
-show_debug_message(str);
-show_debug_message(split_by_unicode_formatting(str));
-show_debug_message("");
-//[
-//    {format: "ltr", str: "First Line", anchor_right: false},
-//    {format: "rtl", str: "Right to Left", anchor_right: true},
-//    {format: "ltr", str: "Back to LTR", anchor_right: false}
-//]
-var str = "<Start >\u200F<Marked Section End>";
-show_debug_message(str);
-show_debug_message(split_by_unicode_formatting(str));
-show_debug_message("");
-//[
-//    {format: "ltr", str: "Start ", anchor_right: false},
-//    {format: "rtl", str: "Marked Section", anchor_right: true},
-//    {format: "ltr", str: " End", anchor_right: false}
-//]
-var str = "\u202E<RTL Override >\u200E<but this part is LTR!>";
-show_debug_message(str);
-show_debug_message(split_by_unicode_formatting(str));
-show_debug_message("");
-//[
-//    {format: "rtl", str: "RTL Override ", anchor_right: true},
-//    {format: "ltr", str: "but this part is LTR!", anchor_right: false}
-//]
-var str = "\u202E<1234 is a number but still LTR in RTL context.>";
-show_debug_message(str);
-show_debug_message(split_by_unicode_formatting(str));
-show_debug_message("");
-//[
-//    {format: "rtl", str: " 1234 is a number but still LTR in RTL context.", anchor_right: true}
-//]
-var str = "<LTR 😊 >\u202E<This is RTL! 😎>\u202C< Back to normal.>";
-show_debug_message(str);
-show_debug_message(split_by_unicode_formatting(str));
-show_debug_message("");
-//[
-//    {format: "ltr", str: "LTR 😊 ", anchor_right: false},
-//    {format: "rtl", str: "This is RTL! 😎", anchor_right: true},
-//    {format: "ltr", str: " Back to normal.", anchor_right: false}
-//]
+//var str = "Hello World!";
+//show_debug_message(str);
+//show_debug_message(split_by_unicode_formatting(str));
+//show_debug_message("");
+////[
+////    {format: "ltr", str: "Hello World!", anchor_right: false}
+////]
+//var str = "\u202E<Hello World!>";
+//show_debug_message(str);
+//show_debug_message(split_by_unicode_formatting(str));
+//show_debug_message("");
+////[
+////    {format: "rtl", str: "Hello World!", anchor_right: true}
+////]
+//var str = "\u202D<Hello> \u202E<World!>\u202C<Back to normal.>";
+//show_debug_message(str);
+//show_debug_message(split_by_unicode_formatting(str));
+//show_debug_message("");
+////[
+////    {format: "ltr", str: "Hello ", anchor_right: false},
+////    {format: "rtl", str: "World!", anchor_right: false},
+////    {format: "ltr", str: " Back to normal.", anchor_right: false}
+////]
+//var str = "<Start >\u202B<[R-T-L]>\u202C< Middle >\u202A<[L-T-R]>\u202C< End>";
+//show_debug_message(str);
+//show_debug_message(split_by_unicode_formatting(str));
+//show_debug_message("");
+////[
+////    {format: "ltr", str: "Start ‫[R-T-L]‬ Middle ‪[L-T-R]‬ End", anchor_right: false},
+////]
+//var str = "<First Line>\n\u202E<[Right to Left]>\n<Back to [LTR]>";
+//show_debug_message(str);
+//show_debug_message(split_by_unicode_formatting(str));
+//show_debug_message("");
+////[
+////    {format: "ltr", str: "First Line", anchor_right: false},
+////    {format: "rtl", str: "Right to Left", anchor_right: true},
+////    {format: "ltr", str: "Back to LTR", anchor_right: false}
+////]
+//var str = "<Start >\u200F<Marked Section End>";
+//show_debug_message(str);
+//show_debug_message(split_by_unicode_formatting(str));
+//show_debug_message("");
+////[
+////    {format: "ltr", str: "Start ", anchor_right: false},
+////    {format: "rtl", str: "Marked Section", anchor_right: true},
+////    {format: "ltr", str: " End", anchor_right: false}
+////]
+//var str = "\u202E<RTL Override >\u200E<but this part is LTR!>";
+//show_debug_message(str);
+//show_debug_message(split_by_unicode_formatting(str));
+//show_debug_message("");
+////[
+////    {format: "rtl", str: "RTL Override ", anchor_right: true},
+////    {format: "ltr", str: "but this part is LTR!", anchor_right: false}
+////]
+//var str = "\u202E<1234 is a number but still LTR in RTL context.>";
+//show_debug_message(str);
+//show_debug_message(split_by_unicode_formatting(str));
+//show_debug_message("");
+////[
+////    {format: "rtl", str: " 1234 is a number but still LTR in RTL context.", anchor_right: true}
+////]
+//var str = "<LTR 😊 >\u202E<This is RTL! 😎>\u202C< Back to normal.>";
+//show_debug_message(str);
+//show_debug_message(split_by_unicode_formatting(str));
+//show_debug_message("");
+////[
+////    {format: "ltr", str: "LTR 😊 ", anchor_right: false},
+////    {format: "rtl", str: "This is RTL! 😎", anchor_right: true},
+////    {format: "ltr", str: " Back to normal.", anchor_right: false}
+////]
 
 
 function CacheSystem() constructor {

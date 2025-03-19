@@ -30,22 +30,22 @@ if (mouse_check_button(mb_middle)) {
 }
 
 /// Line drawing
-var _lines = string_count("\n", get_emojis());
-var _height = font_get_info(fntWhatsapp_Lite_16).size + _sep;
-draw_set_alpha(0.1)
-for(var _i=0; _i<_lines; _i+=2){
-	draw_rectangle(
-		0,
-		yy+(_i*_height),
-		1280,
-		yy+((_i+1)*_height),
-		false
-	)
-}
-draw_set_alpha(1)
+//var _lines = string_count("\n", get_emojis());
+//var _height = font_get_info(fntWhatsapp_Lite_16).size + _sep;
+//draw_set_alpha(0.1)
+//for(var _i=0; _i<_lines; _i+=2){
+//	draw_rectangle(
+//		0,
+//		yy+(_i*_height),
+//		1280,
+//		yy+((_i+1)*_height),
+//		false
+//	)
+//}
+//draw_set_alpha(1)
 
-// Render all
-var _off = EMOJI_SIZE, xx = 0;
+//// Render all
+//var _off = EMOJI_SIZE, xx = 0;
 //scribble_discord(glyph_string).draw(xx,yy)
 //xx+=_off;
 //scribble_google(glyph_string).draw(xx,yy)
@@ -61,6 +61,6 @@ var _off = EMOJI_SIZE, xx = 0;
 //scribble_whatsapp(glyph_string).draw(xx,yy)
 //xx+=_off;
 //
-scribble(unicode_string).draw(xx,yy)
+//scribble(unicode_string).draw(xx,yy)
 
 

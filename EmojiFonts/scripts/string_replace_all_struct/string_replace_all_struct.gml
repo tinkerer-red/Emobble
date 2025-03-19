@@ -1,4 +1,3 @@
-
 function string_replace_all_struct(input_string, _map, _case_sensitive=true) {
 	static __convert_to_array_map = function(_map) {
 	    static __buff = buffer_create(0, buffer_grow, 1);
@@ -37,26 +36,24 @@ function string_replace_all_struct(input_string, _map, _case_sensitive=true) {
 	    return root; // Return just the trie
 	};
 	
-	static input_buff = buffer_create(0, buffer_grow, 1);
+	static temp_buff = buffer_create(0, buffer_grow, 1); // literally only used to write a string into a fast buffer with buffer_copy
+	static input_buff = buffer_create(0, buffer_fast, 1);
 	static output_buff = buffer_create(0, buffer_grow, 1);
-	static holder_buff = buffer_create(0, buffer_grow, 1); // Temporary buffer to store bytes
 	
 	//micro optimization
+	var _temp_buff = temp_buff;
 	var _input_buff = input_buff;
 	var _output_buff = output_buff;
-	var _holder_buff = holder_buff;
 	
-	// Reset buffers
-	buffer_seek(_input_buff, buffer_seek_start, 0);
-	buffer_seek(_output_buff, buffer_seek_start, 0);
+	// Pre-allocate sizes
+	var byte_len = string_byte_length(input_string);
+	buffer_resize(_input_buff, byte_len)
+	buffer_resize(_output_buff, byte_len)
 	
 	// Write input buffer
-	buffer_write(_input_buff, buffer_text, input_string);
-	var byte_len = buffer_tell(_input_buff);
-	buffer_seek(_input_buff, buffer_seek_start, 0);
-	
-	// Pre-allocate holder buffer
-	buffer_resize(_holder_buff, byte_len)
+	buffer_write(_temp_buff, buffer_text, input_string);
+	buffer_copy(_temp_buff, 0, byte_len, _input_buff, 0)
+	buffer_resize(_temp_buff, 0)
 	
 	//probably want to cache this if possible
 	var lookup = __convert_to_array_map(_map); // Precompute nested hashmap
@@ -67,7 +64,9 @@ function string_replace_all_struct(input_string, _map, _case_sensitive=true) {
 	// Buffer Tell positions (optimization)
 	var input_pos = 0;
 	var output_pos = 0;
-	var holder_pos = 0;
+	var match_pending = false; // where we first matched
+	var match_pos = undefined; // where we first matched
+	var match_pos_secondary = undefined; // where another possible match could occur
 	
 	var node = lookup;
 	var byte = undefined;
@@ -77,61 +76,82 @@ function string_replace_all_struct(input_string, _map, _case_sensitive=true) {
 			input_pos += 1;
 		}
 		
-		var _temp = node[byte]
-		if (!_case_sensitive && _temp == undefined) {
+		var _possible_match = node[byte]
+		if (!_case_sensitive && _possible_match == undefined) {
 			// A-Z → a-z
 			if (byte >= 65 && byte <= 90) {
 				var lookup_byte = byte + 32;
-				_temp = node[lookup_byte];
+				_possible_match = node[lookup_byte];
 			}
 			// a-z → A-Z
 			else if (byte >= 97 && byte <= 122) {
 				var lookup_byte = byte - 32;
-				_temp = node[lookup_byte];
+				_possible_match = node[lookup_byte];
 			}
 		}
 		
-		if (_temp != undefined) {
-			node = _temp; // Move deeper into the nested hashmap
+		if (_possible_match != undefined) {
+			node = _possible_match; // Move deeper into the nested hashmap
+			
+			// If there is a pending replacement, keep track of other possible matches
+			if (match_pending && match_pos_secondary == undefined) {
+				var _possible_match = lookup[byte];
+				if (_possible_match != undefined) {
+					match_pos_secondary = input_pos-1;
+				}
+			}
+			
+			// Mark that we have started a match
+			if (!match_pending) {
+				match_pending = true;
+				match_pos = input_pos-1;
+			}
 			
 			// Check if the static struct exists and has "value"
 			var _value = node[0];
 			if (_value != undefined) {
 				_replacement = _value;
-				buffer_seek(_holder_buff, buffer_seek_start, 0); // Reset holder buffer
-				holder_pos = 0;
-			}
-			else {
-				// Store byte in holder buffer
-				buffer_write(_holder_buff, buffer_u8, byte);
-				holder_pos++;
 			}
 			
 			byte = undefined;
 			continue;
 		}
 		else {
-			if (_replacement != undefined) {
-				buffer_write(_output_buff, buffer_text, _replacement);
-				_replacement = undefined;
+			if (match_pending) {
+				if (_replacement != undefined) {
+					buffer_write(_output_buff, buffer_text, _replacement);
+					_replacement = undefined;
+				}
+				else { //if we failed to find a match
+					
+					//if there was a secondary match option jump back to that position
+					if (match_pos_secondary) {
+						buffer_seek(_input_buff, buffer_seek_start, match_pos_secondary);
+						input_pos = match_pos_secondary;
+						byte = undefined;
+					}
+					
+					//copy everything form match start pos, to the current location.
+					var _size = input_pos - match_pos;
+					if (_size) {
+						buffer_copy(_input_buff, match_pos, _size, _output_buff, buffer_tell(_output_buff));
+						buffer_seek(_output_buff, buffer_seek_relative, _size);
+					}
+					
+				}
+				
 				node = lookup;
+				match_pending = false;
+				match_pos = undefined;
+				match_pos_secondary = undefined;
 				continue;
 			}
-			
-			//if we had a replacement char found in the map
-			if (holder_pos) {
-	            buffer_copy(_holder_buff, 0, holder_pos, _output_buff, buffer_tell(_output_buff));
-				buffer_seek(_output_buff, buffer_seek_relative, holder_pos); // Reset holder buffer
-				buffer_seek(_holder_buff, buffer_seek_start, 0); // Reset holder buffer
-				holder_pos = 0;
-	        }
 			
 			// No match found, write the original character
 			buffer_write(_output_buff, buffer_u8, byte);
 			byte = undefined;
 			node = lookup;
 		}
-		
 	}
 	
 	// Final replacement in case we end on a valid match
@@ -145,12 +165,45 @@ function string_replace_all_struct(input_string, _map, _case_sensitive=true) {
 	
 	buffer_resize(_input_buff, 0);
 	buffer_resize(_output_buff, 0);
-	buffer_resize(_holder_buff, 0);
 	
 	return result;
 }
 
-/*
+show_debug_message(
+	string_replace_all_struct("happier times", {
+		"happiness": "💖",
+		"happily": "😃",
+		"happi": "🙂"
+	}, false)
+);
+// Expected Output: "🙂er times"
+// Explanation: 
+// - "happiness" and "happily" **fail** as they require extra characters.
+// - "happi" is valid and should be used.
+
+show_debug_message(
+	string_replace_all_struct("abcdef-", {
+		"abcdefg": "123",
+		"cde": "456",
+	}, false)
+);
+// Expected Output: "ab456f-"
+// Explanation: 
+// - The function starts scanning for `"abcdefg"` but **fails** since the input ends with `"-"`, not `"g"`.
+// - `"cde"` was bypassed during the `"abcdefg"` scan, but it **should still be applied**.
+// - `"cde"` is correctly replaced with `"456"` once `"abcdefg"` fails.
+
+show_debug_message(
+	string_replace_all_struct("abcdefg hi", {
+		"abcdefghi": "999",
+		"cde": "456",
+	}, false)
+);
+// Expected Output: "ab456fg hi"
+// Explanation:
+// - The function starts scanning `"abcdefghi"` but **fails** at `"hi"` since `"ghi"` isn't fully present.
+// - `"cde"` was skipped initially, but now that `"abcdefghi"` **fails**, `"cde"` **should be applied**.
+
 show_debug_message(
 	string_replace_all_struct("Happy!", {
 		"happy": "😀",
