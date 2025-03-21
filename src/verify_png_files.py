@@ -97,6 +97,10 @@ def verify_images():
                             new_filename = variant + ".png"
                             new_path = os.path.join(platform_path, new_filename)
 
+                            # ✅ If the destination file already exists, delete it
+                            if os.path.exists(new_path):
+                                os.rename(new_path, f"{new_path}_copy")
+                                
                             # ✅ Rename file
                             os.rename(image_path, new_path)
                             print(f"🔄 Renamed {filename} → {new_filename}")
@@ -120,8 +124,12 @@ def verify_images():
                 expected_path = os.path.join(platform_path, expected_filename)
 
                 if image_path != expected_path:
-                    os.rename(image_path, expected_path)
-                    print(f"🔄 Renamed {filename} → {expected_filename}")
+                    # ✅ If the destination file already exists, delete it
+                    if os.path.exists(image_path):
+                        os.rename(image_path, expected_path)
+                        print(f"🔄 Renamed {filename} → {expected_filename}")
+                    else:
+                        print(f"🚨 File already Renamed {filename} → {expected_filename}")
 
                 if not in_data:
                     missing_in_data.append(f"{hexcode} | {expected_path}")

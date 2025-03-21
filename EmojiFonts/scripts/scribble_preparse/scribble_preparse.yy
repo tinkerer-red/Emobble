@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scribble_preparse",
   "parent":{
-    "name":"EmojiFonts",
-    "path":"EmojiFonts.yyp",
+    "name":"__internal",
+    "path":"folders/Scribble Emojis/__internal.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

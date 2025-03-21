@@ -355,10 +355,15 @@ def generate_sprite_strip(category, images, keys, size, lite=False):
     if not filtered_images:
         log.debug(f"No valid images for category {category}. Skipping sprite strip.")
         return {}
-
-    total_count = len(filtered_images)
-    total_width = total_count * size  # Ensure width is correct
-    sprite_strip = Image.new("RGBA", (total_width, size), (0, 0, 0, 0))
+    
+    # Compute square-like dimensions (including space character at index 0)
+    total_count = len(filtered_images) + 1  # +1 for space char
+    cols, rows = get_square_layout(total_count)
+    
+    # Final sheet dimensions with padding included
+    sheet_width = cols * (size + (PADDING * 2))
+    sheet_height = rows * (size + (PADDING * 2))
+    composite_sheet = Image.new("RGBA", (sheet_width, sheet_height), (0, 0, 0, 0))
 
     metadata = {}
 
@@ -366,27 +371,32 @@ def generate_sprite_strip(category, images, keys, size, lite=False):
         if image is None:
             continue  # Skip empty images
 
+        # Resize without shrinking (keep exact size)
         resized_img = image.resize((size, size), Image.LANCZOS)
-        x_pos = index * size
 
-        # 🛠 Debugging Log
-        if x_pos + size > total_width:
-            log.error(f"Image at index {index} exceeds the sprite strip bounds: {x_pos + size} > {total_width}")
-            continue  # Skip this image to avoid errors
+        # Compute position with padding
+        col = index % cols
+        row = index // cols
+        x_pos = col * (size + PADDING * 2) + PADDING
+        y_pos = row * (size + PADDING * 2) + PADDING
 
-        sprite_strip.paste(resized_img, (x_pos, 0))
+        # Paste the resized glyph directly onto the composite sheet
+        composite_sheet.paste(resized_img, (x_pos, y_pos))
+
         metadata[key] = index
-
-    # 🛠 Final Debugging Check
-    if sprite_strip.width != total_width:
-        log.error(f"Sprite strip width mismatch: Expected {total_width}, got {sprite_strip.width}")
-
-    sprite_strip.save(output_sprite_path)
+    
+    composite_sheet.save(output_sprite_path)
     log.debug(f"Saved sprite strip {output_sprite_path}")
 
     with open(metadata_path, "w", encoding="utf-8") as f:
         json.dump(metadata, f, ensure_ascii=False, indent=4)
     log.debug(f"Saved metadata: {metadata_path}")
+    
+    # Save blank text file with dimensions as filename
+    blank_filename = os.path.join(category_folder, f"{cols}x{rows}_{total_count}.txt")
+    with open(blank_filename, "w") as f:
+        pass  # Just create an empty file
+    log.debug(f"Saved blank file {blank_filename}")
 
     return metadata
 

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"UnicodeTool",
   "parent":{
-    "name":"EmojiFonts",
-    "path":"EmojiFonts.yyp",
+    "name":"Scribble Emojis",
+    "path":"folders/Scribble Emojis.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

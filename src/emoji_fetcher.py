@@ -36,9 +36,9 @@ CONFIG = [
     { "output_folder": "LinkedIn", "url": "https://emojipedia.org/linkedin" },
     { "output_folder": "Mastodon", "url": "https://emojipedia.org/mastodon" },
     { "output_folder": "Messenger", "url": "https://emojipedia.org/messenger" },
-    { "output_folder": "Windows10", "url": "https://emojipedia.org/microsoft/windows-11" }, #i know what it looks like but this was the only update on windows 11 which had these so its most up to date
-    { "output_folder": "Windows11", "url": "https://emojipedia.org/microsoft" },
-    { "output_folder": "Microsoft 3D Fluent", "url": "https://emojipedia.org/microsoft-3D-fluent" },
+    { "output_folder": "Segoe", "url": "https://emojipedia.org/microsoft/windows-11" }, #i know what it looks like but this was the only update on windows 11 which had these so its most up to date
+    { "output_folder": "FluentFlat", "url": "https://emojipedia.org/microsoft" },
+    { "output_folder": "Fluent3D", "url": "https://emojipedia.org/microsoft-3D-fluent" },
     { "output_folder": "Mozilla", "url": "https://emojipedia.org/mozilla" },
     { "output_folder": "MSN Messenger", "url": "https://emojipedia.org/msn-messenger" },
     { "output_folder": "NEC", "url": "https://emojipedia.org/nec" },
@@ -63,7 +63,7 @@ CONFIG = [
     { "output_folder": "TossFace", "url": "https://emojipedia.org/toss-face" },
     { "output_folder": "Twitch", "url": "https://emojipedia.org/twitch" },
     { "output_folder": "TwitterEmojiStickers", "url": "https://emojipedia.org/twitter-emoji-stickers" },
-    { "output_folder": "Twitter", "url": "https://emojipedia.org/twitter" },
+    { "output_folder": "Twemoji", "url": "https://emojipedia.org/twitter" },
     { "output_folder": "Viber", "url": "https://emojipedia.org/viber" },
     { "output_folder": "VinSmart", "url": "https://emojipedia.org/vinsmart" },
     { "output_folder": "VK", "url": "https://emojipedia.org/vk" },
@@ -189,10 +189,6 @@ def convert_url(webp_url):
         return png_url
     return None  # Return None if it can't be converted
 
-import re
-
-import re
-
 def extract_filename(png_url):
     """
     Extracts the correct Unicode-based filename from a given PNG URL.
@@ -243,7 +239,6 @@ def extract_filename(png_url):
     clean_filename = filename[start_index:stop_index] + ".png"
 
     return clean_filename
-
 
 def download_image(url, save_path):
     """

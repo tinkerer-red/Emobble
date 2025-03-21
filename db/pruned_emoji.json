@@ -1,4 +1,74 @@
 {
+    "©": {
+        "char": "©",
+        "name": "Unknown",
+        "unicode": "U+00A9"
+    },
+    "®": {
+        "char": "®",
+        "name": "Unknown",
+        "unicode": "U+00AE"
+    },
+    "‼": {
+        "char": "‼",
+        "name": "Unknown",
+        "unicode": "U+203C"
+    },
+    "⁉": {
+        "char": "⁉",
+        "name": "Unknown",
+        "unicode": "U+2049"
+    },
+    "™": {
+        "char": "™",
+        "name": "Unknown",
+        "unicode": "U+2122"
+    },
+    "ℹ": {
+        "char": "ℹ",
+        "name": "Unknown",
+        "unicode": "U+2139"
+    },
+    "↔": {
+        "char": "↔",
+        "name": "Unknown",
+        "unicode": "U+2194"
+    },
+    "↕": {
+        "char": "↕",
+        "name": "Unknown",
+        "unicode": "U+2195"
+    },
+    "↖": {
+        "char": "↖",
+        "name": "Unknown",
+        "unicode": "U+2196"
+    },
+    "↗": {
+        "char": "↗",
+        "name": "Unknown",
+        "unicode": "U+2197"
+    },
+    "↘": {
+        "char": "↘",
+        "name": "Unknown",
+        "unicode": "U+2198"
+    },
+    "↙": {
+        "char": "↙",
+        "name": "Unknown",
+        "unicode": "U+2199"
+    },
+    "↩": {
+        "char": "↩",
+        "name": "Unknown",
+        "unicode": "U+21A9"
+    },
+    "↪": {
+        "char": "↪",
+        "name": "Unknown",
+        "unicode": "U+21AA"
+    },
     "⌚": {
         "char": "⌚",
         "unicode": "U+231A",
@@ -28,6 +98,16 @@
             "hourglass done",
             "hourglass_done"
         ]
+    },
+    "⌨": {
+        "char": "⌨",
+        "name": "Unknown",
+        "unicode": "U+2328"
+    },
+    "⏏": {
+        "char": "⏏",
+        "name": "Unknown",
+        "unicode": "U+23CF"
     },
     "⏩": {
         "char": "⏩",
@@ -89,6 +169,21 @@
             "fast_down_button"
         ]
     },
+    "⏭": {
+        "char": "⏭",
+        "name": "Unknown",
+        "unicode": "U+23ED"
+    },
+    "⏮": {
+        "char": "⏮",
+        "name": "Unknown",
+        "unicode": "U+23EE"
+    },
+    "⏯": {
+        "char": "⏯",
+        "name": "Unknown",
+        "unicode": "U+23EF"
+    },
     "⏰": {
         "char": "⏰",
         "unicode": "U+23F0",
@@ -103,6 +198,16 @@
             "alarm clock",
             "alarm_clock"
         ]
+    },
+    "⏱": {
+        "char": "⏱",
+        "name": "Unknown",
+        "unicode": "U+23F1"
+    },
+    "⏲": {
+        "char": "⏲",
+        "name": "Unknown",
+        "unicode": "U+23F2"
     },
     "⏳": {
         "char": "⏳",
@@ -119,6 +224,56 @@
             "hourglass_flowing_sand",
             "hourglass_not_done"
         ]
+    },
+    "⏸": {
+        "char": "⏸",
+        "name": "Unknown",
+        "unicode": "U+23F8"
+    },
+    "⏹": {
+        "char": "⏹",
+        "name": "Unknown",
+        "unicode": "U+23F9"
+    },
+    "⏺": {
+        "char": "⏺",
+        "name": "Unknown",
+        "unicode": "U+23FA"
+    },
+    "Ⓜ": {
+        "char": "Ⓜ",
+        "name": "Unknown",
+        "unicode": "U+24C2"
+    },
+    "▪": {
+        "char": "▪",
+        "name": "Unknown",
+        "unicode": "U+25AA"
+    },
+    "▫": {
+        "char": "▫",
+        "name": "Unknown",
+        "unicode": "U+25AB"
+    },
+    "▶": {
+        "char": "▶",
+        "name": "Unknown",
+        "unicode": "U+25B6"
+    },
+    "◀": {
+        "char": "◀",
+        "name": "Unknown",
+        "unicode": "U+25C0"
+    },
+    "◻": {
+        "char": "◻",
+        "name": "Unknown",
+        "unicode": "U+25FB"
+    },
+    "◼": {
+        "char": "◼",
+        "name": "Unknown",
+        "unicode": "U+25FC"
     },
     "◽": {
         "char": "◽",
@@ -149,6 +304,41 @@
             "black_medium_small_square",
             "black_mediumsmall_square"
         ]
+    },
+    "☀": {
+        "char": "☀",
+        "name": "Unknown",
+        "unicode": "U+2600"
+    },
+    "☁": {
+        "char": "☁",
+        "name": "Unknown",
+        "unicode": "U+2601"
+    },
+    "☂": {
+        "char": "☂",
+        "name": "Unknown",
+        "unicode": "U+2602"
+    },
+    "☃": {
+        "char": "☃",
+        "name": "Unknown",
+        "unicode": "U+2603"
+    },
+    "☄": {
+        "char": "☄",
+        "name": "Unknown",
+        "unicode": "U+2604"
+    },
+    "☎": {
+        "char": "☎",
+        "name": "Unknown",
+        "unicode": "U+260E"
+    },
+    "☑": {
+        "char": "☑",
+        "name": "Unknown",
+        "unicode": "U+2611"
     },
     "☔": {
         "char": "☔",
@@ -191,6 +381,76 @@
             "hot beverage",
             "hot_beverage"
         ]
+    },
+    "☘": {
+        "char": "☘",
+        "name": "Unknown",
+        "unicode": "U+2618"
+    },
+    "☝": {
+        "char": "☝",
+        "name": "Unknown",
+        "unicode": "U+261D"
+    },
+    "☠": {
+        "char": "☠",
+        "name": "Unknown",
+        "unicode": "U+2620"
+    },
+    "☢": {
+        "char": "☢",
+        "name": "Unknown",
+        "unicode": "U+2622"
+    },
+    "☣": {
+        "char": "☣",
+        "name": "Unknown",
+        "unicode": "U+2623"
+    },
+    "☦": {
+        "char": "☦",
+        "name": "Unknown",
+        "unicode": "U+2626"
+    },
+    "☪": {
+        "char": "☪",
+        "name": "Unknown",
+        "unicode": "U+262A"
+    },
+    "☮": {
+        "char": "☮",
+        "name": "Unknown",
+        "unicode": "U+262E"
+    },
+    "☯": {
+        "char": "☯",
+        "name": "Unknown",
+        "unicode": "U+262F"
+    },
+    "☸": {
+        "char": "☸",
+        "name": "Unknown",
+        "unicode": "U+2638"
+    },
+    "☹": {
+        "char": "☹",
+        "name": "Unknown",
+        "unicode": "U+2639"
+    },
+    "☺": {
+        "char": "☺",
+        "name": "Unknown",
+        "unicode": "U+263A"
+    },
+    "♀": {
+        "char": "♀",
+        "name": "Unknown",
+        "unicode": "U+2640"
+    },
+    "♂": {
+        "char": "♂",
+        "name": "Unknown",
+        "unicode": "U+2642"
     },
     "♈": {
         "char": "♈",
@@ -362,6 +622,46 @@
             "pisces"
         ]
     },
+    "♟": {
+        "char": "♟",
+        "name": "Unknown",
+        "unicode": "U+265F"
+    },
+    "♠": {
+        "char": "♠",
+        "name": "Unknown",
+        "unicode": "U+2660"
+    },
+    "♣": {
+        "char": "♣",
+        "name": "Unknown",
+        "unicode": "U+2663"
+    },
+    "♥": {
+        "char": "♥",
+        "name": "Unknown",
+        "unicode": "U+2665"
+    },
+    "♦": {
+        "char": "♦",
+        "name": "Unknown",
+        "unicode": "U+2666"
+    },
+    "♨": {
+        "char": "♨",
+        "name": "Unknown",
+        "unicode": "U+2668"
+    },
+    "♻": {
+        "char": "♻",
+        "name": "Unknown",
+        "unicode": "U+267B"
+    },
+    "♾": {
+        "char": "♾",
+        "name": "Unknown",
+        "unicode": "U+267E"
+    },
     "♿": {
         "char": "♿",
         "unicode": "U+267F",
@@ -377,6 +677,11 @@
             "wheelchair_symbol"
         ]
     },
+    "⚒": {
+        "char": "⚒",
+        "name": "Unknown",
+        "unicode": "U+2692"
+    },
     "⚓": {
         "char": "⚓",
         "unicode": "U+2693",
@@ -390,6 +695,46 @@
         "aliases": [
             "anchor"
         ]
+    },
+    "⚔": {
+        "char": "⚔",
+        "name": "Unknown",
+        "unicode": "U+2694"
+    },
+    "⚕": {
+        "char": "⚕",
+        "name": "Unknown",
+        "unicode": "U+2695"
+    },
+    "⚖": {
+        "char": "⚖",
+        "name": "Unknown",
+        "unicode": "U+2696"
+    },
+    "⚗": {
+        "char": "⚗",
+        "name": "Unknown",
+        "unicode": "U+2697"
+    },
+    "⚙": {
+        "char": "⚙",
+        "name": "Unknown",
+        "unicode": "U+2699"
+    },
+    "⚛": {
+        "char": "⚛",
+        "name": "Unknown",
+        "unicode": "U+269B"
+    },
+    "⚜": {
+        "char": "⚜",
+        "name": "Unknown",
+        "unicode": "U+269C"
+    },
+    "⚠": {
+        "char": "⚠",
+        "name": "Unknown",
+        "unicode": "U+26A0"
     },
     "⚡": {
         "char": "⚡",
@@ -419,6 +764,11 @@
             "zap"
         ]
     },
+    "⚧": {
+        "char": "⚧",
+        "name": "Unknown",
+        "unicode": "U+26A7"
+    },
     "⚪": {
         "char": "⚪",
         "unicode": "U+26AA",
@@ -446,6 +796,16 @@
             "black circle",
             "black_circle"
         ]
+    },
+    "⚰": {
+        "char": "⚰",
+        "name": "Unknown",
+        "unicode": "U+26B0"
+    },
+    "⚱": {
+        "char": "⚱",
+        "name": "Unknown",
+        "unicode": "U+26B1"
     },
     "⚽": {
         "char": "⚽",
@@ -520,6 +880,11 @@
             "sun_behind_cloud"
         ]
     },
+    "⛈": {
+        "char": "⛈",
+        "name": "Unknown",
+        "unicode": "U+26C8"
+    },
     "⛎": {
         "char": "⛎",
         "unicode": "U+26CE",
@@ -533,6 +898,21 @@
             "Ophiuchus",
             "ophiuchus"
         ]
+    },
+    "⛏": {
+        "char": "⛏",
+        "name": "Unknown",
+        "unicode": "U+26CF"
+    },
+    "⛑": {
+        "char": "⛑",
+        "name": "Unknown",
+        "unicode": "U+26D1"
+    },
+    "⛓": {
+        "char": "⛓",
+        "name": "Unknown",
+        "unicode": "U+26D3"
     },
     "⛔": {
         "char": "⛔",
@@ -549,6 +929,11 @@
             "no entry",
             "no_entry"
         ]
+    },
+    "⛩": {
+        "char": "⛩",
+        "name": "Unknown",
+        "unicode": "U+26E9"
     },
     "⛪": {
         "char": "⛪",
@@ -567,6 +952,16 @@
             "christian",
             "church"
         ]
+    },
+    "⛰": {
+        "char": "⛰",
+        "name": "Unknown",
+        "unicode": "U+26F0"
+    },
+    "⛱": {
+        "char": "⛱",
+        "name": "Unknown",
+        "unicode": "U+26F1"
     },
     "⛲": {
         "char": "⛲",
@@ -600,6 +995,11 @@
             "flag_in_hole"
         ]
     },
+    "⛴": {
+        "char": "⛴",
+        "name": "Unknown",
+        "unicode": "U+26F4"
+    },
     "⛵": {
         "char": "⛵",
         "unicode": "U+26F5",
@@ -619,6 +1019,21 @@
             "sailboat",
             "sailing"
         ]
+    },
+    "⛷": {
+        "char": "⛷",
+        "name": "Unknown",
+        "unicode": "U+26F7"
+    },
+    "⛸": {
+        "char": "⛸",
+        "name": "Unknown",
+        "unicode": "U+26F8"
+    },
+    "⛹": {
+        "char": "⛹",
+        "name": "Unknown",
+        "unicode": "U+26F9"
     },
     "⛺": {
         "char": "⛺",
@@ -655,6 +1070,11 @@
             "fuelpump"
         ]
     },
+    "✂": {
+        "char": "✂",
+        "name": "Unknown",
+        "unicode": "U+2702"
+    },
     "✅": {
         "char": "✅",
         "unicode": "U+2705",
@@ -669,6 +1089,16 @@
             "check_mark_button",
             "white_check_mark"
         ]
+    },
+    "✈": {
+        "char": "✈",
+        "name": "Unknown",
+        "unicode": "U+2708"
+    },
+    "✉": {
+        "char": "✉",
+        "name": "Unknown",
+        "unicode": "U+2709"
     },
     "✊": {
         "char": "✊",
@@ -717,6 +1147,46 @@
             "raised_hand"
         ]
     },
+    "✌": {
+        "char": "✌",
+        "name": "Unknown",
+        "unicode": "U+270C"
+    },
+    "✍": {
+        "char": "✍",
+        "name": "Unknown",
+        "unicode": "U+270D"
+    },
+    "✏": {
+        "char": "✏",
+        "name": "Unknown",
+        "unicode": "U+270F"
+    },
+    "✒": {
+        "char": "✒",
+        "name": "Unknown",
+        "unicode": "U+2712"
+    },
+    "✔": {
+        "char": "✔",
+        "name": "Unknown",
+        "unicode": "U+2714"
+    },
+    "✖": {
+        "char": "✖",
+        "name": "Unknown",
+        "unicode": "U+2716"
+    },
+    "✝": {
+        "char": "✝",
+        "name": "Unknown",
+        "unicode": "U+271D"
+    },
+    "✡": {
+        "char": "✡",
+        "name": "Unknown",
+        "unicode": "U+2721"
+    },
     "✨": {
         "char": "✨",
         "unicode": "U+2728",
@@ -739,6 +1209,26 @@
             "shiny",
             "sparkles"
         ]
+    },
+    "✳": {
+        "char": "✳",
+        "name": "Unknown",
+        "unicode": "U+2733"
+    },
+    "✴": {
+        "char": "✴",
+        "name": "Unknown",
+        "unicode": "U+2734"
+    },
+    "❄": {
+        "char": "❄",
+        "name": "Unknown",
+        "unicode": "U+2744"
+    },
+    "❇": {
+        "char": "❇",
+        "name": "Unknown",
+        "unicode": "U+2747"
     },
     "❌": {
         "char": "❌",
@@ -835,6 +1325,16 @@
             "red_exclamation_mark"
         ]
     },
+    "❣": {
+        "char": "❣",
+        "name": "Unknown",
+        "unicode": "U+2763"
+    },
+    "❤": {
+        "char": "❤",
+        "name": "Unknown",
+        "unicode": "U+2764"
+    },
     "➕": {
         "char": "➕",
         "unicode": "U+2795",
@@ -877,6 +1377,11 @@
             "heavy_division_sign"
         ]
     },
+    "➡": {
+        "char": "➡",
+        "name": "Unknown",
+        "unicode": "U+27A1"
+    },
     "➰": {
         "char": "➰",
         "unicode": "U+27B0",
@@ -904,6 +1409,31 @@
             "double curly loop",
             "double_curly_loop"
         ]
+    },
+    "⤴": {
+        "char": "⤴",
+        "name": "Unknown",
+        "unicode": "U+2934"
+    },
+    "⤵": {
+        "char": "⤵",
+        "name": "Unknown",
+        "unicode": "U+2935"
+    },
+    "⬅": {
+        "char": "⬅",
+        "name": "Unknown",
+        "unicode": "U+2B05"
+    },
+    "⬆": {
+        "char": "⬆",
+        "name": "Unknown",
+        "unicode": "U+2B06"
+    },
+    "⬇": {
+        "char": "⬇",
+        "name": "Unknown",
+        "unicode": "U+2B07"
     },
     "⬛": {
         "char": "⬛",
@@ -961,6 +1491,26 @@
             "o"
         ]
     },
+    "〰": {
+        "char": "〰",
+        "name": "Unknown",
+        "unicode": "U+3030"
+    },
+    "〽": {
+        "char": "〽",
+        "name": "Unknown",
+        "unicode": "U+303D"
+    },
+    "㊗": {
+        "char": "㊗",
+        "name": "Unknown",
+        "unicode": "U+3297"
+    },
+    "㊙": {
+        "char": "㊙",
+        "name": "Unknown",
+        "unicode": "U+3299"
+    },
     "🀄": {
         "char": "🀄",
         "unicode": "U+1F004",
@@ -1006,6 +1556,26 @@
             "playing_card",
             "trick"
         ]
+    },
+    "🅰": {
+        "char": "🅰",
+        "name": "Unknown",
+        "unicode": "U+1F170"
+    },
+    "🅱": {
+        "char": "🅱",
+        "name": "Unknown",
+        "unicode": "U+1F171"
+    },
+    "🅾": {
+        "char": "🅾",
+        "name": "Unknown",
+        "unicode": "U+1F17E"
+    },
+    "🅿": {
+        "char": "🅿",
+        "name": "Unknown",
+        "unicode": "U+1F17F"
     },
     "🆎": {
         "char": "🆎",
@@ -1202,6 +1772,11 @@
             "koko"
         ]
     },
+    "🈂": {
+        "char": "🈂",
+        "name": "Unknown",
+        "unicode": "U+1F202"
+    },
     "🈚": {
         "char": "🈚",
         "unicode": "U+1F21A",
@@ -1313,6 +1888,11 @@
             "japanese_not_free_of_charge_button",
             "u6709"
         ]
+    },
+    "🈷": {
+        "char": "🈷",
+        "name": "Unknown",
+        "unicode": "U+1F237"
     },
     "🈸": {
         "char": "🈸",
@@ -1953,6 +2533,56 @@
             "shooting_star"
         ]
     },
+    "🌡": {
+        "char": "🌡",
+        "name": "Unknown",
+        "unicode": "U+1F321"
+    },
+    "🌤": {
+        "char": "🌤",
+        "name": "Unknown",
+        "unicode": "U+1F324"
+    },
+    "🌥": {
+        "char": "🌥",
+        "name": "Unknown",
+        "unicode": "U+1F325"
+    },
+    "🌦": {
+        "char": "🌦",
+        "name": "Unknown",
+        "unicode": "U+1F326"
+    },
+    "🌧": {
+        "char": "🌧",
+        "name": "Unknown",
+        "unicode": "U+1F327"
+    },
+    "🌨": {
+        "char": "🌨",
+        "name": "Unknown",
+        "unicode": "U+1F328"
+    },
+    "🌩": {
+        "char": "🌩",
+        "name": "Unknown",
+        "unicode": "U+1F329"
+    },
+    "🌪": {
+        "char": "🌪",
+        "name": "Unknown",
+        "unicode": "U+1F32A"
+    },
+    "🌫": {
+        "char": "🌫",
+        "name": "Unknown",
+        "unicode": "U+1F32B"
+    },
+    "🌬": {
+        "char": "🌬",
+        "name": "Unknown",
+        "unicode": "U+1F32C"
+    },
     "🌭": {
         "char": "🌭",
         "unicode": "U+1F32D",
@@ -2110,6 +2740,11 @@
             "cactus",
             "spiky"
         ]
+    },
+    "🌶": {
+        "char": "🌶",
+        "name": "Unknown",
+        "unicode": "U+1F336"
     },
     "🌷": {
         "char": "🌷",
@@ -3196,6 +3831,11 @@
             "baby_bottle"
         ]
     },
+    "🍽": {
+        "char": "🍽",
+        "name": "Unknown",
+        "unicode": "U+1F37D"
+    },
     "🍾": {
         "char": "🍾",
         "unicode": "U+1F37E",
@@ -3594,6 +4234,41 @@
             "mortar_board",
             "university"
         ]
+    },
+    "🎖": {
+        "char": "🎖",
+        "name": "Unknown",
+        "unicode": "U+1F396"
+    },
+    "🎗": {
+        "char": "🎗",
+        "name": "Unknown",
+        "unicode": "U+1F397"
+    },
+    "🎙": {
+        "char": "🎙",
+        "name": "Unknown",
+        "unicode": "U+1F399"
+    },
+    "🎚": {
+        "char": "🎚",
+        "name": "Unknown",
+        "unicode": "U+1F39A"
+    },
+    "🎛": {
+        "char": "🎛",
+        "name": "Unknown",
+        "unicode": "U+1F39B"
+    },
+    "🎞": {
+        "char": "🎞",
+        "name": "Unknown",
+        "unicode": "U+1F39E"
+    },
+    "🎟": {
+        "char": "🎟",
+        "name": "Unknown",
+        "unicode": "U+1F39F"
     },
     "🎠": {
         "char": "🎠",
@@ -4382,6 +5057,26 @@
             "person_swimming"
         ]
     },
+    "🏋": {
+        "char": "🏋",
+        "name": "Unknown",
+        "unicode": "U+1F3CB"
+    },
+    "🏌": {
+        "char": "🏌",
+        "name": "Unknown",
+        "unicode": "U+1F3CC"
+    },
+    "🏍": {
+        "char": "🏍",
+        "name": "Unknown",
+        "unicode": "U+1F3CD"
+    },
+    "🏎": {
+        "char": "🏎",
+        "name": "Unknown",
+        "unicode": "U+1F3CE"
+    },
     "🏏": {
         "char": "🏏",
         "unicode": "U+1F3CF",
@@ -4473,6 +5168,66 @@
             "ping_pong",
             "table tennis"
         ]
+    },
+    "🏔": {
+        "char": "🏔",
+        "name": "Unknown",
+        "unicode": "U+1F3D4"
+    },
+    "🏕": {
+        "char": "🏕",
+        "name": "Unknown",
+        "unicode": "U+1F3D5"
+    },
+    "🏖": {
+        "char": "🏖",
+        "name": "Unknown",
+        "unicode": "U+1F3D6"
+    },
+    "🏗": {
+        "char": "🏗",
+        "name": "Unknown",
+        "unicode": "U+1F3D7"
+    },
+    "🏘": {
+        "char": "🏘",
+        "name": "Unknown",
+        "unicode": "U+1F3D8"
+    },
+    "🏙": {
+        "char": "🏙",
+        "name": "Unknown",
+        "unicode": "U+1F3D9"
+    },
+    "🏚": {
+        "char": "🏚",
+        "name": "Unknown",
+        "unicode": "U+1F3DA"
+    },
+    "🏛": {
+        "char": "🏛",
+        "name": "Unknown",
+        "unicode": "U+1F3DB"
+    },
+    "🏜": {
+        "char": "🏜",
+        "name": "Unknown",
+        "unicode": "U+1F3DC"
+    },
+    "🏝": {
+        "char": "🏝",
+        "name": "Unknown",
+        "unicode": "U+1F3DD"
+    },
+    "🏞": {
+        "char": "🏞",
+        "name": "Unknown",
+        "unicode": "U+1F3DE"
+    },
+    "🏟": {
+        "char": "🏟",
+        "name": "Unknown",
+        "unicode": "U+1F3DF"
     },
     "🏠": {
         "char": "🏠",
@@ -4805,6 +5560,11 @@
             "medieval"
         ]
     },
+    "🏳": {
+        "char": "🏳",
+        "name": "Unknown",
+        "unicode": "U+1F3F3"
+    },
     "🏴": {
         "char": "🏴",
         "unicode": "U+1F3F4",
@@ -4820,6 +5580,16 @@
             "black_flag",
             "flag_black"
         ]
+    },
+    "🏵": {
+        "char": "🏵",
+        "name": "Unknown",
+        "unicode": "U+1F3F5"
+    },
+    "🏷": {
+        "char": "🏷",
+        "name": "Unknown",
+        "unicode": "U+1F3F7"
     },
     "🏸": {
         "char": "🏸",
@@ -4872,6 +5642,31 @@
         "aliases": [
             "amphora"
         ]
+    },
+    "🏻": {
+        "char": "🏻",
+        "name": "Unknown",
+        "unicode": "U+1F3FB"
+    },
+    "🏼": {
+        "char": "🏼",
+        "name": "Unknown",
+        "unicode": "U+1F3FC"
+    },
+    "🏽": {
+        "char": "🏽",
+        "name": "Unknown",
+        "unicode": "U+1F3FD"
+    },
+    "🏾": {
+        "char": "🏾",
+        "name": "Unknown",
+        "unicode": "U+1F3FE"
+    },
+    "🏿": {
+        "char": "🏿",
+        "name": "Unknown",
+        "unicode": "U+1F3FF"
     },
     "🐀": {
         "char": "🐀",
@@ -5965,6 +6760,11 @@
             "paw_prints"
         ]
     },
+    "🐿": {
+        "char": "🐿",
+        "name": "Unknown",
+        "unicode": "U+1F43F"
+    },
     "👀": {
         "char": "👀",
         "unicode": "U+1F440",
@@ -5982,6 +6782,11 @@
             "look",
             "see"
         ]
+    },
+    "👁": {
+        "char": "👁",
+        "name": "Unknown",
+        "unicode": "U+1F441"
     },
     "👂": {
         "char": "👂",
@@ -9118,6 +9923,11 @@
             "videocassette"
         ]
     },
+    "📽": {
+        "char": "📽",
+        "name": "Unknown",
+        "unicode": "U+1F4FD"
+    },
     "📿": {
         "char": "📿",
         "unicode": "U+1F4FF",
@@ -10104,6 +10914,16 @@
             "downwards_button"
         ]
     },
+    "🕉": {
+        "char": "🕉",
+        "name": "Unknown",
+        "unicode": "U+1F549"
+    },
+    "🕊": {
+        "char": "🕊",
+        "name": "Unknown",
+        "unicode": "U+1F54A"
+    },
     "🕋": {
         "char": "🕋",
         "unicode": "U+1F54B",
@@ -10562,6 +11382,51 @@
             "twelvethirty"
         ]
     },
+    "🕯": {
+        "char": "🕯",
+        "name": "Unknown",
+        "unicode": "U+1F56F"
+    },
+    "🕰": {
+        "char": "🕰",
+        "name": "Unknown",
+        "unicode": "U+1F570"
+    },
+    "🕳": {
+        "char": "🕳",
+        "name": "Unknown",
+        "unicode": "U+1F573"
+    },
+    "🕴": {
+        "char": "🕴",
+        "name": "Unknown",
+        "unicode": "U+1F574"
+    },
+    "🕵": {
+        "char": "🕵",
+        "name": "Unknown",
+        "unicode": "U+1F575"
+    },
+    "🕶": {
+        "char": "🕶",
+        "name": "Unknown",
+        "unicode": "U+1F576"
+    },
+    "🕷": {
+        "char": "🕷",
+        "name": "Unknown",
+        "unicode": "U+1F577"
+    },
+    "🕸": {
+        "char": "🕸",
+        "name": "Unknown",
+        "unicode": "U+1F578"
+    },
+    "🕹": {
+        "char": "🕹",
+        "name": "Unknown",
+        "unicode": "U+1F579"
+    },
     "🕺": {
         "char": "🕺",
         "unicode": "U+1F57A",
@@ -10578,6 +11443,36 @@
             "man dancing",
             "man_dancing"
         ]
+    },
+    "🖇": {
+        "char": "🖇",
+        "name": "Unknown",
+        "unicode": "U+1F587"
+    },
+    "🖊": {
+        "char": "🖊",
+        "name": "Unknown",
+        "unicode": "U+1F58A"
+    },
+    "🖋": {
+        "char": "🖋",
+        "name": "Unknown",
+        "unicode": "U+1F58B"
+    },
+    "🖌": {
+        "char": "🖌",
+        "name": "Unknown",
+        "unicode": "U+1F58C"
+    },
+    "🖍": {
+        "char": "🖍",
+        "name": "Unknown",
+        "unicode": "U+1F58D"
+    },
+    "🖐": {
+        "char": "🖐",
+        "name": "Unknown",
+        "unicode": "U+1F590"
     },
     "🖕": {
         "char": "🖕",
@@ -10650,6 +11545,106 @@
             "black heart",
             "black_heart"
         ]
+    },
+    "🖥": {
+        "char": "🖥",
+        "name": "Unknown",
+        "unicode": "U+1F5A5"
+    },
+    "🖨": {
+        "char": "🖨",
+        "name": "Unknown",
+        "unicode": "U+1F5A8"
+    },
+    "🖱": {
+        "char": "🖱",
+        "name": "Unknown",
+        "unicode": "U+1F5B1"
+    },
+    "🖲": {
+        "char": "🖲",
+        "name": "Unknown",
+        "unicode": "U+1F5B2"
+    },
+    "🖼": {
+        "char": "🖼",
+        "name": "Unknown",
+        "unicode": "U+1F5BC"
+    },
+    "🗂": {
+        "char": "🗂",
+        "name": "Unknown",
+        "unicode": "U+1F5C2"
+    },
+    "🗃": {
+        "char": "🗃",
+        "name": "Unknown",
+        "unicode": "U+1F5C3"
+    },
+    "🗄": {
+        "char": "🗄",
+        "name": "Unknown",
+        "unicode": "U+1F5C4"
+    },
+    "🗑": {
+        "char": "🗑",
+        "name": "Unknown",
+        "unicode": "U+1F5D1"
+    },
+    "🗒": {
+        "char": "🗒",
+        "name": "Unknown",
+        "unicode": "U+1F5D2"
+    },
+    "🗓": {
+        "char": "🗓",
+        "name": "Unknown",
+        "unicode": "U+1F5D3"
+    },
+    "🗜": {
+        "char": "🗜",
+        "name": "Unknown",
+        "unicode": "U+1F5DC"
+    },
+    "🗝": {
+        "char": "🗝",
+        "name": "Unknown",
+        "unicode": "U+1F5DD"
+    },
+    "🗞": {
+        "char": "🗞",
+        "name": "Unknown",
+        "unicode": "U+1F5DE"
+    },
+    "🗡": {
+        "char": "🗡",
+        "name": "Unknown",
+        "unicode": "U+1F5E1"
+    },
+    "🗣": {
+        "char": "🗣",
+        "name": "Unknown",
+        "unicode": "U+1F5E3"
+    },
+    "🗨": {
+        "char": "🗨",
+        "name": "Unknown",
+        "unicode": "U+1F5E8"
+    },
+    "🗯": {
+        "char": "🗯",
+        "name": "Unknown",
+        "unicode": "U+1F5EF"
+    },
+    "🗳": {
+        "char": "🗳",
+        "name": "Unknown",
+        "unicode": "U+1F5F3"
+    },
+    "🗺": {
+        "char": "🗺",
+        "name": "Unknown",
+        "unicode": "U+1F5FA"
     },
     "🗻": {
         "char": "🗻",
@@ -13751,6 +14746,11 @@
             "left_luggage"
         ]
     },
+    "🛋": {
+        "char": "🛋",
+        "name": "Unknown",
+        "unicode": "U+1F6CB"
+    },
     "🛌": {
         "char": "🛌",
         "unicode": "U+1F6CC",
@@ -13768,6 +14768,21 @@
             "sleeping_accommodation",
             "sleeping_bed"
         ]
+    },
+    "🛍": {
+        "char": "🛍",
+        "name": "Unknown",
+        "unicode": "U+1F6CD"
+    },
+    "🛎": {
+        "char": "🛎",
+        "name": "Unknown",
+        "unicode": "U+1F6CE"
+    },
+    "🛏": {
+        "char": "🛏",
+        "name": "Unknown",
+        "unicode": "U+1F6CF"
     },
     "🛐": {
         "char": "🛐",
@@ -13831,6 +14846,111 @@
             "hindu_temple"
         ]
     },
+    "🛖": {
+        "char": "🛖",
+        "unicode": "U+1F6D6",
+        "name": "hut",
+        "category": "Travel & Places",
+        "description": "",
+        "keywords": [
+            "hut"
+        ],
+        "aliases": [
+            "hut"
+        ]
+    },
+    "🛗": {
+        "char": "🛗",
+        "unicode": "U+1F6D7",
+        "name": "elevator",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "elevator"
+        ],
+        "aliases": [
+            "elevator"
+        ]
+    },
+    "🛝": {
+        "char": "🛝",
+        "unicode": "U+1F6DD",
+        "name": "playground slide",
+        "category": "Travel & Places",
+        "description": "",
+        "keywords": [
+            "playground_slide"
+        ],
+        "aliases": [
+            "playground slide",
+            "playground_slide"
+        ]
+    },
+    "🛞": {
+        "char": "🛞",
+        "unicode": "U+1F6DE",
+        "name": "wheel",
+        "category": "Travel & Places",
+        "description": "",
+        "keywords": [
+            "wheel"
+        ],
+        "aliases": [
+            "wheel"
+        ]
+    },
+    "🛟": {
+        "char": "🛟",
+        "unicode": "U+1F6DF",
+        "name": "ring buoy",
+        "category": "Travel & Places",
+        "description": "",
+        "keywords": [
+            "life preserver",
+            "ring_buoy"
+        ],
+        "aliases": [
+            "life preserver",
+            "life_preserver",
+            "ring buoy",
+            "ring_buoy"
+        ]
+    },
+    "🛠": {
+        "char": "🛠",
+        "name": "Unknown",
+        "unicode": "U+1F6E0"
+    },
+    "🛡": {
+        "char": "🛡",
+        "name": "Unknown",
+        "unicode": "U+1F6E1"
+    },
+    "🛢": {
+        "char": "🛢",
+        "name": "Unknown",
+        "unicode": "U+1F6E2"
+    },
+    "🛣": {
+        "char": "🛣",
+        "name": "Unknown",
+        "unicode": "U+1F6E3"
+    },
+    "🛤": {
+        "char": "🛤",
+        "name": "Unknown",
+        "unicode": "U+1F6E4"
+    },
+    "🛥": {
+        "char": "🛥",
+        "name": "Unknown",
+        "unicode": "U+1F6E5"
+    },
+    "🛩": {
+        "char": "🛩",
+        "name": "Unknown",
+        "unicode": "U+1F6E9"
+    },
     "🛫": {
         "char": "🛫",
         "unicode": "U+1F6EB",
@@ -13881,6 +15001,16 @@
             "flight_arrival",
             "landing"
         ]
+    },
+    "🛰": {
+        "char": "🛰",
+        "name": "Unknown",
+        "unicode": "U+1F6F0"
+    },
+    "🛳": {
+        "char": "🛳",
+        "name": "Unknown",
+        "unicode": "U+1F6F3"
     },
     "🛴": {
         "char": "🛴",
@@ -14007,6 +15137,46 @@
         "aliases": [
             "auto rickshaw",
             "auto_rickshaw"
+        ]
+    },
+    "🛻": {
+        "char": "🛻",
+        "unicode": "U+1F6FB",
+        "name": "Pickup Truck",
+        "category": "Land Travel",
+        "description": "A pickup truck used for transporting goods or passengers in the cargo area.",
+        "keywords": [
+            "cargo",
+            "pickup",
+            "pickup_truck",
+            "transportation",
+            "truck",
+            "vehicle"
+        ],
+        "aliases": [
+            "Pickup Truck",
+            "pickup",
+            "pickup truck",
+            "pickup_truck"
+        ]
+    },
+    "🛼": {
+        "char": "🛼",
+        "unicode": "U+1F6FC",
+        "name": "Roller Skate",
+        "category": "Sports & Awards",
+        "description": "A roller skate with four wheels, used for skating.",
+        "keywords": [
+            "roller skate",
+            "roller_skate",
+            "skate",
+            "skating",
+            "sports"
+        ],
+        "aliases": [
+            "Roller Skate",
+            "roller skate",
+            "roller_skate"
         ]
     },
     "🟠": {
@@ -14175,6 +15345,41 @@
         "aliases": [
             "brown square",
             "brown_square"
+        ]
+    },
+    "🟰": {
+        "char": "🟰",
+        "unicode": "U+1F7F0",
+        "name": "heavy equals sign",
+        "category": "Symbols",
+        "description": "",
+        "keywords": [
+            "heavy_equals_sign"
+        ],
+        "aliases": [
+            "heavy equals sign",
+            "heavy_equals_sign"
+        ]
+    },
+    "🤌": {
+        "char": "🤌",
+        "unicode": "U+1F90C",
+        "name": "Pinched Fingers",
+        "category": "Hands & Body Parts",
+        "description": "A hand with thumb and index finger pinched together indicating a small amount.",
+        "keywords": [
+            "hand",
+            "inches",
+            "pinch",
+            "pinched_fingers",
+            "small amount",
+            "teeny tiny",
+            "tiny"
+        ],
+        "aliases": [
+            "Pinched Fingers",
+            "pinched fingers",
+            "pinched_fingers"
         ]
     },
     "🤍": {
@@ -16065,6 +17270,31 @@
             "yawning_face"
         ]
     },
+    "🥲": {
+        "char": "🥲",
+        "unicode": "U+1F972",
+        "name": "Smiling Face with Tear",
+        "category": "People & Appearance",
+        "description": "A yellow face with a modest smile, a single tear falling from one eye, expressing a mixture of emotions such as gratitude, relief, or a bittersweet feeling.",
+        "keywords": [
+            "bittersweet",
+            "emotional",
+            "face",
+            "gratitude",
+            "relief",
+            "smile",
+            "smiley",
+            "smiling_face_with_tear",
+            "tear"
+        ],
+        "aliases": [
+            "Smiling Face with Tear",
+            "bittersweet",
+            "emotional",
+            "smiling face with tear",
+            "smiling_face_with_tear"
+        ]
+    },
     "🥳": {
         "char": "🥳",
         "unicode": "U+1F973",
@@ -16157,6 +17387,49 @@
             "freezing",
             "frozen",
             "ice"
+        ]
+    },
+    "🥷": {
+        "char": "🥷",
+        "unicode": "U+1F977",
+        "name": "ninja",
+        "category": "People & Body",
+        "description": "",
+        "keywords": [
+            "ninja"
+        ],
+        "aliases": [
+            "ninja"
+        ]
+    },
+    "🥸": {
+        "char": "🥸",
+        "unicode": "U+1F978",
+        "name": "disguised face",
+        "category": "Smileys & Emotion",
+        "description": "",
+        "keywords": [
+            "disguised_face"
+        ],
+        "aliases": [
+            "disguised face",
+            "disguised_face"
+        ]
+    },
+    "🥹": {
+        "char": "🥹",
+        "unicode": "U+1F979",
+        "name": "face holding back tears",
+        "category": "Smileys & Emotion",
+        "description": "",
+        "keywords": [
+            "face_holding_back_tears",
+            "gratitude",
+            "tears"
+        ],
+        "aliases": [
+            "face holding back tears",
+            "face_holding_back_tears"
         ]
     },
     "🥺": {
@@ -16861,6 +18134,38 @@
             "swan"
         ]
     },
+    "🦣": {
+        "char": "🦣",
+        "unicode": "U+1F9A3",
+        "name": "Mammoth",
+        "category": "Costume, Creature & Animal",
+        "description": "A mammoth, a large, extinct elephant-like mammal with long, curved tusks. Depicted in full profile on all fours facing left.",
+        "keywords": [
+            "animal",
+            "extinct",
+            "mammoth",
+            "nature",
+            "wildlife"
+        ],
+        "aliases": [
+            "Mammoth",
+            "extinct",
+            "mammoth"
+        ]
+    },
+    "🦤": {
+        "char": "🦤",
+        "unicode": "U+1F9A4",
+        "name": "dodo",
+        "category": "Animals & Nature",
+        "description": "",
+        "keywords": [
+            "dodo"
+        ],
+        "aliases": [
+            "dodo"
+        ]
+    },
     "🦥": {
         "char": "🦥",
         "unicode": "U+1F9A5",
@@ -16953,6 +18258,51 @@
             "oyster"
         ]
     },
+    "🦫": {
+        "char": "🦫",
+        "unicode": "U+1F9AB",
+        "name": "beaver",
+        "category": "Animals & Nature",
+        "description": "",
+        "keywords": [
+            "beaver"
+        ],
+        "aliases": [
+            "beaver"
+        ]
+    },
+    "🦬": {
+        "char": "🦬",
+        "unicode": "U+1F9AC",
+        "name": "bison",
+        "category": "Animals & Nature",
+        "description": "",
+        "keywords": [
+            "bison"
+        ],
+        "aliases": [
+            "bison"
+        ]
+    },
+    "🦭": {
+        "char": "🦭",
+        "unicode": "U+1F9AD",
+        "name": "Seal",
+        "category": "Costume, Creature & Animal",
+        "description": "A seal, a sleek marine mammal with flippers. Depicted in gray or brown, facing forward or to the left, with whiskers and, on most platforms, a cute, flipper-like tail.",
+        "keywords": [
+            "animal",
+            "marine",
+            "nature",
+            "ocean",
+            "sea",
+            "seal"
+        ],
+        "aliases": [
+            "Seal",
+            "seal"
+        ]
+    },
     "🦮": {
         "char": "🦮",
         "unicode": "U+1F9AE",
@@ -16981,6 +18331,26 @@
             "white cane",
             "white_cane"
         ]
+    },
+    "🦰": {
+        "char": "🦰",
+        "name": "Unknown",
+        "unicode": "U+1F9B0"
+    },
+    "🦱": {
+        "char": "🦱",
+        "name": "Unknown",
+        "unicode": "U+1F9B1"
+    },
+    "🦲": {
+        "char": "🦲",
+        "name": "Unknown",
+        "unicode": "U+1F9B2"
+    },
+    "🦳": {
+        "char": "🦳",
+        "name": "Unknown",
+        "unicode": "U+1F9B3"
     },
     "🦴": {
         "char": "🦴",
@@ -17300,6 +18670,33 @@
         ],
         "aliases": [
             "ice_cube"
+        ]
+    },
+    "🧋": {
+        "char": "🧋",
+        "unicode": "U+1F9CB",
+        "name": "bubble tea",
+        "category": "Food & Drink",
+        "description": "",
+        "keywords": [
+            "bubble_tea"
+        ],
+        "aliases": [
+            "bubble tea",
+            "bubble_tea"
+        ]
+    },
+    "🧌": {
+        "char": "🧌",
+        "unicode": "U+1F9CC",
+        "name": "troll",
+        "category": "People & Body",
+        "description": "",
+        "keywords": [
+            "troll"
+        ],
+        "aliases": [
+            "troll"
         ]
     },
     "🧍": {
@@ -18087,6 +19484,20 @@
             "shorts"
         ]
     },
+    "🩴": {
+        "char": "🩴",
+        "unicode": "U+1FA74",
+        "name": "thong sandal",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "thong_sandal"
+        ],
+        "aliases": [
+            "thong sandal",
+            "thong_sandal"
+        ]
+    },
     "🩸": {
         "char": "🩸",
         "unicode": "U+1FA78",
@@ -18126,6 +19537,34 @@
         ],
         "aliases": [
             "stethoscope"
+        ]
+    },
+    "🩻": {
+        "char": "🩻",
+        "unicode": "U+1FA7B",
+        "name": "x-ray",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "x_ray"
+        ],
+        "aliases": [
+            "x-ray",
+            "x_ray",
+            "xray"
+        ]
+    },
+    "🩼": {
+        "char": "🩼",
+        "unicode": "U+1FA7C",
+        "name": "crutch",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "crutch"
+        ],
+        "aliases": [
+            "crutch"
         ]
     },
     "🪀": {
@@ -18173,6 +19612,62 @@
         ],
         "aliases": [
             "parachute"
+        ]
+    },
+    "🪃": {
+        "char": "🪃",
+        "unicode": "U+1FA83",
+        "name": "boomerang",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "boomerang"
+        ],
+        "aliases": [
+            "boomerang"
+        ]
+    },
+    "🪄": {
+        "char": "🪄",
+        "unicode": "U+1FA84",
+        "name": "magic wand",
+        "category": "Activities",
+        "description": "",
+        "keywords": [
+            "magic_wand"
+        ],
+        "aliases": [
+            "magic wand",
+            "magic_wand"
+        ]
+    },
+    "🪅": {
+        "char": "🪅",
+        "unicode": "U+1FA85",
+        "name": "piñata",
+        "category": "Activities",
+        "description": "",
+        "keywords": [
+            "pinata",
+            "piñata"
+        ],
+        "aliases": [
+            "pinata",
+            "piñata"
+        ]
+    },
+    "🪆": {
+        "char": "🪆",
+        "unicode": "U+1FA86",
+        "name": "nesting dolls",
+        "category": "Activities",
+        "description": "",
+        "keywords": [
+            "nesting_dolls"
+        ],
+        "aliases": [
+            "nesting dolls",
+            "nesting_dolls"
         ]
     },
     "🪐": {
@@ -18253,6 +19748,896 @@
         ],
         "aliases": [
             "banjo"
+        ]
+    },
+    "🪖": {
+        "char": "🪖",
+        "unicode": "U+1FA96",
+        "name": "military helmet",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "military_helmet"
+        ],
+        "aliases": [
+            "military helmet",
+            "military_helmet"
+        ]
+    },
+    "🪗": {
+        "char": "🪗",
+        "unicode": "U+1FA97",
+        "name": "accordion",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "accordion"
+        ],
+        "aliases": [
+            "accordion"
+        ]
+    },
+    "🪘": {
+        "char": "🪘",
+        "unicode": "U+1FA98",
+        "name": "long drum",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "long_drum"
+        ],
+        "aliases": [
+            "long drum",
+            "long_drum"
+        ]
+    },
+    "🪙": {
+        "char": "🪙",
+        "unicode": "U+1FA99",
+        "name": "coin",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "coin"
+        ],
+        "aliases": [
+            "coin"
+        ]
+    },
+    "🪚": {
+        "char": "🪚",
+        "unicode": "U+1FA9A",
+        "name": "carpentry saw",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "carpentry_saw"
+        ],
+        "aliases": [
+            "carpentry saw",
+            "carpentry_saw"
+        ]
+    },
+    "🪛": {
+        "char": "🪛",
+        "unicode": "U+1FA9B",
+        "name": "screwdriver",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "screwdriver"
+        ],
+        "aliases": [
+            "screwdriver"
+        ]
+    },
+    "🪜": {
+        "char": "🪜",
+        "unicode": "U+1FA9C",
+        "name": "ladder",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "ladder"
+        ],
+        "aliases": [
+            "ladder"
+        ]
+    },
+    "🪝": {
+        "char": "🪝",
+        "unicode": "U+1FA9D",
+        "name": "hook",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "hook"
+        ],
+        "aliases": [
+            "hook"
+        ]
+    },
+    "🪞": {
+        "char": "🪞",
+        "unicode": "U+1FA9E",
+        "name": "mirror",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "mirror"
+        ],
+        "aliases": [
+            "mirror"
+        ]
+    },
+    "🪟": {
+        "char": "🪟",
+        "unicode": "U+1FA9F",
+        "name": "window",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "window"
+        ],
+        "aliases": [
+            "window"
+        ]
+    },
+    "🪠": {
+        "char": "🪠",
+        "unicode": "U+1FAA0",
+        "name": "plunger",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "plunger"
+        ],
+        "aliases": [
+            "plunger"
+        ]
+    },
+    "🪡": {
+        "char": "🪡",
+        "unicode": "U+1FAA1",
+        "name": "sewing needle",
+        "category": "Activities",
+        "description": "",
+        "keywords": [
+            "sewing_needle"
+        ],
+        "aliases": [
+            "sewing needle",
+            "sewing_needle"
+        ]
+    },
+    "🪢": {
+        "char": "🪢",
+        "unicode": "U+1FAA2",
+        "name": "knot",
+        "category": "Activities",
+        "description": "",
+        "keywords": [
+            "knot"
+        ],
+        "aliases": [
+            "knot"
+        ]
+    },
+    "🪣": {
+        "char": "🪣",
+        "unicode": "U+1FAA3",
+        "name": "bucket",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "bucket"
+        ],
+        "aliases": [
+            "bucket"
+        ]
+    },
+    "🪤": {
+        "char": "🪤",
+        "unicode": "U+1FAA4",
+        "name": "mouse trap",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "mouse_trap"
+        ],
+        "aliases": [
+            "mouse trap",
+            "mouse_trap"
+        ]
+    },
+    "🪥": {
+        "char": "🪥",
+        "unicode": "U+1FAA5",
+        "name": "toothbrush",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "toothbrush"
+        ],
+        "aliases": [
+            "toothbrush"
+        ]
+    },
+    "🪦": {
+        "char": "🪦",
+        "unicode": "U+1FAA6",
+        "name": "headstone",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "headstone"
+        ],
+        "aliases": [
+            "headstone"
+        ]
+    },
+    "🪧": {
+        "char": "🪧",
+        "unicode": "U+1FAA7",
+        "name": "placard",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "placard"
+        ],
+        "aliases": [
+            "placard"
+        ]
+    },
+    "🪨": {
+        "char": "🪨",
+        "unicode": "U+1FAA8",
+        "name": "rock",
+        "category": "Travel & Places",
+        "description": "",
+        "keywords": [
+            "rock"
+        ],
+        "aliases": [
+            "rock"
+        ]
+    },
+    "🪩": {
+        "char": "🪩",
+        "unicode": "U+1FAA9",
+        "name": "mirror ball",
+        "category": "Activities",
+        "description": "",
+        "keywords": [
+            "disco",
+            "mirror_ball",
+            "party"
+        ],
+        "aliases": [
+            "disco",
+            "mirror ball",
+            "mirror_ball"
+        ]
+    },
+    "🪪": {
+        "char": "🪪",
+        "unicode": "U+1FAAA",
+        "name": "identification card",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "identification_card"
+        ],
+        "aliases": [
+            "identification card",
+            "identification_card"
+        ]
+    },
+    "🪫": {
+        "char": "🪫",
+        "unicode": "U+1FAAB",
+        "name": "low battery",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "low_battery"
+        ],
+        "aliases": [
+            "low battery",
+            "low_battery"
+        ]
+    },
+    "🪬": {
+        "char": "🪬",
+        "unicode": "U+1FAAC",
+        "name": "hamsa",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "hamsa"
+        ],
+        "aliases": [
+            "hamsa"
+        ]
+    },
+    "🪰": {
+        "char": "🪰",
+        "unicode": "U+1FAB0",
+        "name": "fly",
+        "category": "Animals & Nature",
+        "description": "",
+        "keywords": [
+            "fly"
+        ],
+        "aliases": [
+            "fly"
+        ]
+    },
+    "🪱": {
+        "char": "🪱",
+        "unicode": "U+1FAB1",
+        "name": "worm",
+        "category": "Animals & Nature",
+        "description": "",
+        "keywords": [
+            "worm"
+        ],
+        "aliases": [
+            "worm"
+        ]
+    },
+    "🪲": {
+        "char": "🪲",
+        "unicode": "U+1FAB2",
+        "name": "beetle",
+        "category": "Animals & Nature",
+        "description": "",
+        "keywords": [
+            "beetle"
+        ],
+        "aliases": [
+            "beetle"
+        ]
+    },
+    "🪳": {
+        "char": "🪳",
+        "unicode": "U+1FAB3",
+        "name": "cockroach",
+        "category": "Animals & Nature",
+        "description": "",
+        "keywords": [
+            "cockroach"
+        ],
+        "aliases": [
+            "cockroach"
+        ]
+    },
+    "🪴": {
+        "char": "🪴",
+        "unicode": "U+1FAB4",
+        "name": "potted plant",
+        "category": "Animals & Nature",
+        "description": "",
+        "keywords": [
+            "potted_plant"
+        ],
+        "aliases": [
+            "potted plant",
+            "potted_plant"
+        ]
+    },
+    "🪵": {
+        "char": "🪵",
+        "unicode": "U+1FAB5",
+        "name": "wood",
+        "category": "Travel & Places",
+        "description": "",
+        "keywords": [
+            "wood"
+        ],
+        "aliases": [
+            "wood"
+        ]
+    },
+    "🪶": {
+        "char": "🪶",
+        "unicode": "U+1FAB6",
+        "name": "feather",
+        "category": "Animals & Nature",
+        "description": "",
+        "keywords": [
+            "feather"
+        ],
+        "aliases": [
+            "feather"
+        ]
+    },
+    "🪷": {
+        "char": "🪷",
+        "unicode": "U+1FAB7",
+        "name": "lotus",
+        "category": "Animals & Nature",
+        "description": "",
+        "keywords": [
+            "lotus"
+        ],
+        "aliases": [
+            "lotus"
+        ]
+    },
+    "🪸": {
+        "char": "🪸",
+        "unicode": "U+1FAB8",
+        "name": "coral",
+        "category": "Animals & Nature",
+        "description": "",
+        "keywords": [
+            "coral"
+        ],
+        "aliases": [
+            "coral"
+        ]
+    },
+    "🪹": {
+        "char": "🪹",
+        "unicode": "U+1FAB9",
+        "name": "empty nest",
+        "category": "Animals & Nature",
+        "description": "",
+        "keywords": [
+            "empty_nest"
+        ],
+        "aliases": [
+            "empty nest",
+            "empty_nest"
+        ]
+    },
+    "🪺": {
+        "char": "🪺",
+        "unicode": "U+1FABA",
+        "name": "nest with eggs",
+        "category": "Animals & Nature",
+        "description": "",
+        "keywords": [
+            "nest_with_eggs"
+        ],
+        "aliases": [
+            "nest with eggs",
+            "nest_with_eggs"
+        ]
+    },
+    "🫀": {
+        "char": "🫀",
+        "unicode": "U+1FAC0",
+        "name": "anatomical heart",
+        "category": "People & Body",
+        "description": "",
+        "keywords": [
+            "anatomical_heart"
+        ],
+        "aliases": [
+            "anatomical heart",
+            "anatomical_heart"
+        ]
+    },
+    "🫁": {
+        "char": "🫁",
+        "unicode": "U+1FAC1",
+        "name": "lungs",
+        "category": "People & Body",
+        "description": "",
+        "keywords": [
+            "lungs"
+        ],
+        "aliases": [
+            "lungs"
+        ]
+    },
+    "🫂": {
+        "char": "🫂",
+        "unicode": "U+1FAC2",
+        "name": "people hugging",
+        "category": "People & Body",
+        "description": "",
+        "keywords": [
+            "people_hugging"
+        ],
+        "aliases": [
+            "people hugging",
+            "people_hugging"
+        ]
+    },
+    "🫃": {
+        "char": "🫃",
+        "unicode": "U+1FAC3",
+        "name": "pregnant man",
+        "category": "People & Body",
+        "description": "",
+        "keywords": [
+            "pregnant_man"
+        ],
+        "aliases": [
+            "pregnant man",
+            "pregnant_man"
+        ]
+    },
+    "🫄": {
+        "char": "🫄",
+        "unicode": "U+1FAC4",
+        "name": "pregnant person",
+        "category": "People & Body",
+        "description": "",
+        "keywords": [
+            "pregnant_person"
+        ],
+        "aliases": [
+            "pregnant person",
+            "pregnant_person"
+        ]
+    },
+    "🫅": {
+        "char": "🫅",
+        "unicode": "U+1FAC5",
+        "name": "person with crown",
+        "category": "People & Body",
+        "description": "",
+        "keywords": [
+            "person_with_crown"
+        ],
+        "aliases": [
+            "person with crown",
+            "person_with_crown"
+        ]
+    },
+    "🫐": {
+        "char": "🫐",
+        "unicode": "U+1FAD0",
+        "name": "blueberries",
+        "category": "Food & Drink",
+        "description": "",
+        "keywords": [
+            "blueberries"
+        ],
+        "aliases": [
+            "blueberries"
+        ]
+    },
+    "🫑": {
+        "char": "🫑",
+        "unicode": "U+1FAD1",
+        "name": "bell pepper",
+        "category": "Food & Drink",
+        "description": "",
+        "keywords": [
+            "bell_pepper"
+        ],
+        "aliases": [
+            "bell pepper",
+            "bell_pepper"
+        ]
+    },
+    "🫒": {
+        "char": "🫒",
+        "unicode": "U+1FAD2",
+        "name": "olive",
+        "category": "Food & Drink",
+        "description": "",
+        "keywords": [
+            "olive"
+        ],
+        "aliases": [
+            "olive"
+        ]
+    },
+    "🫓": {
+        "char": "🫓",
+        "unicode": "U+1FAD3",
+        "name": "flatbread",
+        "category": "Food & Drink",
+        "description": "",
+        "keywords": [
+            "flatbread"
+        ],
+        "aliases": [
+            "flatbread"
+        ]
+    },
+    "🫔": {
+        "char": "🫔",
+        "unicode": "U+1FAD4",
+        "name": "tamale",
+        "category": "Food & Drink",
+        "description": "",
+        "keywords": [
+            "tamale"
+        ],
+        "aliases": [
+            "tamale"
+        ]
+    },
+    "🫕": {
+        "char": "🫕",
+        "unicode": "U+1FAD5",
+        "name": "fondue",
+        "category": "Food & Drink",
+        "description": "",
+        "keywords": [
+            "fondue"
+        ],
+        "aliases": [
+            "fondue"
+        ]
+    },
+    "🫖": {
+        "char": "🫖",
+        "unicode": "U+1FAD6",
+        "name": "teapot",
+        "category": "Food & Drink",
+        "description": "",
+        "keywords": [
+            "teapot"
+        ],
+        "aliases": [
+            "teapot"
+        ]
+    },
+    "🫗": {
+        "char": "🫗",
+        "unicode": "U+1FAD7",
+        "name": "pouring liquid",
+        "category": "Food & Drink",
+        "description": "",
+        "keywords": [
+            "pouring_liquid"
+        ],
+        "aliases": [
+            "pouring liquid",
+            "pouring_liquid"
+        ]
+    },
+    "🫘": {
+        "char": "🫘",
+        "unicode": "U+1FAD8",
+        "name": "beans",
+        "category": "Food & Drink",
+        "description": "",
+        "keywords": [
+            "beans"
+        ],
+        "aliases": [
+            "beans"
+        ]
+    },
+    "🫙": {
+        "char": "🫙",
+        "unicode": "U+1FAD9",
+        "name": "jar",
+        "category": "Food & Drink",
+        "description": "",
+        "keywords": [
+            "jar"
+        ],
+        "aliases": [
+            "jar"
+        ]
+    },
+    "🫠": {
+        "char": "🫠",
+        "unicode": "U+1FAE0",
+        "name": "melting face",
+        "category": "Smileys & Emotion",
+        "description": "",
+        "keywords": [
+            "dread",
+            "melting_face",
+            "sarcasm"
+        ],
+        "aliases": [
+            "dread",
+            "melting face",
+            "melting_face"
+        ]
+    },
+    "🫡": {
+        "char": "🫡",
+        "unicode": "U+1FAE1",
+        "name": "saluting face",
+        "category": "Smileys & Emotion",
+        "description": "",
+        "keywords": [
+            "respect",
+            "saluting_face"
+        ],
+        "aliases": [
+            "saluting face",
+            "saluting_face"
+        ]
+    },
+    "🫢": {
+        "char": "🫢",
+        "unicode": "U+1FAE2",
+        "name": "face with open eyes and hand over mouth",
+        "category": "Smileys & Emotion",
+        "description": "",
+        "keywords": [
+            "face_with_open_eyes_and_hand_over_mouth",
+            "gasp",
+            "shock"
+        ],
+        "aliases": [
+            "face with open eyes and hand over mouth",
+            "face_with_open_eyes_and_hand_over_mouth"
+        ]
+    },
+    "🫣": {
+        "char": "🫣",
+        "unicode": "U+1FAE3",
+        "name": "face with peeking eye",
+        "category": "Smileys & Emotion",
+        "description": "",
+        "keywords": [
+            "face_with_peeking_eye"
+        ],
+        "aliases": [
+            "face with peeking eye",
+            "face_with_peeking_eye"
+        ]
+    },
+    "🫤": {
+        "char": "🫤",
+        "unicode": "U+1FAE4",
+        "name": "face with diagonal mouth",
+        "category": "Smileys & Emotion",
+        "description": "",
+        "keywords": [
+            "confused",
+            "face_with_diagonal_mouth"
+        ],
+        "aliases": [
+            "face with diagonal mouth",
+            "face_with_diagonal_mouth"
+        ]
+    },
+    "🫥": {
+        "char": "🫥",
+        "unicode": "U+1FAE5",
+        "name": "dotted line face",
+        "category": "Smileys & Emotion",
+        "description": "",
+        "keywords": [
+            "dotted_line_face",
+            "invisible"
+        ],
+        "aliases": [
+            "dotted line face",
+            "dotted_line_face",
+            "invisible"
+        ]
+    },
+    "🫦": {
+        "char": "🫦",
+        "unicode": "U+1FAE6",
+        "name": "biting lip",
+        "category": "People & Body",
+        "description": "",
+        "keywords": [
+            "biting_lip"
+        ],
+        "aliases": [
+            "biting lip",
+            "biting_lip"
+        ]
+    },
+    "🫧": {
+        "char": "🫧",
+        "unicode": "U+1FAE7",
+        "name": "bubbles",
+        "category": "Objects",
+        "description": "",
+        "keywords": [
+            "bubbles"
+        ],
+        "aliases": [
+            "bubbles"
+        ]
+    },
+    "🫰": {
+        "char": "🫰",
+        "unicode": "U+1FAF0",
+        "name": "hand with index finger and thumb crossed",
+        "category": "People & Body",
+        "description": "",
+        "keywords": [
+            "hand_with_index_finger_and_thumb_crossed"
+        ],
+        "aliases": [
+            "hand with index finger and thumb crossed",
+            "hand_with_index_finger_and_thumb_crossed"
+        ]
+    },
+    "🫱": {
+        "char": "🫱",
+        "unicode": "U+1FAF1",
+        "name": "rightwards hand",
+        "category": "People & Body",
+        "description": "",
+        "keywords": [
+            "rightwards_hand"
+        ],
+        "aliases": [
+            "rightwards hand",
+            "rightwards_hand"
+        ]
+    },
+    "🫲": {
+        "char": "🫲",
+        "unicode": "U+1FAF2",
+        "name": "leftwards hand",
+        "category": "People & Body",
+        "description": "",
+        "keywords": [
+            "leftwards_hand"
+        ],
+        "aliases": [
+            "leftwards hand",
+            "leftwards_hand"
+        ]
+    },
+    "🫳": {
+        "char": "🫳",
+        "unicode": "U+1FAF3",
+        "name": "palm down hand",
+        "category": "People & Body",
+        "description": "",
+        "keywords": [
+            "palm_down_hand"
+        ],
+        "aliases": [
+            "palm down hand",
+            "palm_down_hand"
+        ]
+    },
+    "🫴": {
+        "char": "🫴",
+        "unicode": "U+1FAF4",
+        "name": "palm up hand",
+        "category": "People & Body",
+        "description": "",
+        "keywords": [
+            "palm_up_hand"
+        ],
+        "aliases": [
+            "palm up hand",
+            "palm_up_hand"
+        ]
+    },
+    "🫵": {
+        "char": "🫵",
+        "unicode": "U+1FAF5",
+        "name": "index pointing at the viewer",
+        "category": "People & Body",
+        "description": "",
+        "keywords": [
+            "index_pointing_at_the_viewer"
+        ],
+        "aliases": [
+            "index pointing at the viewer",
+            "index_pointing_at_the_viewer"
+        ]
+    },
+    "🫶": {
+        "char": "🫶",
+        "unicode": "U+1FAF6",
+        "name": "heart hands",
+        "category": "People & Body",
+        "description": "",
+        "keywords": [
+            "heart_hands",
+            "love"
+        ],
+        "aliases": [
+            "heart hands",
+            "heart_hands"
         ]
     }
 }

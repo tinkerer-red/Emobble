@@ -1,0 +1,142 @@
+[
+    {
+        "unicode": "😀\nGrinning Face",
+        "name": "Grinning_Face",
+        "url_endpoint": "https://emojipedia.org/grinning-face"
+    },
+    {
+        "unicode": "😃\nGrinning Face with Big Eyes",
+        "name": "Grinning_Face_with_Big_Eyes",
+        "url_endpoint": "https://emojipedia.org/grinning-face-with-big-eyes"
+    },
+    {
+        "unicode": "😄\nGrinning Face with Smiling Eyes",
+        "name": "Grinning_Face_with_Smiling_Eyes",
+        "url_endpoint": "https://emojipedia.org/grinning-face-with-smiling-eyes"
+    },
+    {
+        "unicode": "👋\nWaving Hand",
+        "name": "Waving_Hand",
+        "url_endpoint": "https://emojipedia.org/waving-hand"
+    },
+    {
+        "unicode": "🤚\nRaised Back of Hand",
+        "name": "Raised_Back_of_Hand",
+        "url_endpoint": "https://emojipedia.org/raised-back-of-hand"
+    },
+    {
+        "unicode": "🖐️\nHand with Fingers Splayed",
+        "name": "Hand_with_Fingers_Splayed",
+        "url_endpoint": "https://emojipedia.org/hand-with-fingers-splayed"
+    },
+    {
+        "unicode": "🐵\nMonkey Face",
+        "name": "Monkey_Face",
+        "url_endpoint": "https://emojipedia.org/monkey-face"
+    },
+    {
+        "unicode": "🐒\nMonkey",
+        "name": "Monkey",
+        "url_endpoint": "https://emojipedia.org/monkey"
+    },
+    {
+        "unicode": "🦍\nGorilla",
+        "name": "Gorilla",
+        "url_endpoint": "https://emojipedia.org/gorilla"
+    },
+    {
+        "unicode": "🍇\nGrapes",
+        "name": "Grapes",
+        "url_endpoint": "https://emojipedia.org/grapes"
+    },
+    {
+        "unicode": "🍈\nMelon",
+        "name": "Melon",
+        "url_endpoint": "https://emojipedia.org/melon"
+    },
+    {
+        "unicode": "🍉\nWatermelon",
+        "name": "Watermelon",
+        "url_endpoint": "https://emojipedia.org/watermelon"
+    },
+    {
+        "unicode": "🍊\nTangerine",
+        "name": "Tangerine",
+        "url_endpoint": "https://emojipedia.org/tangerine"
+    },
+    {
+        "unicode": "🎃\nJack-O-Lantern",
+        "name": "Jack-O-Lantern",
+        "url_endpoint": "https://emojipedia.org/jack-o-lantern"
+    },
+    {
+        "unicode": "🎄\nChristmas Tree",
+        "name": "Christmas_Tree",
+        "url_endpoint": "https://emojipedia.org/christmas-tree"
+    },
+    {
+        "unicode": "🎆\nFireworks",
+        "name": "Fireworks",
+        "url_endpoint": "https://emojipedia.org/fireworks"
+    },
+    {
+        "unicode": "🎇\nSparkler",
+        "name": "Sparkler",
+        "url_endpoint": "https://emojipedia.org/sparkler"
+    },
+    {
+        "unicode": "🌍\nGlobe Showing Europe-Africa",
+        "name": "Globe_Showing_Europe-Africa",
+        "url_endpoint": "https://emojipedia.org/globe-showing-europe-africa"
+    },
+    {
+        "unicode": "🌎\nGlobe Showing Americas",
+        "name": "Globe_Showing_Americas",
+        "url_endpoint": "https://emojipedia.org/globe-showing-americas"
+    },
+    {
+        "unicode": "🌏\nGlobe Showing Asia-Australia",
+        "name": "Globe_Showing_Asia-Australia",
+        "url_endpoint": "https://emojipedia.org/globe-showing-asia-australia"
+    },
+    {
+        "unicode": "🌐\nGlobe with Meridians",
+        "name": "Globe_with_Meridians",
+        "url_endpoint": "https://emojipedia.org/globe-with-meridians"
+    },
+    {
+        "unicode": "🎀\nRibbon",
+        "name": "Ribbon",
+        "url_endpoint": "https://emojipedia.org/ribbon"
+    },
+    {
+        "unicode": "🎗️\nReminder Ribbon",
+        "name": "Reminder_Ribbon",
+        "url_endpoint": "https://emojipedia.org/reminder-ribbon"
+    },
+    {
+        "unicode": "👓\nGlasses",
+        "name": "Glasses",
+        "url_endpoint": "https://emojipedia.org/glasses"
+    },
+    {
+        "unicode": "💌\nLove Letter",
+        "name": "Love_Letter",
+        "url_endpoint": "https://emojipedia.org/love-letter"
+    },
+    {
+        "unicode": "💘\nHeart with Arrow",
+        "name": "Heart_with_Arrow",
+        "url_endpoint": "https://emojipedia.org/heart-with-arrow"
+    },
+    {
+        "unicode": "💝\nHeart with Ribbon",
+        "name": "Heart_with_Ribbon",
+        "url_endpoint": "https://emojipedia.org/heart-with-ribbon"
+    },
+    {
+        "unicode": "🏁\nChequered Flag",
+        "name": "Chequered_Flag",
+        "url_endpoint": "https://emojipedia.org/chequered-flag"
+    }
+]

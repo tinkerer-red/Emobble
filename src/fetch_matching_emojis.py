@@ -1,13 +1,27 @@
 import json
 import os
+import math
 from pathlib import Path
 
 # Paths
 ROOT_DIR = Path(r"C:\Users\Red\Documents\GameMakerStudio2\_tools\EmojiFontsProject")
 EMOJI_DB_PATH = ROOT_DIR / "db" / "emoji.json"
-METADATA_DIR = ROOT_DIR / "Assets" / "Texture Sheets" / "Lite"
+METADATA_DIR = ROOT_DIR / "Assets" / "Sprites" / "Lite"
 PRUNED_JSON_PATH = ROOT_DIR / "db" / "pruned_emoji.json"
 PRUNED_TXT_PATH = ROOT_DIR / "db" / "pruned_emoji.txt"
+
+SUBFOLDERS = [
+    "emojidex",
+    "Fluent Flat",
+    "Fluent3D",
+    "Font_NotoMonochrome",
+    "Font_SegoeMonochrome",
+    "Icons8",
+    "Noto",
+    "Openmoji",
+    "Segoe",
+    "Twemoji",
+]
 
 def load_json(file_path):
     """Load a JSON file and return its content as a dictionary."""
@@ -19,7 +33,7 @@ def load_json(file_path):
         return {}
 
 def get_common_emojis():
-    """Find emojis that are present in all metadata.json files."""
+    """Find emojis that are present in at least 70% of the specified metadata.json files."""
     
     # Load full emoji database
     emoji_data = load_json(EMOJI_DB_PATH)
@@ -27,15 +41,24 @@ def get_common_emojis():
         print("Error: Failed to load emoji database.")
         return {}
 
-    emoji_keys = set(emoji_data.keys())  # Original emoji set
+    # Track emoji occurrences
+    emoji_occurrences = {}
 
-    # Process metadata.json files
-    metadata_files = list(METADATA_DIR.glob("*/metadata.json"))
+    # Process only metadata.json files from the specified subfolders
+    metadata_files = [
+        METADATA_DIR / subfolder / "metadata.json"
+        for subfolder in SUBFOLDERS
+        if (METADATA_DIR / subfolder / "metadata.json").exists()
+    ]
+
     if not metadata_files:
-        print("Error: No metadata.json files found.")
+        print("Error: No valid metadata.json files found in the specified subfolders.")
         return {}
 
-    print(f"Processing {len(metadata_files)} metadata.json files...")
+    num_metadata_files = len(metadata_files)
+    threshold = math.ceil(num_metadata_files * 0.7)  # 70% threshold
+
+    print(f"Processing {num_metadata_files} metadata.json files from: {SUBFOLDERS}")
 
     for metadata_file in metadata_files:
         metadata = load_json(metadata_file)
@@ -43,14 +66,16 @@ def get_common_emojis():
             print(f"Warning: Skipping {metadata_file} due to loading error.")
             continue
 
-        metadata_keys = set(metadata.keys())
+        for emoji_key in metadata.keys():
+            emoji_occurrences[emoji_key] = emoji_occurrences.get(emoji_key, 0) + 1
 
-        # Retain only emojis that appear in all metadata.json files
-        emoji_keys.intersection_update(metadata_keys)
+    # Prune the emoji_data dictionary: Only keep emojis meeting the 70% threshold
+    pruned_emoji_data = {
+        key: emoji_data.get(key, {"char": key, "name": "Unknown", "unicode": f"U+{ord(key):04X}"})
+        for key, count in emoji_occurrences.items() if count >= threshold
+    }
 
-    # Prune the emoji_data dictionary
-    pruned_emoji_data = {key: emoji_data[key] for key in emoji_keys}
-
+    print(f"✅ Retained {len(pruned_emoji_data)} emojis that appear in at least {threshold}/{num_metadata_files} metadata files.")
     return pruned_emoji_data
 
 def extract_unicode_value(emoji_data):
