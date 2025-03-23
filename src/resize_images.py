@@ -6,15 +6,15 @@ PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 IMAGE_DIR = os.path.join(PROJECT_ROOT, "Assets", "PNGs")  # Adjust as needed
 
 # Define max dimensions
-MAX_SIZE = (128, 128)
+MAX_SIZE = (60, 60)
 
 def resize_image(image_path):
-    """Resizes an image to fit within 128x128 while maintaining aspect ratio."""
+    """Resizes an image to fit within 60x60 while maintaining aspect ratio."""
     with Image.open(image_path) as img:
         width, height = img.size
 
-        # ✅ Skip resizing if already within 128x128
-        if width <= 128 and height <= 128:
+        # ✅ Skip resizing if already within 60x60
+        if width <= 60 and height <= 60:
             print(f"✅ Skipping (already within limits): {image_path}")
             return
 

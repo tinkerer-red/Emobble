@@ -109,7 +109,7 @@ def verify_images():
                             image_path = new_path
                             hexcode = variant
                             break  # Stop after first successful rename
-
+                    
                 # ✅ If the emoji is STILL missing, move it to `_MissingData/`
                 if not in_data and not in_shortcodes:
                     missing_data_path = os.path.join(platform_path, "_MissingData")

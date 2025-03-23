@@ -175,12 +175,31 @@ def clean_text(text):
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
-def add_unique_variants(text, collection):
-    clean = slugify_clean(clean_text(text))
-    ascii_ = slugify_ascii(clean_text(text))
-    for variant in (clean, ascii_):
-        if variant not in collection:
-            collection.append(variant)
+def handle_text_variant(text, emoji_data):
+    text = remove_trailing_parenthetical(text)
+    if not text:
+        return
+
+    # If it's clearly a shortcode like :smile:, not an emoticon
+    is_shortcode = False
+    if text.startswith(":") and text.endswith(":"):
+        is_shortcode = True
+        text = text.strip(":")
+
+    if text not in emoji_data["aliases"]:
+        emoji_data["aliases"].append(un_normalize_slug(text))
+
+    if is_emoticon(text) and not is_shortcode:
+        if text not in emoji_data["emoticons"]:
+            emoji_data["emoticons"].append(text)
+    else:
+        # Shortcodes like :smile: should be cleaned of surrounding colons
+        cleaned = text.strip(":")
+        clean = slugify_clean(clean_text(cleaned))
+        ascii_ = slugify_ascii(clean_text(cleaned))
+        for variant in (clean, ascii_):
+            if variant and variant not in emoji_data["shortcodes"]:
+                emoji_data["shortcodes"].append(variant)
 
 def get_first_sentence(text):
     match = re.match(r"(.+?[.!?])(?:\s|$)", text)
@@ -205,17 +224,10 @@ def extract_table_data(driver, emoji_data):
                     emoji_data["unicode"] = value
                 elif key == "Unicode Name" and value:
                     emoji_data["name"] = value
-                    emoji_data.setdefault("aliases", []).append(value)
-                elif key in ["Apple Name", "Also Known As"]:
-                    emoji_data.setdefault("aliases", [])
-                    emoji_data.setdefault("shortcodes", [])
+                    handle_text_variant(value, emoji_data)
+                elif key in ["Apple Name", "Also Known As", "Shortcodes"]:
                     for v in cells[1].find_elements(By.TAG_NAME, "div"):
-                        text = remove_trailing_parenthetical(v.text)
-                        alias = un_normalize_slug(text)
-                        if alias not in emoji_data["aliases"]:
-                            emoji_data["aliases"].append(alias)
-                        if not is_emoticon(text):
-                            add_unique_variants(text, emoji_data["shortcodes"])
+                        handle_text_variant(v.text, emoji_data)
     except Exception as e:
         print(f"Error extracting table data: {e}")
 
@@ -276,6 +288,12 @@ def process_emoji_page(driver, emoji_url, url_queue, emoji_data, visited_urls):
     driver.get(emoji_url)
     emoji_data["url"] = emoji_url
     emoji_data["slug"] = emoji_url.strip("/").split("/")[-1]
+    
+    emoji_data.setdefault("aliases", [])
+    alias = un_normalize_slug(emoji_data["slug"])
+    if alias not in emoji_data["aliases"]:
+        emoji_data["aliases"].append(alias)
+    
     extract_variation_and_related_urls(driver, url_queue, visited_urls)
     extract_description(driver, emoji_data)
 
@@ -331,7 +349,20 @@ def scrape_emoji_data():
         if emoji_url in visited_urls:
             continue
         visited_urls.add(emoji_url)
-        emoji_data = {}
+        emoji_data = {
+            "char": "",
+            "unicode": "",
+            "name": "",
+            "description": "",
+            "description_full": "",
+            "warning": "",
+            "url": "",
+            "slug": "",
+            "aliases": [],
+            "shortcodes": [],
+            "emoticons": [],
+            
+        }
         
         process_emoji_page(driver, emoji_url, url_queue, emoji_data, visited_urls)
         
