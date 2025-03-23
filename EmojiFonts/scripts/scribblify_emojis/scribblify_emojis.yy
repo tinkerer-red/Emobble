@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script137",
+  "%Name":"scribblify_emojis",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script137",
+  "name":"scribblify_emojis",
   "parent":{
-    "name":"__internal",
-    "path":"folders/Scribble Emojis/__internal.yy",
+    "name":"Scribble Emojis",
+    "path":"folders/Scribble Emojis.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -1,5 +1,65 @@
 var t1 = scribble_fallback_font;
 
+function is_emoji_codepoint(_codepoint) {
+    return (
+		(_codepoint >= 0x0600) || //honestly anything past hebrew is probably fine
+		(_codepoint >= 0x1F300 && _codepoint <= 0x1F9FF) || // Standard emoji range
+        (_codepoint >= 0x2600 && _codepoint <= 0x26FF) ||   // Misc symbols that can be emoji
+        (_codepoint == 0x200D) || // Zero Width Joiner
+        (_codepoint == 0xFE0F)    // Variation Selector
+    );
+}
+
+function buffer_read_codepoint(_buff) {
+    var byte1 = buffer_read(_buff, buffer_u8);
+	
+	// 1-byte (ASCII)
+    if (byte1 < 0x80) {
+        return byte1;
+    } 
+	// 2-byte UTF-8
+    else if ((byte1 & 0xE0) == 0xC0) {
+        return ((byte1 & 0x1F) << 6)
+				| (buffer_read(_buff, buffer_u8) & 0x3F);
+    } 
+	// 3-byte UTF-8
+    else if ((byte1 & 0xF0) == 0xE0) {
+        return ((byte1 & 0x0F) << 12)
+				| ((buffer_read(_buff, buffer_u8) & 0x3F) << 6)
+				| (buffer_read(_buff, buffer_u8) & 0x3F);
+    } 
+    // 4-byte UTF-8
+	else if ((byte1 & 0xF8) == 0xF0) {
+        return ((byte1 & 0x07) << 18)
+				| ((buffer_read(_buff, buffer_u8) & 0x3F) << 12)
+				| ((buffer_read(_buff, buffer_u8) & 0x3F) << 6)
+				| (buffer_read(_buff, buffer_u8) & 0x3F);
+    }
+
+    return 0; // Invalid sequence
+}
+
+function buffer_write_codepoint(_buffer, _codepoint) {
+    if (_codepoint <= 0x7F) {
+        buffer_write(_buffer, buffer_u8, _codepoint);
+    }
+    else if (_codepoint <= 0x7FF) {
+        buffer_write(_buffer, buffer_u8, 0xC0 | (_codepoint >> 6));
+        buffer_write(_buffer, buffer_u8, 0x80 | (_codepoint & 0x3F));
+    }
+    else if (_codepoint <= 0xFFFF) {
+        buffer_write(_buffer, buffer_u8, 0xE0 | (_codepoint >> 12));
+        buffer_write(_buffer, buffer_u8, 0x80 | ((_codepoint >> 6) & 0x3F));
+        buffer_write(_buffer, buffer_u8, 0x80 | (_codepoint & 0x3F));
+    }
+    else {
+        buffer_write(_buffer, buffer_u8, 0xF0 | (_codepoint >> 18));
+        buffer_write(_buffer, buffer_u8, 0x80 | ((_codepoint >> 12) & 0x3F));
+        buffer_write(_buffer, buffer_u8, 0x80 | ((_codepoint >> 6) & 0x3F));
+        buffer_write(_buffer, buffer_u8, 0x80 | (_codepoint & 0x3F));
+    }
+}
+
 function scribblify_emojis(input_string, _sprite, _lookup_table, _font=undefined) {
 	#region Set up Optimizers
 	static read_buff = buffer_create(0, buffer_grow, 1);

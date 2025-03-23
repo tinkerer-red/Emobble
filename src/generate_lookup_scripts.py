@@ -1,5 +1,6 @@
 import os
 import json
+import re
 
 # Define project directory structure
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -12,6 +13,17 @@ LITE_SPRITE_DIR = os.path.join(SPRITE_SHEETS_DIR, "Lite")
 # Function to properly escape JSON for GML
 def escape_json_for_gml(json_string):
     return json_string.replace("\\", "\\\\").replace("\"", "\\\"")
+
+def to_camel_case(name):
+    """Convert category name to camelCase with only alphanumeric characters."""
+    # Remove anything not a-zA-Z0-9 or space
+    clean = re.sub(r"[^a-zA-Z0-9 ]+", "", name)
+    parts = clean.strip().split()
+
+    if not parts:
+        return ""
+
+    return parts[0].lower() + ''.join(p.capitalize() for p in parts[1:])
 
 # Function to process metadata files and generate GML code
 def generate_gml_lookup():
@@ -39,13 +51,14 @@ def generate_gml_lookup():
             escaped_json = escape_json_for_gml(minified_json)
 
             # Format the function name
-            function_name = f"__emoji_lookup_{category.lower()}_{label}"
+            function_name = f"__emoji_lookup_{to_camel_case(category)}_{label}"
 
             # Generate GML function
             gml_code = (
                 f"function {function_name}() {{\n"
                 f"\t//This is a generated file from `generate_lookup_scripts.py` please dont modify.\n"
-                f"\treturn json_parse(\"{escaped_json}\");\n"
+                f"\tstatic __ = json_parse(\"{escaped_json}\");\n"
+                f"\treturn __;\n"
                 f"}}"
             )
 

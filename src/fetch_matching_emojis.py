@@ -6,7 +6,7 @@ from pathlib import Path
 # Paths
 ROOT_DIR = Path(r"C:\Users\Red\Documents\GameMakerStudio2\_tools\EmojiFontsProject")
 EMOJI_DB_PATH = ROOT_DIR / "db" / "emoji.json"
-METADATA_DIR = ROOT_DIR / "Assets" / "Sprites" / "Lite"
+METADATA_DIR = ROOT_DIR / "Assets" / "Sprites" / "Deluxe"
 PRUNED_JSON_PATH = ROOT_DIR / "db" / "pruned_emoji.json"
 PRUNED_TXT_PATH = ROOT_DIR / "db" / "pruned_emoji.txt"
 
@@ -14,13 +14,13 @@ SUBFOLDERS = [
     "emojidex",
     "Fluent Flat",
     "Fluent3D",
-    "Font_NotoMonochrome",
-    "Font_SegoeMonochrome",
+    "Noto Mono",
+    "Segoe Mono",
     "Icons8",
     "Noto",
     "Openmoji",
-    "Segoe",
-    "Twemoji",
+    "Segoe UI",
+    "Twitter",
 ]
 
 def load_json(file_path):
@@ -71,7 +71,7 @@ def get_common_emojis():
 
     # Prune the emoji_data dictionary: Only keep emojis meeting the 70% threshold
     pruned_emoji_data = {
-        key: emoji_data.get(key, {"char": key, "name": "Unknown", "unicode": f"U+{ord(key):04X}"})
+        key: emoji_data.get(key, {"char": key, "name": "Unknown", "unicode": " ".join([f"U+{ord(ch):04X}" for ch in key])})
         for key, count in emoji_occurrences.items() if count >= threshold
     }
 

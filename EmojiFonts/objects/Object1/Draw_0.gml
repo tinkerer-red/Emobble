@@ -46,26 +46,10 @@ draw_set_alpha(1)
 
 // Render all
 var _off = 16, xx = 0;
-scribble_emojis(glyph_string, __emj_emojidex_deluxe_16, __emoji_lookup_emojidex_deluxe).draw(xx,yy)
-xx+=_off;
-scribble_emojis(glyph_string, __emj_fluent3d_deluxe_16, __emoji_lookup_fluent3d_deluxe).draw(xx,yy)
-xx+=_off;
-scribble_emojis(glyph_string, __emj_fluentFlat_deluxe_16, __emoji_lookup_fluentFlat_deluxe).draw(xx,yy)
-xx+=_off;
-scribble_emojis(glyph_string, __emj_icons8_deluxe_16, __emoji_lookup_icons8_deluxe).draw(xx,yy)
-xx+=_off;
-scribble_emojis(glyph_string, __emj_noto_deluxe_16, __emoji_lookup_noto_deluxe).draw(xx,yy)
-xx+=_off;
-scribble_emojis(glyph_string, __emj_notoMono_deluxe_16, __emoji_lookup_notoMono_deluxe).draw(xx,yy)
-xx+=_off;
-scribble_emojis(glyph_string, __emj_openmoji_deluxe_16, __emoji_lookup_openmoji_deluxe).draw(xx,yy)
-xx+=_off;
-scribble_emojis(glyph_string, __emj_segoeUi_deluxe_16, __emoji_lookup_segoeUi_deluxe).draw(xx,yy)
-xx+=_off;
-scribble_emojis(glyph_string, __emj_segoeMono_deluxe_16, __emoji_lookup_segoeMono_deluxe).draw(xx,yy)
-xx+=_off;
-scribble_emojis(glyph_string, __emj_twemoji_deluxe_16, __emoji_lookup_twemoji_deluxe).draw(xx,yy)
-xx+=_off;
+for (var i=0; i<array_length(emoji_strings); i++){
+	scribble(emoji_strings[i]).draw(xx,yy)
+	xx+=_off;
+}
 
 scribble(unicode_string).draw(xx,yy)
 
