@@ -25,7 +25,7 @@ function __scribble_preparse_buffered(_text, _sprite, _lookup) {
 }
 
 function parse_emoji_chain(_input_buff, _output_buff, _lookup, _sprite_name, _byte_len) {
-	static emoji_buffer = buffer_create(0, buffer_grow, 1); // Static buffer for emoji sequences
+	static emoji_buff = buffer_create(0, buffer_grow, 1); // Static buffer for emoji sequences
     
 	var _prev_codepoint = 0;
 	var _codepoint = 0;
@@ -133,7 +133,7 @@ function __attempt_to_write_emoji(_emoji_buffer, _output_buff, _lookup, _sprite_
 
 function is_emoji_codepoint(_codepoint) {
     return (
-        (_codepoint >= 0x1F300 && _codepoint <= 0x1F9FF) || // Standard emoji range
+		(_codepoint >= 0x1F300 && _codepoint <= 0x1F9FF) || // Standard emoji range
         (_codepoint >= 0x2600 && _codepoint <= 0x26FF) ||   // Misc symbols that can be emoji
         (_codepoint == 0x200D) || // Zero Width Joiner
         (_codepoint == 0xFE0F)    // Variation Selector

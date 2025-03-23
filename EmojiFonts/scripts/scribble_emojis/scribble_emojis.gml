@@ -1,5 +1,6 @@
 function scribble_emojis(_string, _sprite, _lookup) {
-	var _scribble = scribble(_string).preprocessor(__injected_emoji_preprocessor)
+	var _unique_id = sprite_get_name(_sprite);
+	var _scribble = scribble(_string, _unique_id).preprocessor(__injected_emoji_preprocessor)
 	_scribble.__userPreprocessorFunc = undefined;
 	
 	_scribble.__emojiSprite = _sprite;

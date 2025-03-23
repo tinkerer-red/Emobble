@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scribble_emojis",
+  "%Name":"Script137",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scribble_emojis",
+  "name":"Script137",
   "parent":{
     "name":"__internal",
     "path":"folders/Scribble Emojis/__internal.yy",
