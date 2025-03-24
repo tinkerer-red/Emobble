@@ -359,6 +359,58 @@ function __scribble_matrix_inverse(_matrix)
     return _inv;
 }
 
+function __scribble_sprite_get_texture(_sprite_index, _image_index)
+{
+	static __texture_id_lookup = ds_map_create();
+	static __texture_pointer_lookup = __scribble_texture_pointer_lookup();
+	
+	var _key = sprite_get_name(_sprite_index) + "_" + string(_image_index);
+	var _texture_id = __texture_id_lookup[? _key];
+	if (_texture_id == undefined)
+	{
+		_texture_id = sprite_get_info(_sprite_index).frames[_image_index].texture;
+		__texture_id_lookup[? _key] = _texture_id;
+	}
+	
+	var _pointer = __texture_pointer_lookup[? _texture_id];
+	if (_pointer == undefined)
+	{
+		_pointer = sprite_get_texture(_sprite_index, _image_index);
+		__texture_pointer_lookup[? _texture_id] = _pointer;
+	}
+	
+	return _pointer;
+}
+
+function __scribble_font_get_texture(_font)
+{
+	static __texture_id_lookup = ds_map_create();
+	static __texture_pointer_lookup = __scribble_texture_pointer_lookup();
+	
+	var _key = font_get_name(_font);
+	var _texture_id = __texture_id_lookup[? _key];
+	if (_texture_id == undefined)
+	{
+		_texture_id = font_get_info(_font).texture;
+		__texture_id_lookup[? _key] = _texture_id;
+	}
+	
+	var _pointer = __texture_pointer_lookup[? _texture_id];
+	if (_pointer == undefined)
+	{
+		_pointer = font_get_texture(_font);
+		__texture_pointer_lookup[? _texture_id] = _pointer;
+	}
+	
+	return _pointer;
+}
+
+function __scribble_texture_pointer_lookup()
+{
+	static __texture_pointer_lookup = ds_map_create();
+	return __texture_pointer_lookup;
+}
+
 #region Enums
 
 enum __SCRIBBLE_GLYPH_LAYOUT

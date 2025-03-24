@@ -7,6 +7,7 @@ import unicodedata
 import math
 import numpy as np
 import re
+import itertools
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
@@ -22,12 +23,21 @@ DELUXE_SPRITE_DIR = os.path.join(SPRITE_SHEETS_DIR, "Deluxe")
 FULL_SPRITE_DIR = os.path.join(SPRITE_SHEETS_DIR, "Full")
 LITE_SPRITE_DIR = os.path.join(SPRITE_SHEETS_DIR, "Lite")
 
+FONT_SHEETS_DIR = os.path.join(ASSETS_DIR, "GMFonts")
+DELUXE_FONT_DIR = os.path.join(FONT_SHEETS_DIR, "Deluxe")
+FULL_FONT_DIR = os.path.join(FONT_SHEETS_DIR, "Full")
+LITE_FONT_DIR = os.path.join(FONT_SHEETS_DIR, "Lite")
+
 PNG_DIR = os.path.join(ASSETS_DIR, "PNGs")
 FONTS_DIR = os.path.join(ASSETS_DIR, "Fonts")
 
 # Texture sizes
 TEXTURE_SIZES = [16, 24, 32]
+MODES = ["deluxe", "full", "lite"]
 PADDING = 1  # 1px padding on each side (total 2px margin)
+
+FONT_OFFSET_KEY = 33 # Which codepoint to start counting for font texture sheet generation
+FONT_INLUDE_SPACE = False
 
 # Ensure required directories exist
 os.makedirs(FONTS_DIR, exist_ok=True)
@@ -386,9 +396,9 @@ def get_sprite_output_paths(category, size, mode):
     category_folder = os.path.join(base_dir, category)
     os.makedirs(category_folder, exist_ok=True)
 
-    filename = f"__emj_{to_camel_case(category)}_{mode.lower()}_{size}.png"
-    output_sprite_path = os.path.join(category_folder, filename)
-
+    slug = f"{to_camel_case(category)}_{mode.lower()}_{size}"
+    
+    output_sprite_path = os.path.join(category_folder, f"__emj_{slug}.png")
     metadata_path = os.path.join(category_folder, "metadata.json")
 
     return category_folder, output_sprite_path, metadata_path
@@ -453,20 +463,218 @@ def generate_sprite_strip(category, images, keys, size, mode="deluxe"):
 
 #endregion
 
+#region -- Font Sheet Builder ----------------------------------------------------------------------------------
+
+def get_font_output_paths(category, size, mode):
+    """Determine output paths for the font sheet, .yy file, and lookup table."""
+    base_dir = {
+        "deluxe": DELUXE_FONT_DIR,
+        "full": FULL_FONT_DIR,
+        "lite": LITE_FONT_DIR
+    }[mode]
+
+    category_folder = os.path.join(base_dir, category)
+    os.makedirs(category_folder, exist_ok=True)
+
+    slug = f"{to_camel_case(category)}_{mode.lower()}_{size}"
+    
+    image_output = os.path.join(category_folder, f"__emj_fnt_{slug}.png")
+    yy_output = os.path.join(category_folder, f"__emj_fnt_{slug}.yy")
+    lookup_output = os.path.join(category_folder, f"lookup.json")
+
+    return image_output, yy_output, lookup_output
+
+def create_composite_font_sheet(images, keys, size):
+    """
+    Builds and returns the composite sprite sheet and metadata dictionary.
+    """
+    total_count = len(images)
+    cols, rows = get_grid_layout(total_count)
+
+    sheet_width = cols * (size + PADDING * 2)
+    sheet_height = rows * (size + PADDING * 2)
+    composite_sheet = Image.new("RGBA", (sheet_width, sheet_height), (0, 0, 0, 0))
+    metadata = {}
+    glyph_data = {}
+
+    current_ord = FONT_OFFSET_KEY
+    def get_next_font_glyph_index(current: int) -> int:
+        """
+        Returns the next valid index, skipping over known problematic glyph ranges.
+        - Skips formatting characters (C format category)
+        - Skips right-to-left ranges (like Hebrew)
+        """
+        while True:
+            current += 1
+            # Skip control characters (formatting, non-visible, etc.)
+            if unicodedata.category(chr(current)).startswith("C"):
+                continue
+            # Skip Hebrew block (U+0590–U+05FF)
+            if 0x0590 <= current <= 0x05FF:
+                current = 0x05FF
+                continue
+            # Skip ZWJ (U+200D)
+            if current == 0x200D:
+                continue
+            # Enforce max glyph index limit for GameMaker
+            if current > 0xFFFF:
+                raise ValueError("Exceeded GameMaker's max glyph index limit (0xFFFF).")
+            return current
+
+    # Optionally insert space glyph
+    if FONT_INLUDE_SPACE:
+        glyph_data[32] = {
+            "character": 32,
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "shift": 0,
+            "offset": 0
+        }
+        current_ord = max(current_ord, 32)  # ensure following glyphs skip space
+
+    for index, (image, key) in enumerate(zip(images, keys)):
+        if image is None:
+            continue
+        resized_img = image.resize((size, size), Image.LANCZOS)
+        
+        current_ord = get_next_font_glyph_index(current_ord)
+        
+        col = index % cols
+        row = index // cols
+        x_pos = col * (size + PADDING * 2) + PADDING
+        y_pos = row * (size + PADDING * 2) + PADDING
+
+        composite_sheet.paste(resized_img, (x_pos, y_pos))
+        metadata[key] = index
+
+        w, h = resized_img.size
+        glyph_data[index] = {
+            "character": current_ord,
+            "x": x_pos,
+            "y": y_pos,
+            "width": w,
+            "height": h,
+            "shift": w,
+            "offset": 0  # customizable later
+        }
+        
+
+    return composite_sheet, metadata, cols, rows, index, glyph_data
+
+def save_font_metadata_file(path, metadata):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(metadata, f, ensure_ascii=False, indent=4)
+    log.debug(f"Saved metadata: {path}")
+
+def save_font_yy_file(path, font_name, glyph_data, size):
+    """Saves a GameMaker .yy font asset file."""
+
+    # Generate formatted string with every character index, 40 per line
+    glyph_indexes = sorted(g["character"] for g in glyph_data.values())
+    lines = []
+    for i in range(0, len(glyph_indexes), 40):
+        line = " ".join(str(idx) for idx in glyph_indexes[i:i+40])
+        lines.append(line)
+    glyph_list_string = "\n".join(lines)
+
+    ranges = []
+    grouped = []
+    for _, group in itertools.groupby(enumerate(glyph_indexes), lambda x: x[1] - x[0]):
+        group = list(group)
+        start = group[0][1]
+        end = group[-1][1]
+        grouped.append({"lower": start, "upper": end})
+    ranges = grouped
+
+    yy_data = {
+    "$GMFont":"",
+    "%Name":font_name,
+    "AntiAlias":1,
+    "applyKerning":0,
+    "ascender":size,
+    "ascenderOffset":0,
+    "bold":False,
+    "canGenerateBitmap":True,
+    "charset":0,
+    "first":0,
+    "fontName":f"{font_name} Emojis",
+    "glyphOperations":0,
+    "glyphs": list(glyph_data.values()),
+    "hinting":0,
+    "includeTTF":False,
+    "interpreter":0,
+    "italic":False,
+    "kerningPairs":[],
+    "last":0,
+    "lineHeight":size,
+    "maintainGms1Font":False,
+    "name":"Font1",
+    "parent":{
+        "name":"EmojiFonts",
+        "path":"EmojiFonts.yyp",
+    },
+    "pointRounding":0,
+    "ranges": ranges,
+    "regenerateBitmap":False,
+    "resourceType":"GMFont",
+    "resourceVersion":"2.0",
+    "sampleText":glyph_list_string,
+    "sdfSpread":8,
+    "size":size,
+    "styleName":"Regular",
+    "textureGroupId":{
+        "name":"Default",
+        "path":"texturegroups/Default",
+    },
+    "TTFName":f"{font_name} Emojis",
+    "usesSDF":False,
+    }
+
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(yy_data, f, ensure_ascii=False, indent=4)
+    log.debug(f"Saved .yy font file: {path}")
+
+def generate_font_sheet(category, images, keys, size, mode="deluxe"):
+    """
+    Creates a GameMaker-compatible bitmap font and supporting lookup table.
+    - `images` is a list of pre-rendered glyph images (e.g. from load_glyph_images).
+    - `emoji_lookup` is a dict like {"😀": 33, "🎉": 34, ...}
+    """
+    image_path, yy_path, metadata_path = get_font_output_paths(category, size, mode)
+
+    if os.path.exists(image_path):
+        log.debug(f"Skipping {image_path}, already exists.")
+        return {}
+    
+    filtered_images, filtered_keys = filter_sprite_inputs(images, keys, mode)
+    if not filtered_images:
+        log.debug(f"No valid images for category {category}. Skipping sprite strip.")
+        return {}
+
+    composite_sheet, metadata, cols, rows, total_count, glyph_data = create_composite_font_sheet(filtered_images, filtered_keys, size)
+    composite_sheet.save(image_path)
+    log.debug(f"Saved font texture: {image_path}")
+
+    save_font_yy_file(yy_path, category, glyph_data, size)
+    save_font_metadata_file(metadata_path, metadata)
+
+    log.info(f"✅ Generated font sheet '{category}' with {len(glyph_data)} glyphs.")
+
+#endregion
+
 #region -- Generation Main Function  ----------------------------------------------------------------------------------------------------------
 
-def generate_all_textures():
+def generate_all_sprite_textures():
     """Generate texture sheets for all categories and fonts."""
     for category in os.listdir(PNG_DIR):
         category_path = os.path.join(PNG_DIR, category)
         if not os.path.isdir(category_path):
             continue
 
-        # Modes and sizes to check
-        SPRITE_MODES = ["deluxe", "full", "lite"]
-
         # Check and print all sprite sheet output paths
-        if all_output_files_exist(SPRITE_SHEETS_DIR, category, SPRITE_MODES, TEXTURE_SIZES):
+        if all_output_files_exist(SPRITE_SHEETS_DIR, category, MODES, TEXTURE_SIZES):
             print(f"Skipping {category} - All sprite sheets for all tiers already exist.")
             continue
 
@@ -476,7 +684,7 @@ def generate_all_textures():
         image_count = len(images)  # Track count per category
 
         for size in TEXTURE_SIZES:
-            for mode in ["deluxe", "full", "lite"]:
+            for mode in MODES:
                 #generate_sprite_strip(category, images, keys, size, mode)
                 continue
             
@@ -488,13 +696,10 @@ def generate_all_textures():
         
         font_path = os.path.join(FONTS_DIR, font_name)
         category = os.path.splitext(font_name)[0]
-        
-        # Modes and sizes to check
-        SPRITE_MODES = ["deluxe", "full", "lite"]
 
         # Check and print all sprite sheet output paths
         category_slug = to_camel_case(category)
-        if all_output_files_exist(SPRITE_SHEETS_DIR, category, SPRITE_MODES, TEXTURE_SIZES):
+        if all_output_files_exist(SPRITE_SHEETS_DIR, category, MODES, TEXTURE_SIZES):
             print(f"Skipping {category} - All sprite sheets for all tiers already exist.")
             continue
         
@@ -504,14 +709,70 @@ def generate_all_textures():
         image_count = len(images)  # Track count per category
         
         for size in TEXTURE_SIZES:
-            for mode in ["deluxe", "full", "lite"]:
+            for mode in MODES:
                 generate_sprite_strip(category, images, keys, size, mode)
         
         log.info(f"✅ Processed {image_count} images for category '{category}'.")
-    
-    log.info("🎉 Texture generation complete!")
 
+
+def generate_all_font_textures():
+    """Generate font texture sheets for all fonts with all tiers and sizes."""
+
+    for category in os.listdir(PNG_DIR):
+        category_path = os.path.join(PNG_DIR, category)
+        if not os.path.isdir(category_path):
+            continue
+
+        # Check and print all sprite sheet output paths
+        if all_output_files_exist(FONT_SHEETS_DIR, category, MODES, TEXTURE_SIZES):
+            print(f"Skipping {category} - All sprite sheets for all tiers already exist.")
+            continue
+
+        images, keys = load_png_images(category)
+        images = crop_images(images, keys)
+        images, keys = sort_emojis_by_key(images, keys)
+        image_count = len(images)  # Track count per category
+
+        for size in TEXTURE_SIZES:
+            for mode in MODES:
+                generate_font_sheet(category, images, keys, size, mode)
+                continue
+            
+        log.info(f"✅ Processed {image_count} images for category '{category}'.")
+
+    # Dont handle font based emoji sets, because those could simply be included in a GML since they are already valid
+    
+    # Generate resource_order file
+    resource_lines = []
+    order = 0
+    for mode in MODES:
+        base_dir = {
+            "deluxe": DELUXE_FONT_DIR,
+            "full": FULL_FONT_DIR,
+            "lite": LITE_FONT_DIR
+        }[mode]
+        for font_name in os.listdir(base_dir):
+            folder_path = os.path.join(base_dir, font_name)
+            if not os.path.isdir(folder_path):
+                continue
+            for file in os.listdir(folder_path):
+                if file.endswith(".yy"):
+                    name = os.path.splitext(file)[0]
+                    rel_path = os.path.relpath(os.path.join("fonts", name, font_name, file)).replace("\\", "/")
+                    resource_lines.append(f'{{"name":"{name}","order":{order},"path":"{rel_path}",}},')
+                    order += 1
+
+    resource_path = os.path.join(FONT_SHEETS_DIR, "resource_order.txt")
+    with open(resource_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(resource_lines))
+    log.info(f"📄 Saved resource order: {resource_path}")
+
+    log.info("🎉 Font texture generation complete!")
+    
 #endregion
 
 if __name__ == "__main__":
-    generate_all_textures()
+    generate_all_sprite_textures()
+    generate_all_font_textures()
+
+    log.info("🎉 Texture generation complete!")
