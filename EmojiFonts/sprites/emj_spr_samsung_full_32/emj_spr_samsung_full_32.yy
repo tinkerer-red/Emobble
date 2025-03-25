@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4e399a2e-b80e-410d-b737-f011b533b1c5","name":"4e399a2e-b80e-410d-b737-f011b533b1c5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"1c4e11af-df2f-4c58-9c58-c23b14e7b889","name":"1c4e11af-df2f-4c58-9c58-c23b14e7b889","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1383,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c84c08f7-0010-4c8e-9fc2-2430457998be","blendMode":0,"displayName":"default","isLocked":false,"name":"c84c08f7-0010-4c8e-9fc2-2430457998be","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"e0279190-0c66-4cec-9407-b2ccf1030c3f","blendMode":0,"displayName":"default","isLocked":false,"name":"e0279190-0c66-4cec-9407-b2ccf1030c3f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_samsung_full_32",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4e399a2e-b80e-410d-b737-f011b533b1c5","path":"sprites/emj_spr_samsung_full_32/emj_spr_samsung_full_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e805eefa-6ab0-416e-bdc5-a706828b5494","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1c4e11af-df2f-4c58-9c58-c23b14e7b889","path":"sprites/emj_spr_samsung_full_32/emj_spr_samsung_full_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6c280805-8817-439a-9c10-1717f5b2560d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

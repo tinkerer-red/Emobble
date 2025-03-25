@@ -978,7 +978,7 @@ function __scribble_gen_2_parser()
 							// Maybe support inlineing texture sections?
                             if (SCRIBBLE_AUTOFIT_INLINE_TEXTURES)
                             {
-                                var _scale = min(1, (_font_line_height+2)/_tex_h);
+                                var _scale = min(1, (_font_line_height)/_tex_h);
                                 _tex_w *= _scale;
                                 _tex_h *= _scale;
                             }

@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e4366ee8-8003-4986-8654-1eb8fa6f8f63","name":"e4366ee8-8003-4986-8654-1eb8fa6f8f63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"40080c60-7192-40e6-adc2-5536bf7bfd4b","name":"40080c60-7192-40e6-adc2-5536bf7bfd4b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":386,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"a6ef58e2-588e-4406-ac66-7911d145da6a","blendMode":0,"displayName":"default","isLocked":false,"name":"a6ef58e2-588e-4406-ac66-7911d145da6a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5ac52474-73d4-4e4e-b1a9-d6877324c25d","blendMode":0,"displayName":"default","isLocked":false,"name":"5ac52474-73d4-4e4e-b1a9-d6877324c25d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_joypixelsAnimations_full_32",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e4366ee8-8003-4986-8654-1eb8fa6f8f63","path":"sprites/emj_spr_joypixelsAnimations_full_32/emj_spr_joypixelsAnimations_full_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7fa0c3aa-3c62-47ad-8002-52750d2842bb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"40080c60-7192-40e6-adc2-5536bf7bfd4b","path":"sprites/emj_spr_joypixelsAnimations_full_32/emj_spr_joypixelsAnimations_full_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ecfcd33d-9dc6-43ce-9b62-c2c7f5440854","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

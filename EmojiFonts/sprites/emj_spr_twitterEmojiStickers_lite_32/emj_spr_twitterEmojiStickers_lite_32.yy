@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"95ec3af1-0481-49e0-a030-da4cacd2e838","name":"95ec3af1-0481-49e0-a030-da4cacd2e838","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"35cd680c-54cf-4645-a412-8358265cba47","name":"35cd680c-54cf-4645-a412-8358265cba47","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1315,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"30e6d52b-80c4-45d6-b1ef-8cd0d7d8a44d","blendMode":0,"displayName":"default","isLocked":false,"name":"30e6d52b-80c4-45d6-b1ef-8cd0d7d8a44d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"e773d690-8f49-4979-9317-c0dbfea5475b","blendMode":0,"displayName":"default","isLocked":false,"name":"e773d690-8f49-4979-9317-c0dbfea5475b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_twitterEmojiStickers_lite_32",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"95ec3af1-0481-49e0-a030-da4cacd2e838","path":"sprites/emj_spr_twitterEmojiStickers_lite_32/emj_spr_twitterEmojiStickers_lite_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"762faf90-aa58-4002-a0be-35ac93c3fcf0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"35cd680c-54cf-4645-a412-8358265cba47","path":"sprites/emj_spr_twitterEmojiStickers_lite_32/emj_spr_twitterEmojiStickers_lite_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"692ed0cb-82de-4590-8e1a-1e068d7226d1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

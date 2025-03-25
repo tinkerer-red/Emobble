@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"emj_lt_twemoji_deluxe_32",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"emj_lt_twemoji_deluxe_32",
+  "parent":{
+    "name":"Twemoji",
+    "path":"folders/Scribble Emojis/Assets/Deluxe/32/Twemoji.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

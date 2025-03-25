@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"90e933c2-fe32-4210-9b7e-316dad2ae3f5","name":"90e933c2-fe32-4210-9b7e-316dad2ae3f5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"43228d50-84f3-4d2b-b155-574a921a6636","name":"43228d50-84f3-4d2b-b155-574a921a6636","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1614,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"86708701-72eb-459c-865a-e1d7ad82cd64","blendMode":0,"displayName":"default","isLocked":false,"name":"86708701-72eb-459c-865a-e1d7ad82cd64","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"592574d2-72b2-4aeb-b640-95d5bf7d104b","blendMode":0,"displayName":"default","isLocked":false,"name":"592574d2-72b2-4aeb-b640-95d5bf7d104b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_microsoftTeams_deluxe_32",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"90e933c2-fe32-4210-9b7e-316dad2ae3f5","path":"sprites/emj_spr_microsoftTeams_deluxe_32/emj_spr_microsoftTeams_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a612e266-5d98-439a-80e1-59b9a02a5611","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"43228d50-84f3-4d2b-b155-574a921a6636","path":"sprites/emj_spr_microsoftTeams_deluxe_32/emj_spr_microsoftTeams_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"33c9b6ce-5075-457b-80e9-f907ef93b484","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

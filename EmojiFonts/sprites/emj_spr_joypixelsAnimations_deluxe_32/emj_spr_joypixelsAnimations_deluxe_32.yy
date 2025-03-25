@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c2d45a3e-1795-4b6b-9eb0-d08483c74c60","name":"c2d45a3e-1795-4b6b-9eb0-d08483c74c60","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"68684906-ac2d-4f5f-96ea-c84843c87fa6","name":"68684906-ac2d-4f5f-96ea-c84843c87fa6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":386,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"dc7edea5-22b1-44ff-850a-bd5109f22af7","blendMode":0,"displayName":"default","isLocked":false,"name":"dc7edea5-22b1-44ff-850a-bd5109f22af7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c6316cf0-d8fb-4e11-b277-445593d7b9ef","blendMode":0,"displayName":"default","isLocked":false,"name":"c6316cf0-d8fb-4e11-b277-445593d7b9ef","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_joypixelsAnimations_deluxe_32",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c2d45a3e-1795-4b6b-9eb0-d08483c74c60","path":"sprites/emj_spr_joypixelsAnimations_deluxe_32/emj_spr_joypixelsAnimations_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5ae043d8-3e69-42ff-b50c-0dd3c0390980","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"68684906-ac2d-4f5f-96ea-c84843c87fa6","path":"sprites/emj_spr_joypixelsAnimations_deluxe_32/emj_spr_joypixelsAnimations_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"717dc75f-ced9-4cec-98c4-c0f53d8ed641","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

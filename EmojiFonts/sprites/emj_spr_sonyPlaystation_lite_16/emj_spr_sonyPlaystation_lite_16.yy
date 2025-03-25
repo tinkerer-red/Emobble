@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3978ae12-6002-444e-93d8-38a1248fa7bb","name":"3978ae12-6002-444e-93d8-38a1248fa7bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e0fabc29-9851-4c5e-a7e8-192ff86d5952","name":"e0fabc29-9851-4c5e-a7e8-192ff86d5952","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":610,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"553c6466-595c-45c7-b9c7-b0543c082260","blendMode":0,"displayName":"default","isLocked":false,"name":"553c6466-595c-45c7-b9c7-b0543c082260","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"7a7737d4-3929-4599-983c-6622c4cd5e8e","blendMode":0,"displayName":"default","isLocked":false,"name":"7a7737d4-3929-4599-983c-6622c4cd5e8e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_sonyPlaystation_lite_16",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3978ae12-6002-444e-93d8-38a1248fa7bb","path":"sprites/emj_spr_sonyPlaystation_lite_16/emj_spr_sonyPlaystation_lite_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b703e29f-3678-4659-a4ca-d521a00fc93b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e0fabc29-9851-4c5e-a7e8-192ff86d5952","path":"sprites/emj_spr_sonyPlaystation_lite_16/emj_spr_sonyPlaystation_lite_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e53d01cb-d0e5-4108-8ea8-19c344fc5286","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

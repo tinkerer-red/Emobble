@@ -29,7 +29,6 @@ function scribblify_emojis(input_string, _sprite, _lookup_table) {
 		_lookup_table = script_execute(_lookup_table);
 	}
 	if (!is_struct(_lookup_table)) {
-		show_debug_message($"_sprite {typeof(_sprite)} :: {_sprite}")
 		throw $"Lookup table is not a struct :: {typeof(_lookup_table)} :: {_lookup_table}"
 	}
 	
@@ -84,17 +83,17 @@ function scribblify_emojis(input_string, _sprite, _lookup_table) {
 				var matched = false;
 
 				for (var length = emoji_len - read_pos; length > 0; length--) {
-					show_debug_message(length)
+					//show_debug_message(length)
 					//read the text of the emoji
 					buffer_copy(_emoji_buff, read_pos, length, _read_buff, 0);
 					var _candidate = buffer_read(_read_buff, buffer_text);
-					show_debug_message(_candidate)
+					//show_debug_message(_candidate)
 					buffer_resize(_read_buff, 0);
 					
-					show_debug_message($"Attempting to find _candidate :: '{_candidate}' :: {struct_exists(_lookup_table, _candidate)}")
+					//show_debug_message($"Attempting to find _candidate :: '{_candidate}' :: {struct_exists(_lookup_table, _candidate)}")
 					
 					if (_lookup_table[$ _candidate] != undefined) {
-						show_debug_message($"Found _candidate :: '{_candidate}' == {_lookup_table[$ _candidate]}")
+						//show_debug_message($"Found _candidate :: '{_candidate}' == {_lookup_table[$ _candidate]}")
 						var _replacement = _lookup_table[$ _candidate];
 						buffer_write(_output_buff, buffer_text, _replacement);
 

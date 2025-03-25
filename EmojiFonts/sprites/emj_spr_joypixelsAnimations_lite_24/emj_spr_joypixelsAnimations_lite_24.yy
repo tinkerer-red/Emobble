@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7a186005-db52-4a72-ad71-a6442123f01c","name":"7a186005-db52-4a72-ad71-a6442123f01c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"23a3fa37-b662-4711-993d-a27c009b16aa","name":"23a3fa37-b662-4711-993d-a27c009b16aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":276,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6f8faf0d-235a-45de-acaa-d9ee44e46f6b","blendMode":0,"displayName":"default","isLocked":false,"name":"6f8faf0d-235a-45de-acaa-d9ee44e46f6b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"87790efc-8f67-49bf-9e74-b3614d01a004","blendMode":0,"displayName":"default","isLocked":false,"name":"87790efc-8f67-49bf-9e74-b3614d01a004","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_joypixelsAnimations_lite_24",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7a186005-db52-4a72-ad71-a6442123f01c","path":"sprites/emj_spr_joypixelsAnimations_lite_24/emj_spr_joypixelsAnimations_lite_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"32092ae6-1351-4398-b484-650a12f539dd","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"23a3fa37-b662-4711-993d-a27c009b16aa","path":"sprites/emj_spr_joypixelsAnimations_lite_24/emj_spr_joypixelsAnimations_lite_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"01f21d1b-c686-4b16-ac66-aa6d289d7a7c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

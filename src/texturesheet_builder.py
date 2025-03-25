@@ -825,7 +825,7 @@ def generate_gml_lookup_script_text(category_slug, mode, size, key_metadata):
 
     # Generate the final GML function text
     gml_code = f"""//lt stands for Lookup Table
-function {function_name}(_key) {{
+function {function_name}() {{
 \t////////////////////////////////////////////////////////////////////////////////
 \t//This is a generated file from `generate_lookup_scripts.py` please dont modify.
 \t////////////////////////////////////////////////////////////////////////////////

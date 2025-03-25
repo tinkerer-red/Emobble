@@ -32,14 +32,14 @@ unicode_string = string_join_ext("\n", unicode_strings);
 show_debug_overlay(true);
 
 emoji_strings = [];
-emoji_strings[0] = scribblify_emojis(glyph_string, emj_spr_emojidex_deluxe_16,   emj_lt_emojidex_deluxe_16())
-emoji_strings[1] = scribblify_emojis(glyph_string, emj_spr_fluent3d_deluxe_16,   emj_lt_fluent3d_deluxe_16())
-emoji_strings[2] = scribblify_emojis(glyph_string, emj_spr_fluentFlat_deluxe_16, emj_lt_fluentFlat_deluxe_16())
-emoji_strings[3] = scribblify_emojis(glyph_string, emj_spr_icons8_deluxe_16,	 emj_lt_icons8_deluxe_16())
-emoji_strings[4] = scribblify_emojis(glyph_string, emj_spr_noto_deluxe_16,		 emj_lt_noto_deluxe_16())
-emoji_strings[5] = scribblify_emojis(glyph_string, emj_spr_openmoji_deluxe_16,	 emj_lt_openmoji_deluxe_16())
-emoji_strings[6] = scribblify_emojis(glyph_string, emj_spr_segoeUi_deluxe_16,	 emj_lt_segoeUi_deluxe_16())
-emoji_strings[7] = scribblify_emojis(glyph_string, emj_spr_twitter_deluxe_16,	 emj_lt_twitter_deluxe_16())
+emoji_strings[0] = scribblify_emojis(glyph_string, emj_spr_emojidex_deluxe_32,   emj_lt_emojidex_deluxe_32())
+emoji_strings[1] = scribblify_emojis(glyph_string, emj_spr_fluent3d_deluxe_32,   emj_lt_fluent3d_deluxe_32())
+emoji_strings[2] = scribblify_emojis(glyph_string, emj_spr_fluentFlat_deluxe_32, emj_lt_fluentFlat_deluxe_32())
+emoji_strings[3] = scribblify_emojis(glyph_string, emj_spr_icons8_deluxe_32,	 emj_lt_icons8_deluxe_32())
+emoji_strings[4] = scribblify_emojis(glyph_string, emj_spr_noto_deluxe_32,		 emj_lt_noto_deluxe_32())
+emoji_strings[5] = scribblify_emojis(glyph_string, emj_spr_openmoji_deluxe_32,	 emj_lt_openmoji_deluxe_32())
+emoji_strings[6] = scribblify_emojis(glyph_string, emj_spr_segoeUi_deluxe_32,	 emj_lt_segoeUi_deluxe_32())
+emoji_strings[7] = scribblify_emojis(glyph_string, emj_spr_twitter_deluxe_32,	 emj_lt_twitter_deluxe_32())
 
 arrays = []
 for (var i=0; i<array_length(emoji_strings); i++){
