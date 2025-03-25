@@ -4,6 +4,56 @@ function UnicodeTool(_str) {
     return new __UnicodeToolClass(_unicode_str);
 }
 
+function __uc_buffer_read_codepoint(_buff) {
+    var byte1 = buffer_read(_buff, buffer_u8);
+	
+	// 1-byte (ASCII)
+    if (byte1 < 0x80) {
+        return byte1;
+    } 
+	// 2-byte UTF-8
+    else if ((byte1 & 0xE0) == 0xC0) {
+        return ((byte1 & 0x1F) << 6)
+				| (buffer_read(_buff, buffer_u8) & 0x3F);
+    } 
+	// 3-byte UTF-8
+    else if ((byte1 & 0xF0) == 0xE0) {
+        return ((byte1 & 0x0F) << 12)
+				| ((buffer_read(_buff, buffer_u8) & 0x3F) << 6)
+				| (buffer_read(_buff, buffer_u8) & 0x3F);
+    } 
+    // 4-byte UTF-8
+	else if ((byte1 & 0xF8) == 0xF0) {
+        return ((byte1 & 0x07) << 18)
+				| ((buffer_read(_buff, buffer_u8) & 0x3F) << 12)
+				| ((buffer_read(_buff, buffer_u8) & 0x3F) << 6)
+				| (buffer_read(_buff, buffer_u8) & 0x3F);
+    }
+
+    return 0; // Invalid sequence
+}
+
+function __uc_buffer_write_codepoint(_buffer, _codepoint) {
+    if (_codepoint <= 0x7F) {
+        buffer_write(_buffer, buffer_u8, _codepoint);
+    }
+    else if (_codepoint <= 0x7FF) {
+        buffer_write(_buffer, buffer_u8, 0xC0 | (_codepoint >> 6));
+        buffer_write(_buffer, buffer_u8, 0x80 | (_codepoint & 0x3F));
+    }
+    else if (_codepoint <= 0xFFFF) {
+        buffer_write(_buffer, buffer_u8, 0xE0 | (_codepoint >> 12));
+        buffer_write(_buffer, buffer_u8, 0x80 | ((_codepoint >> 6) & 0x3F));
+        buffer_write(_buffer, buffer_u8, 0x80 | (_codepoint & 0x3F));
+    }
+    else {
+        buffer_write(_buffer, buffer_u8, 0xF0 | (_codepoint >> 18));
+        buffer_write(_buffer, buffer_u8, 0x80 | ((_codepoint >> 12) & 0x3F));
+        buffer_write(_buffer, buffer_u8, 0x80 | ((_codepoint >> 6) & 0x3F));
+        buffer_write(_buffer, buffer_u8, 0x80 | (_codepoint & 0x3F));
+    }
+}
+
 function __UnicodeToolClass(_unicode_str) constructor {
     my_unicode = _unicode_str;
     
@@ -407,7 +457,7 @@ function utf16_to_unicode(_utf16) {
                         var codepoint = to_codepoint(high_surrogate, code_unit);
 
                         // Write UTF-8 encoded character
-                        buffer_write_codepoint(output_buff, codepoint);
+                        __uc_buffer_write_codepoint(output_buff, codepoint);
                         high_surrogate = 0; // Reset after use
                         continue;
                     }
@@ -420,12 +470,12 @@ function utf16_to_unicode(_utf16) {
 					
 					if (code_unit) {
 		                // Otherwise, write as a normal Unicode character
-		                buffer_write_codepoint(output_buff, code_unit);
+		                __uc_buffer_write_codepoint(output_buff, code_unit);
 					}
 					
 					// If we stopped on an early exit unicode add that next byte after
 					if (_post_add) {
-						buffer_write_codepoint(output_buff, next_byte);
+						__uc_buffer_write_codepoint(output_buff, next_byte);
 					}
                     continue;
                 }
@@ -504,7 +554,7 @@ function utf32_to_unicode(_utf32) {
                                         (hex5 << 12) | (hex6 << 8) | (hex7 << 4) | hex8;
 
                         // **Encode as UTF-8 before writing**
-                        buffer_write_codepoint(output_buff, codepoint);
+                        __uc_buffer_write_codepoint(output_buff, codepoint);
                         continue;
                     }
                 }
@@ -618,7 +668,7 @@ function int_to_unicode(_int_str) {
         if (byte1 == -1 || i >= byte_len) {
             // Convert collected number to Unicode
             if (codepoint > 0) {
-                buffer_write_codepoint(output_buff, codepoint);
+                __uc_buffer_write_codepoint(output_buff, codepoint);
                 codepoint = 0; // Reset for next number
             }
         }
@@ -671,7 +721,7 @@ function decimal_to_unicode(_decimal) {
                     var codepoint = to_codepoint(high_surrogate, low_surrogate);
                               
                     // Write the proper UTF-8 encoded character into buffer
-                    buffer_write_codepoint(output_buff, codepoint);
+                    __uc_buffer_write_codepoint(output_buff, codepoint);
                     continue;
                 }
 				
@@ -683,7 +733,7 @@ function decimal_to_unicode(_decimal) {
 				}
 				
 				// Normal Unicode character (BMP)
-	            buffer_write_codepoint(output_buff, low_surrogate);
+	            __uc_buffer_write_codepoint(output_buff, low_surrogate);
 	            // Reset for next number
                 low_surrogate = 0;
 				continue;
@@ -703,6 +753,8 @@ function decimal_to_unicode(_decimal) {
 
     return unicode_str;
 }
+
+
 
 #region Tests 1
 /*

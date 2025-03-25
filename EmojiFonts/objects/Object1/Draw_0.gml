@@ -44,13 +44,14 @@ for(var _i=0; _i<_lines; _i+=2){
 }
 draw_set_alpha(1)
 
-// Render all
-var _off = 16, xx = 0;
-for (var i=0; i<array_length(emoji_strings); i++){
-	scribble(emoji_strings[i]).draw(xx,yy)
-	xx+=_off;
-}
+//// Render all
+var _off = 16, xx = 16;
+//for (var i=0; i<array_length(emoji_strings); i++){
+//	scribble(emoji_strings[i]).draw(xx,yy)
+//	xx+=_off;
+//}
+//
+//scribble(unicode_string).draw(xx,yy)
 
-scribble(unicode_string).draw(xx,yy)
 
-
+scribble(final_string).draw(xx,yy)

@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+//function __emj_lookup_<catagory_slug>_<mode>_<size>
+
+
 yy = 0
 
 var _arr = string_split(get_emojis(), "\n", true)
@@ -23,24 +26,37 @@ for(var _i=0; _i < _length; _i++) {
 	//name_strings[_i] = _arr[2];
 }
 
-//array_resize(glyph_strings, __SCRIBBLE_MAX_LINES-10)
-//array_resize(unicode_strings, __SCRIBBLE_MAX_LINES)
-//array_resize(name_strings, __SCRIBBLE_MAX_LINES)
-
 glyph_string = string_join_ext("\n", glyph_strings);
 unicode_string = string_join_ext("\n", unicode_strings);
-//name_string = string_join_ext("\n", name_strings);
 
-show_debug_overlay(true)
+show_debug_overlay(true);
 
-emoji_strings = []
-emoji_strings[0] = scribblify_emojis(glyph_string, __emj_emojidex_deluxe_16, __emoji_lookup_emojidex_deluxe())
-emoji_strings[1] = scribblify_emojis(glyph_string, __emj_fluent3d_deluxe_16, __emoji_lookup_fluent3d_deluxe())
-emoji_strings[2] = scribblify_emojis(glyph_string, __emj_fluentFlat_deluxe_16, __emoji_lookup_fluentFlat_deluxe())
-emoji_strings[3] = scribblify_emojis(glyph_string, __emj_icons8_deluxe_16, __emoji_lookup_icons8_deluxe())
-emoji_strings[4] = scribblify_emojis(glyph_string, __emj_noto_deluxe_16, __emoji_lookup_noto_deluxe())
-emoji_strings[5] = scribblify_emojis(glyph_string, __emj_notoMono_deluxe_16, __emoji_lookup_notoMono_deluxe())
-emoji_strings[6] = scribblify_emojis(glyph_string, __emj_openmoji_deluxe_16, __emoji_lookup_openmoji_deluxe())
-emoji_strings[7] = scribblify_emojis(glyph_string, __emj_segoeUi_deluxe_16, __emoji_lookup_segoeUi_deluxe())
-emoji_strings[8] = scribblify_emojis(glyph_string, __emj_segoeMono_deluxe_16, __emoji_lookup_segoeMono_deluxe())
-emoji_strings[9] = scribblify_emojis(glyph_string, __emj_twemoji_deluxe_16, __emoji_lookup_twemoji_deluxe())
+emoji_strings = [];
+emoji_strings[0] = scribblify_emojis(glyph_string, emj_spr_emojidex_deluxe_16,   emj_lt_emojidex_deluxe_16())
+emoji_strings[1] = scribblify_emojis(glyph_string, emj_spr_fluent3d_deluxe_16,   emj_lt_fluent3d_deluxe_16())
+emoji_strings[2] = scribblify_emojis(glyph_string, emj_spr_fluentFlat_deluxe_16, emj_lt_fluentFlat_deluxe_16())
+emoji_strings[3] = scribblify_emojis(glyph_string, emj_spr_icons8_deluxe_16,	 emj_lt_icons8_deluxe_16())
+emoji_strings[4] = scribblify_emojis(glyph_string, emj_spr_noto_deluxe_16,		 emj_lt_noto_deluxe_16())
+emoji_strings[5] = scribblify_emojis(glyph_string, emj_spr_openmoji_deluxe_16,	 emj_lt_openmoji_deluxe_16())
+emoji_strings[6] = scribblify_emojis(glyph_string, emj_spr_segoeUi_deluxe_16,	 emj_lt_segoeUi_deluxe_16())
+emoji_strings[7] = scribblify_emojis(glyph_string, emj_spr_twitter_deluxe_16,	 emj_lt_twitter_deluxe_16())
+
+arrays = []
+for (var i=0; i<array_length(emoji_strings); i++){
+	arrays[i] = string_split(emoji_strings[i], "\n");
+}
+
+// now rejoin the string back into the same lines with the unicode
+final_lines = [];
+
+for (var i = 0; i < array_length(arrays[0]); i++) {
+	var joined = "";
+	for (var j = 0; j < array_length(arrays); j++) {
+		//if (j != 0) joined += "|";
+		joined += arrays[j][i];
+	}
+	joined += unicode_strings[i];
+	final_lines[i] = joined;
+}
+
+final_string = string_join_ext("\n", final_lines)

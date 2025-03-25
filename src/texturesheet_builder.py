@@ -37,7 +37,7 @@ MODES = ["deluxe", "full", "lite"]
 PADDING = 1  # 1px padding on each side (total 2px margin)
 
 FONT_OFFSET_KEY = 33 # Which codepoint to start counting for font texture sheet generation
-FONT_INLUDE_SPACE = False
+FONT_INCLUDE_SPACE = False
 
 # Ensure required directories exist
 os.makedirs(FONTS_DIR, exist_ok=True)
@@ -150,75 +150,134 @@ def all_output_files_exist(base_dir, category, modes, sizes):
 
 #region -- Crop Images ------------------------------------------------------------------------------
 
-def calculate_cropping_bounds(images, keys, outlier_percentile=95):
-    """Determine the tightest bounding box across images after removing outliers."""
-    bbox_data = []
+def calculate_image_cropping_bounds(images):
+    """
+    Calculates per-image bounding box and size from alpha channel.
+    Returns:
+        List of tuples: (left, top, right, bottom, width, height)
+        (If keys are given, aligns 1:1 with them)
+    """
+    bounds = []
 
-    for image, key in zip(images, keys):
-        alpha = image.split()[-1].point(lambda p: 255 if p > 127 else 0, "1")
+    for i, img in enumerate(images):
+        alpha = img.split()[-1].point(lambda p: 255 if p > 127 else 0, "1")
         bbox = alpha.getbbox()
 
         if bbox:
             left, top, right, bottom = bbox
-            width, height = right - left, bottom - top
-            bbox_data.append((left, top, right, bottom, width, height))
+            width = right - left
+            height = bottom - top
+            bounds.append((left, top, right, bottom, width, height))
+        else:
+            bounds.append(None)
+
+    return bounds
+
+def crop_images_to_box(images, crop_box):
+    """
+    Crop all images to the same shared box.
+    """
+    return [img.crop(crop_box) for img in images]
+
+def resize_cropped_images(images, bounds, scale):
+    """
+    Resizes each image by a constant scale factor, preserving aspect ratio.
+    Proportionally scales each bounding box as well.
+
+    Args:
+        images (List[Image]): The input cropped images.
+        bounds (List[Tuple|None]): Bounding boxes in (left, top, right, bottom, width, height).
+        scale (float): Scale factor to apply to width/height.
+
+    Returns:
+        Tuple[List[Image], List[Tuple|None]]: (resized images, scaled bounds)
+    """
+    resized_images = []
+    resized_bounds = []
+
+    for img, bbox in zip(images, bounds):
+        original_width, original_height = img.width, img.height
+        new_width = int(math.ceil(original_width * scale))
+        new_height = int(math.ceil(original_height * scale))
+
+        resized_img = img.resize((new_width, new_height), Image.LANCZOS)
+        resized_images.append(resized_img)
+
+        if bbox is not None:
+            left, top, right, bottom, width, height = bbox
+            scaled_bbox = (
+                left * scale,
+                top * scale,
+                right * scale,
+                bottom * scale,
+                width * scale,
+                height * scale
+            )
+        else:
+            scaled_bbox = None
+
+        resized_bounds.append(scaled_bbox)
+
+    return resized_images, resized_bounds
+
+
+def calculate_global_cropping_bounds(images, outlier_percentile=95):
+    """
+    Determines a shared cropping box for all images, removing outliers.
+    """
+    bbox_data = calculate_image_cropping_bounds(images)
+    bbox_data = [b for b in bbox_data if b is not None]
 
     if not bbox_data:
         log.debug("No bounding boxes found.")
         return None
 
-    widths = [entry[4] for entry in bbox_data]
-    heights = [entry[5] for entry in bbox_data]
+    widths = [b[4] for b in bbox_data]
+    heights = [b[5] for b in bbox_data]
 
     width_thresh = np.percentile(widths, outlier_percentile)
     height_thresh = np.percentile(heights, outlier_percentile)
 
-    filtered = [entry for entry in bbox_data if entry[4] <= width_thresh and entry[5] <= height_thresh]
+    filtered = [b for b in bbox_data if b[4] <= width_thresh and b[5] <= height_thresh]
     if not filtered:
         filtered = bbox_data
 
-    min_left = min(entry[0] for entry in filtered)
-    min_top = min(entry[1] for entry in filtered)
-    max_right = max(entry[2] for entry in filtered)
-    max_bottom = max(entry[3] for entry in filtered)
+    min_left = min(b[0] for b in filtered)
+    min_top = min(b[1] for b in filtered)
+    max_right = max(b[2] for b in filtered)
+    max_bottom = max(b[3] for b in filtered)
 
     return (min_left, min_top, max_right, max_bottom)
 
-def crop_and_center_images(images, crop_box):
-    """Crop all images to the given bounding box and center them in square canvases."""
-    min_left, min_top, max_right, max_bottom = crop_box
-    crop_width = max_right - min_left
-    crop_height = max_bottom - min_top
-    max_dim = max(crop_width, crop_height)
+def crop_images_to_individual_boxes(images, bounds):
+    """
+    Crop each image using its own bounding box.
+    If the bounding box is None (fully transparent), a copy of the original image is returned.
+    
+    Args:
+        images (List[Image]): List of PIL Image objects.
+        bounds (List[Tuple|None]): List of bounding boxes in the format 
+            (left, top, right, bottom, width, height) or None if fully transparent.
+    
+    Returns:
+        List[Image]: List of cropped images.
+    """
+    cropped_images = []
 
-    result = []
+    for img, bbox in zip(images, bounds):
+        if bbox is not None:
+            left, top, right, bottom, _, _ = bbox
+            cropped = img.crop((left, top, right, bottom))
+        else:
+            cropped = img.copy()
 
-    for image in images:
-        cropped = image.crop((min_left, min_top, max_right, max_bottom))
-        square = Image.new("RGBA", (max_dim, max_dim), (0, 0, 0, 0))
+        cropped_images.append(cropped)
 
-        offset_x = (max_dim - crop_width) // 2
-        offset_y = (max_dim - crop_height) // 2
-
-        square.paste(cropped, (offset_x, offset_y), mask=cropped)
-        result.append(square)
-
-    return result
+    return cropped_images
 
 def resize_images(images, final_size):
     """Resize each image to a square of final_size × final_size."""
     return [img.resize((final_size, final_size), Image.LANCZOS) for img in images]
-
-def crop_images(images, keys, final_size=64, outlier_percentile=95):
-    """Crops all images to the tightest bounding box and centers them in a square canvas."""
-    crop_box = calculate_cropping_bounds(images, keys, outlier_percentile)
-    if crop_box:
-        cropped = crop_and_center_images(images, crop_box)
-        cropped_images = resize_images(cropped, final_size)
-    else:
-        cropped_images = images  # fallback to originals if bounding box fails
-
-    return cropped_images
 
 #endregion
 
@@ -522,7 +581,7 @@ def create_composite_font_sheet(images, keys, size):
             return current
 
     # Optionally insert space glyph
-    if FONT_INLUDE_SPACE:
+    if FONT_INCLUDE_SPACE:
         glyph_data[32] = {
             "character": 32,
             "x": 0,
@@ -664,6 +723,126 @@ def generate_font_sheet(category, images, keys, size, mode="deluxe"):
 
 #endregion
 
+#region -- Texture Map ---------------------------------------------------------------------------------------------------------
+
+def get_largest_image_dimension(images, padding):
+    """
+    Compute the largest single image dimension (width or height), including padding.
+    This ensures the atlas is at least large enough to fit the largest image.
+    """
+    max_dim = 0
+    for img in images:
+        padded_width = img.width + padding * 2
+        padded_height = img.height + padding * 2
+        max_dim = max(max_dim, padded_width, padded_height)
+
+    return max_dim
+
+def estimate_initial_atlas_size(images, padding):
+    """
+    Estimates the initial square atlas size based on total pixel volume.
+    Uses sqrt(total_area) as the side length.
+    """
+    total_area = 0
+    for img in images:
+        w = img.width + padding * 2
+        h = img.height + padding * 2
+        total_area += w * h
+
+    return int(math.ceil(math.sqrt(total_area)))
+
+def pack_texture_images(images, keys, padding=1):
+    """
+    Packs a list of variable-sized images into a square texture atlas.
+    Returns:
+        (Image, dict): composite image and metadata {key: {x, y, w, h}}
+    """
+    assert len(images) == len(keys)
+
+    # Sort images by area (width * height), largest first
+    sortable = sorted(
+        zip(images, keys),
+        key=lambda pair: pair[0].width * pair[0].height,
+        reverse=True
+    )
+    sorted_images, sorted_keys = zip(*sortable)
+
+    initial_guess_size = estimate_initial_atlas_size(sorted_images, padding)
+    largest_dim = get_largest_image_dimension(sorted_images, padding)
+    atlas_size = max(64, initial_guess_size)  # start at 64x64 minimum
+
+    while True:
+        atlas = Image.new("RGBA", (atlas_size, atlas_size), (0, 0, 0, 0))
+        metadata = {}
+        placement_plan = []
+
+        x = y = row_height = 0
+        success = True
+
+        for image, key in zip(sorted_images, sorted_keys):
+            padded_w = image.width + padding * 2
+            padded_h = image.height + padding * 2
+
+            if x + padded_w > atlas_size:
+                x = 0
+                y += row_height
+                row_height = 0
+
+            if y + padded_h > atlas_size:
+                success = False
+                break
+
+            placement_plan.append((image, key, x + padding, y + padding))
+            metadata[key] = {
+                "x": x + padding,
+                "y": y + padding,
+                "w": image.width,
+                "h": image.height
+            }
+
+            x += padded_w
+            row_height = max(row_height, padded_h)
+
+        if success:
+            for image, key, px, py in placement_plan:
+                atlas.paste(image, (px, py), mask=image)
+            return atlas, metadata
+        else:
+            #extremely slow, but this produces the best possible fit.
+            atlas_size += 1
+
+def generate_gml_lookup_script_text(category_slug, mode, size, key_metadata):
+    """
+    Generates the GML source code for a lookup function using key metadata.
+    Returns the GML function as a string.
+    """
+    function_name = f"emj_lt_{category_slug}_{mode}_{size}"
+    sprite_name = f"emj_spr_{category_slug}_{mode}_{size}"
+
+    # Convert to JSON and escape for GML string
+    raw_json = json.dumps(key_metadata, ensure_ascii=True)
+    escaped_json = raw_json.replace("\\", "\\\\").replace("\"", "\\\"")
+
+    # Generate the final GML function text
+    gml_code = f"""//lt stands for Lookup Table
+function {function_name}(_key) {{
+\t////////////////////////////////////////////////////////////////////////////////
+\t//This is a generated file from `generate_lookup_scripts.py` please dont modify.
+\t////////////////////////////////////////////////////////////////////////////////
+\tstatic lookup = undefined
+\tif is_undefined(lookup) {{
+\t\tlookup = json_parse("{escaped_json}");
+\t\t__emj_build_format_tags_for_lookup_table(lookup, "{sprite_name}")
+\t}}
+\treturn lookup;
+}}"""
+    
+    return gml_code
+
+
+
+#endregion
+
 #region -- Generation Main Function  ----------------------------------------------------------------------------------------------------------
 
 def generate_all_sprite_textures():
@@ -714,7 +893,6 @@ def generate_all_sprite_textures():
         
         log.info(f"✅ Processed {image_count} images for category '{category}'.")
 
-
 def generate_all_font_textures():
     """Generate font texture sheets for all fonts with all tiers and sizes."""
 
@@ -743,7 +921,8 @@ def generate_all_font_textures():
     # Dont handle font based emoji sets, because those could simply be included in a GML since they are already valid
     
     # Generate resource_order file
-    resource_lines = []
+    resource_order_lines = []
+    resources_lines = []
     order = 0
     for mode in MODES:
         base_dir = {
@@ -759,20 +938,191 @@ def generate_all_font_textures():
                 if file.endswith(".yy"):
                     name = os.path.splitext(file)[0]
                     rel_path = os.path.relpath(os.path.join("fonts", name, font_name, file)).replace("\\", "/")
-                    resource_lines.append(f'{{"name":"{name}","order":{order},"path":"{rel_path}",}},')
+                    resource_order_lines.append(f'{{"name":"{name}","order":{order},"path":"{rel_path}",}},')
+                    resources_lines.append(f'{{"name":"{name}","path":"{rel_path}",}},')
                     order += 1
 
-    resource_path = os.path.join(FONT_SHEETS_DIR, "resource_order.txt")
-    with open(resource_path, "w", encoding="utf-8") as f:
-        f.write("\n".join(resource_lines))
-    log.info(f"📄 Saved resource order: {resource_path}")
+    resource_order_path = os.path.join(FONT_SHEETS_DIR, "resource_order.txt")
+    with open(resource_order_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(resource_order_lines))
+    log.info(f"📄 Saved resource order: {resource_order_path}")
+
+    resources_path = os.path.join(FONT_SHEETS_DIR, "resources.txt")
+    with open(resources_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(resources_lines))
+    log.info(f"📄 Saved resource order: {resources_path}")
 
     log.info("🎉 Font texture generation complete!")
-    
+
+def generate_texture_map(data_map):
+    """
+    Generate tightly packed texture maps (PNG) and GML lookup scripts for all categories.
+    PNGs are tightly cropped and saved alongside a generated GML script.
+    """
+    texture_sheet_output_root = os.path.join(ASSETS_DIR, "Texture Sheets")
+    os.makedirs(texture_sheet_output_root, exist_ok=True)
+
+    for category_name, category_data in data_map.items():
+        for mode_name, mode_group in category_data["tight_processed"].items():
+            for size_value, size_entry in mode_group.items():
+                emoji_images = size_entry["images"]
+                emoji_keys = size_entry["keys"]
+                emoji_bounds = size_entry["bounds"]
+
+                # Pack the texture sheet
+                packed_image, key_metadata = pack_texture_images(
+                    emoji_images,
+                    emoji_keys,
+                    PADDING,
+                )
+
+                # ✂️ Crop empty borders from final atlas (with padding)
+                crop_box = packed_image.getbbox()
+                if crop_box:
+                    left = max(0, crop_box[0] - PADDING)
+                    top = max(0, crop_box[1] - PADDING)
+                    right = min(packed_image.width, crop_box[2] + PADDING)
+                    bottom = min(packed_image.height, crop_box[3] + PADDING)
+                    packed_image = packed_image.crop((left, top, right, bottom))
+
+                # Folder path: Texture Sheets\Mode\Size\Category
+                output_folder = os.path.join(
+                    texture_sheet_output_root,
+                    mode_name.capitalize(),
+                    str(size_value),
+                    category_name
+                )
+                os.makedirs(output_folder, exist_ok=True)
+
+                filename_slug = f"{category_data['slug']}_{mode_name}_{size_value}"
+                sprite_name = f"emj_spr_{filename_slug}"
+                gml_function_name = f"emj_lt_{filename_slug}"
+
+                # Final output paths
+                png_output_path = os.path.join(output_folder, f"{sprite_name}.png")
+                gml_output_path = os.path.join(output_folder, f"{gml_function_name}.gml")
+
+                # Save cropped sprite sheet
+                packed_image.save(png_output_path)
+
+                # Generate and save GML script with inline lookup metadata
+                gml_script = generate_gml_lookup_script_text(
+                    category_slug=category_data["slug"],
+                    mode=mode_name,
+                    size=size_value,
+                    key_metadata=key_metadata
+                )
+                with open(gml_output_path, "w", encoding="utf-8") as gml_file:
+                    gml_file.write(gml_script)
+
+                log.info(f"✅ Saved cropped atlas and GML for {filename_slug}")
+
+
 #endregion
 
-if __name__ == "__main__":
-    generate_all_sprite_textures()
-    generate_all_font_textures()
+def build_category_data_map(modes=MODES, sizes=TEXTURE_SIZES, outlier_percentile=95):
+    """
+    Builds a fully processed data map for all emoji categories, organized by mode and size.
+    Includes original images, center-cropped + tight-cropped versions, and resized variants.
+    """
+    data_map = {}
 
+    for category in os.listdir(PNG_DIR):
+        category_path = os.path.join(PNG_DIR, category)
+        if not os.path.isdir(category_path):
+            continue
+
+        images, keys = load_png_images(category)
+        if not images or not keys:
+            log.warning(f"⚠️ No valid images found in category: {category}")
+            continue
+        
+        images, keys = sort_emojis_by_key(images, keys)
+        slug = to_camel_case(category)
+
+        # --- CENTER CROPPING ---
+        crop_box = calculate_global_cropping_bounds(images, outlier_percentile)
+        if crop_box is None:
+            log.warning(f"⚠️ Skipping category '{category}' due to missing crop box.")
+            continue
+
+        center_cropped = crop_images_to_box(images, crop_box)
+
+        # --- TIGHT CROPPING ---
+        tight_bounds = calculate_image_cropping_bounds(images)
+        tight_cropped = crop_images_to_individual_boxes(images, tight_bounds)
+
+        # --- Initialize category entry ---
+        category_data = {
+            "name": category,
+            "slug": slug,
+            "path": category_path,
+            "image_count": len(images),
+            "original": {
+                "images": images,
+                "keys": keys
+            },
+            "cropping": {
+                "tight_cropped_images": tight_cropped,
+                "center_cropped_images": center_cropped,
+                "bounding_box": crop_box
+            },
+            "processed": {},
+            "tight_processed": {}
+        }
+
+        for mode in modes:
+            # Center-cropped variants (square uniform)
+            mode_images, mode_keys = filter_sprite_inputs(center_cropped, keys, mode)
+            if mode_images:
+                category_data["processed"][mode] = {}
+                for size in sizes:
+                    resized = resize_images(mode_images, size)
+                    category_data["processed"][mode][size] = {
+                        "images": resized,
+                        "keys": mode_keys
+                    }
+
+            # Tight-cropped variants (preserve aspect ratio, scale per size)
+            tight_mode_images, _unsued = filter_sprite_inputs(tight_cropped, keys, mode)
+            if tight_mode_images:
+                category_data["tight_processed"][mode] = {}
+
+                for size in sizes:
+                    scale_factors = [size / img.height for img in images]
+                    tight_resized, scaled_bounds = resize_cropped_images(
+                        tight_mode_images,
+                        tight_bounds,
+                        scale=scale_factors[0] if len(set(scale_factors)) == 1 else 1.0  # fallback safety
+                    )
+
+                    # If mixed scales (i.e., per-image scaling), override with per-image scaling loop
+                    if len(set(scale_factors)) > 1:
+                        tight_resized = []
+                        scaled_bounds = []
+                        for img, bbox, scale in zip(tight_mode_images, tight_bounds, scale_factors):
+                            img_list, bound_list = resize_cropped_images([img], [bbox], scale)
+                            tight_resized.append(img_list[0])
+                            scaled_bounds.append(bound_list[0])
+
+                    category_data["tight_processed"][mode][size] = {
+                        "images": tight_resized,
+                        "keys": mode_keys,
+                        "bounds": scaled_bounds
+                    }
+
+        data_map[category] = category_data
+        log.info(f"📦 Preprocessed category '{category}' with {category_data['image_count']} emojis.")
+
+    return data_map
+
+
+if __name__ == "__main__":
+    data_map = build_category_data_map()
+    generate_texture_map(data_map)
+    #generate_sprite_textures(data_map)
+    #generate_font_textures(data_map)
+    
     log.info("🎉 Texture generation complete!")
+
+

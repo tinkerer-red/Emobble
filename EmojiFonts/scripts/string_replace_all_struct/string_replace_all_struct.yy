@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"string_replace_all_struct",
   "parent":{
-    "name":"Scribble Emojis",
-    "path":"folders/Scribble Emojis.yy",
+    "name":"EmojiFonts",
+    "path":"EmojiFonts.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

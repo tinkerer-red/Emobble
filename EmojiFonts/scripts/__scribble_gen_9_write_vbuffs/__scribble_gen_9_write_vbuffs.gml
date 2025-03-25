@@ -322,7 +322,7 @@ function __scribble_gen_9_write_vbuffs()
                 var _j = _image_index;
                 repeat((_image_speed > 0)? _sprite_number : 1) //Only draw one image if we have an image speed of 0 since we're not animating
                 {
-                    var _glyph_texture = __scribble_sprite_get_texture(_sprite_index, _j);
+                    var _glyph_texture = sprite_get_texture(_sprite_index, _j);
                     
                     var _uvs = sprite_get_uvs(_sprite_index, _j);
                     var _quad_u0 = _uvs[0];
@@ -372,6 +372,38 @@ function __scribble_gen_9_write_vbuffs()
             }
             else if (_glyph_ord == __SCRIBBLE_GLYPH_SURFACE)
             {
+                if (SCRIBBLE_ALLOW_TEXT_GETTER)
+                {
+                    buffer_write(_string_buffer, buffer_u8, 0x1A); //Unicode/ASCII "substitute character"
+                }
+                
+                __SCRIBBLE_VBUFF_READ_GLYPH;
+                
+                if (!SCRIBBLE_COLORIZE_SPRITES)
+                {
+                    var _old_write_colour       = _write_colour;
+                    var _old_glyph_effect_flags = _glyph_effect_flags;
+                    
+                    _write_colour = _write_colour | 0xFFFFFF;
+                    
+                    _glyph_effect_flags = ~_glyph_effect_flags;
+                    _glyph_effect_flags |= (1 << _effects_map[? "rainbow"]);
+                    _glyph_effect_flags |= (1 << _effects_map[? "cycle"  ]);
+                    _glyph_effect_flags = ~_glyph_effect_flags;
+                }
+                
+                __SCRIBBLE_VBUFF_WRITE_GLYPH;
+                
+                if (!SCRIBBLE_COLORIZE_SPRITES)
+                {
+                    _write_colour       = _old_write_colour;
+                    _glyph_effect_flags = _old_glyph_effect_flags;
+                }
+            }
+            else if (_glyph_ord == __SCRIBBLE_GLYPH_TEXTURE)
+            {
+				//arguably this could be in the same check as surface, but for future distinction better to seporate the code.
+				
                 if (SCRIBBLE_ALLOW_TEXT_GETTER)
                 {
                     buffer_write(_string_buffer, buffer_u8, 0x1A); //Unicode/ASCII "substitute character"
