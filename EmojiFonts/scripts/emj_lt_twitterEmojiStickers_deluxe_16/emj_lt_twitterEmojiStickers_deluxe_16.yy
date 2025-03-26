@@ -6,7 +6,7 @@
   "name":"emj_lt_twitterEmojiStickers_deluxe_16",
   "parent":{
     "name":"Twitter Emoji Stickers",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/16/Twitter Emoji Stickers.yy",
+    "path":"folders/Emobble/Assets/Deluxe/16/Twitter Emoji Stickers.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

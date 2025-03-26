@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Segoe UI",
-    "path":"folders/Scribble Emojis/Assets/Lite/32/Segoe UI.yy",
+    "path":"folders/Emobble/Assets/Lite/32/Segoe UI.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

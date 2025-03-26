@@ -6,7 +6,7 @@
   "name":"emj_lt_segoeUi_lite_16",
   "parent":{
     "name":"Segoe UI",
-    "path":"folders/Scribble Emojis/Assets/Lite/16/Segoe UI.yy",
+    "path":"folders/Emobble/Assets/Lite/16/Segoe UI.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Skype",
-    "path":"folders/Scribble Emojis/Assets/Lite/24/Skype.yy",
+    "path":"folders/Emobble/Assets/Lite/24/Skype.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Facebook",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/16/Facebook.yy",
+    "path":"folders/Emobble/Assets/Deluxe/16/Facebook.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

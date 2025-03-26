@@ -6,7 +6,7 @@
   "name":"emj_lt_discord_full_24",
   "parent":{
     "name":"Discord",
-    "path":"folders/Scribble Emojis/Assets/Full/24/Discord.yy",
+    "path":"folders/Emobble/Assets/Full/24/Discord.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

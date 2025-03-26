@@ -6,7 +6,7 @@
   "name":"emj_lt_huawei_deluxe_32",
   "parent":{
     "name":"Huawei",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/32/Huawei.yy",
+    "path":"folders/Emobble/Assets/Deluxe/32/Huawei.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

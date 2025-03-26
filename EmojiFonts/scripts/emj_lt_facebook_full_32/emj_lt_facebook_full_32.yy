@@ -6,7 +6,7 @@
   "name":"emj_lt_facebook_full_32",
   "parent":{
     "name":"Facebook",
-    "path":"folders/Scribble Emojis/Assets/Full/32/Facebook.yy",
+    "path":"folders/Emobble/Assets/Full/32/Facebook.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -6,7 +6,7 @@
   "name":"emj_lt_twitter_full_24",
   "parent":{
     "name":"Twitter",
-    "path":"folders/Scribble Emojis/Assets/Full/24/Twitter.yy",
+    "path":"folders/Emobble/Assets/Full/24/Twitter.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

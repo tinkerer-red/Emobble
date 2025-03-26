@@ -6,7 +6,7 @@
   "name":"emj_lt_lg_deluxe_16",
   "parent":{
     "name":"LG",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/16/LG.yy",
+    "path":"folders/Emobble/Assets/Deluxe/16/LG.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

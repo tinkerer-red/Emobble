@@ -6,7 +6,7 @@
   "name":"emj_lt_nec_full_16",
   "parent":{
     "name":"NEC",
-    "path":"folders/Scribble Emojis/Assets/Full/16/NEC.yy",
+    "path":"folders/Emobble/Assets/Full/16/NEC.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

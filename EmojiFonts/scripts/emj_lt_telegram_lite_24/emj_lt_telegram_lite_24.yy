@@ -6,7 +6,7 @@
   "name":"emj_lt_telegram_lite_24",
   "parent":{
     "name":"Telegram",
-    "path":"folders/Scribble Emojis/Assets/Lite/24/Telegram.yy",
+    "path":"folders/Emobble/Assets/Lite/24/Telegram.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

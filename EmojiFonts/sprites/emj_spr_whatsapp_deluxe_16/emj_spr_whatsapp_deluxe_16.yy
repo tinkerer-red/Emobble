@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"WhatsApp",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/16/WhatsApp.yy",
+    "path":"folders/Emobble/Assets/Deluxe/16/WhatsApp.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

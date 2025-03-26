@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Toss Face",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/32/Toss Face.yy",
+    "path":"folders/Emobble/Assets/Deluxe/32/Toss Face.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

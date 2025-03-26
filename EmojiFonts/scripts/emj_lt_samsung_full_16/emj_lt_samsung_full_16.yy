@@ -6,7 +6,7 @@
   "name":"emj_lt_samsung_full_16",
   "parent":{
     "name":"Samsung",
-    "path":"folders/Scribble Emojis/Assets/Full/16/Samsung.yy",
+    "path":"folders/Emobble/Assets/Full/16/Samsung.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

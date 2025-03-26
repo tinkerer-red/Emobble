@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Telegram",
-    "path":"folders/Scribble Emojis/Assets/Lite/32/Telegram.yy",
+    "path":"folders/Emobble/Assets/Lite/32/Telegram.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

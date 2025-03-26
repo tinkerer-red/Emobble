@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Sony Playstation",
-    "path":"folders/Scribble Emojis/Assets/Full/24/Sony Playstation.yy",
+    "path":"folders/Emobble/Assets/Full/24/Sony Playstation.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

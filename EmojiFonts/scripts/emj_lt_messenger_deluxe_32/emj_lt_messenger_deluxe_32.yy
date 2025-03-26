@@ -6,7 +6,7 @@
   "name":"emj_lt_messenger_deluxe_32",
   "parent":{
     "name":"Messenger",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/32/Messenger.yy",
+    "path":"folders/Emobble/Assets/Deluxe/32/Messenger.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

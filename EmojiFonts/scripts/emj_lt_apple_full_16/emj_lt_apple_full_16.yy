@@ -6,7 +6,7 @@
   "name":"emj_lt_apple_full_16",
   "parent":{
     "name":"Apple",
-    "path":"folders/Scribble Emojis/Assets/Full/16/Apple.yy",
+    "path":"folders/Emobble/Assets/Full/16/Apple.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -6,7 +6,7 @@
   "name":"emj_lt_fluentFlat_lite_24",
   "parent":{
     "name":"Fluent Flat",
-    "path":"folders/Scribble Emojis/Assets/Lite/24/Fluent Flat.yy",
+    "path":"folders/Emobble/Assets/Lite/24/Fluent Flat.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

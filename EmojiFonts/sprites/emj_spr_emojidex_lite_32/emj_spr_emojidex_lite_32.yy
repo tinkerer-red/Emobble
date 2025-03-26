@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"emojidex",
-    "path":"folders/Scribble Emojis/Assets/Lite/32/emojidex.yy",
+    "path":"folders/Emobble/Assets/Lite/32/emojidex.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

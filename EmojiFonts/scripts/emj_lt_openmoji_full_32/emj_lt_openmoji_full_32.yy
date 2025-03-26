@@ -6,7 +6,7 @@
   "name":"emj_lt_openmoji_full_32",
   "parent":{
     "name":"OpenMoji",
-    "path":"folders/Scribble Emojis/Assets/Full/32/OpenMoji.yy",
+    "path":"folders/Emobble/Assets/Full/32/OpenMoji.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

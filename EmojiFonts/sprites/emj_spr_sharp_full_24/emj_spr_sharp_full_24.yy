@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Sharp",
-    "path":"folders/Scribble Emojis/Assets/Full/24/Sharp.yy",
+    "path":"folders/Emobble/Assets/Full/24/Sharp.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

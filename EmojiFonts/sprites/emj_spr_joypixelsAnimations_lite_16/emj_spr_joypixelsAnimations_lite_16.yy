@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"JoyPixels Animations",
-    "path":"folders/Scribble Emojis/Assets/Lite/16/JoyPixels Animations.yy",
+    "path":"folders/Emobble/Assets/Lite/16/JoyPixels Animations.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"OpenMoji",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/16/OpenMoji.yy",
+    "path":"folders/Emobble/Assets/Deluxe/16/OpenMoji.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

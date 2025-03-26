@@ -6,7 +6,7 @@
   "name":"emj_lt_mozilla_full_24",
   "parent":{
     "name":"Mozilla",
-    "path":"folders/Scribble Emojis/Assets/Full/24/Mozilla.yy",
+    "path":"folders/Emobble/Assets/Full/24/Mozilla.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

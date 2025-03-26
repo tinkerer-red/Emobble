@@ -6,7 +6,7 @@
   "name":"emj_lt_twitter_lite_32",
   "parent":{
     "name":"Twitter",
-    "path":"folders/Scribble Emojis/Assets/Lite/32/Twitter.yy",
+    "path":"folders/Emobble/Assets/Lite/32/Twitter.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

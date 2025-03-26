@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"SoftBank",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/32/SoftBank.yy",
+    "path":"folders/Emobble/Assets/Deluxe/32/SoftBank.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -6,7 +6,7 @@
   "name":"emj_lt_noto_lite_24",
   "parent":{
     "name":"Noto",
-    "path":"folders/Scribble Emojis/Assets/Lite/24/Noto.yy",
+    "path":"folders/Emobble/Assets/Lite/24/Noto.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Mozilla",
-    "path":"folders/Scribble Emojis/Assets/Lite/32/Mozilla.yy",
+    "path":"folders/Emobble/Assets/Lite/32/Mozilla.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

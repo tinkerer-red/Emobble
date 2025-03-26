@@ -6,7 +6,7 @@
   "name":"emj_lt_microsoftTeams_deluxe_32",
   "parent":{
     "name":"Microsoft Teams",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/32/Microsoft Teams.yy",
+    "path":"folders/Emobble/Assets/Deluxe/32/Microsoft Teams.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -6,7 +6,7 @@
   "name":"emj_lt_telegram_deluxe_32",
   "parent":{
     "name":"Telegram",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/32/Telegram.yy",
+    "path":"folders/Emobble/Assets/Deluxe/32/Telegram.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Emojipedia Sample Images",
-    "path":"folders/Scribble Emojis/Assets/Lite/16/Emojipedia Sample Images.yy",
+    "path":"folders/Emobble/Assets/Lite/16/Emojipedia Sample Images.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

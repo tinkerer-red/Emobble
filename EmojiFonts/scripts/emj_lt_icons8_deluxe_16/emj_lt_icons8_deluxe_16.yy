@@ -6,7 +6,7 @@
   "name":"emj_lt_icons8_deluxe_16",
   "parent":{
     "name":"Icons8",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/16/Icons8.yy",
+    "path":"folders/Emobble/Assets/Deluxe/16/Icons8.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

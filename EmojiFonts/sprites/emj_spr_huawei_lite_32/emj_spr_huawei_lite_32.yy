@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Huawei",
-    "path":"folders/Scribble Emojis/Assets/Lite/32/Huawei.yy",
+    "path":"folders/Emobble/Assets/Lite/32/Huawei.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

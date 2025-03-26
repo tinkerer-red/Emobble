@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Messenger",
-    "path":"folders/Scribble Emojis/Assets/Full/24/Messenger.yy",
+    "path":"folders/Emobble/Assets/Full/24/Messenger.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -6,7 +6,7 @@
   "name":"emj_lt_sonyPlaystation_full_16",
   "parent":{
     "name":"Sony Playstation",
-    "path":"folders/Scribble Emojis/Assets/Full/16/Sony Playstation.yy",
+    "path":"folders/Emobble/Assets/Full/16/Sony Playstation.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

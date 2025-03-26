@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Microsoft Teams",
-    "path":"folders/Scribble Emojis/Assets/Lite/32/Microsoft Teams.yy",
+    "path":"folders/Emobble/Assets/Lite/32/Microsoft Teams.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

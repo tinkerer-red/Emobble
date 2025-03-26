@@ -54,5 +54,5 @@ var _off = 16, xx = 16;
 //scribble(unicode_string).draw(xx,yy)
 
 gpu_set_tex_filter(true)
-scribble(final_string).draw(xx,yy)
+scribble(emoji_str).draw(xx,yy)
 gpu_set_tex_filter(false)

@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Fluent Flat",
-    "path":"folders/Scribble Emojis/Assets/Full/32/Fluent Flat.yy",
+    "path":"folders/Emobble/Assets/Full/32/Fluent Flat.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

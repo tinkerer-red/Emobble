@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Docomo",
-    "path":"folders/Scribble Emojis/Assets/Lite/24/Docomo.yy",
+    "path":"folders/Emobble/Assets/Lite/24/Docomo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

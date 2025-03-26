@@ -6,7 +6,7 @@
   "name":"emj_lt_docomo_lite_16",
   "parent":{
     "name":"Docomo",
-    "path":"folders/Scribble Emojis/Assets/Lite/16/Docomo.yy",
+    "path":"folders/Emobble/Assets/Lite/16/Docomo.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"LG",
-    "path":"folders/Scribble Emojis/Assets/Full/32/LG.yy",
+    "path":"folders/Emobble/Assets/Full/32/LG.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

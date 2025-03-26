@@ -6,7 +6,7 @@
   "name":"emj_lt_twitter_deluxe_24",
   "parent":{
     "name":"Twitter",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/24/Twitter.yy",
+    "path":"folders/Emobble/Assets/Deluxe/24/Twitter.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

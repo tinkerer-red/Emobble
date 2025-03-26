@@ -6,7 +6,7 @@
   "name":"emj_lt_serenityos_deluxe_16",
   "parent":{
     "name":"SerenityOS",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/16/SerenityOS.yy",
+    "path":"folders/Emobble/Assets/Deluxe/16/SerenityOS.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

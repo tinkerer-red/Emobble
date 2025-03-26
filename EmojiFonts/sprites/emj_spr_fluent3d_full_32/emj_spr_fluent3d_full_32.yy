@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Fluent3D",
-    "path":"folders/Scribble Emojis/Assets/Full/32/Fluent3D.yy",
+    "path":"folders/Emobble/Assets/Full/32/Fluent3D.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

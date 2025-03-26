@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Twitter Emoji Stickers",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/16/Twitter Emoji Stickers.yy",
+    "path":"folders/Emobble/Assets/Deluxe/16/Twitter Emoji Stickers.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

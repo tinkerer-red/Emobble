@@ -6,7 +6,7 @@
   "name":"emj_lt_joypixelsAnimations_deluxe_24",
   "parent":{
     "name":"JoyPixels Animations",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/24/JoyPixels Animations.yy",
+    "path":"folders/Emobble/Assets/Deluxe/24/JoyPixels Animations.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

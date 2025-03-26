@@ -6,7 +6,7 @@
   "name":"emj_lt_notoEmojiFont_lite_24",
   "parent":{
     "name":"Noto Emoji Font",
-    "path":"folders/Scribble Emojis/Assets/Lite/24/Noto Emoji Font.yy",
+    "path":"folders/Emobble/Assets/Lite/24/Noto Emoji Font.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

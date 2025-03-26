@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Twemoji",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/16/Twemoji.yy",
+    "path":"folders/Emobble/Assets/Deluxe/16/Twemoji.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

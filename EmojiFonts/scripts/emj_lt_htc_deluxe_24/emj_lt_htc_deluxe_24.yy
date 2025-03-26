@@ -6,7 +6,7 @@
   "name":"emj_lt_htc_deluxe_24",
   "parent":{
     "name":"HTC",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/24/HTC.yy",
+    "path":"folders/Emobble/Assets/Deluxe/24/HTC.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -9,7 +9,8 @@ var _arr = string_split(get_emojis(), "\n", true)
 
 emoji_str = get_emojis()
 string_lines = string_split(emoji_str, "\n", true)
-
+emoji_str = string_join_ext("\n", string_lines, 0, (__SCRIBBLE_MAX_LINES-4)/2)
+/*
 var glyph_strings = [];
 var unicode_strings = [];
 var name_strings = [];

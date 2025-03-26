@@ -6,7 +6,7 @@
   "name":"emj_lt_docomo_deluxe_24",
   "parent":{
     "name":"Docomo",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/24/Docomo.yy",
+    "path":"folders/Emobble/Assets/Deluxe/24/Docomo.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

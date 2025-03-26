@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"NEC",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/24/NEC.yy",
+    "path":"folders/Emobble/Assets/Deluxe/24/NEC.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

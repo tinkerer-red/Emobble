@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"HTC",
-    "path":"folders/Scribble Emojis/Assets/Lite/24/HTC.yy",
+    "path":"folders/Emobble/Assets/Lite/24/HTC.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

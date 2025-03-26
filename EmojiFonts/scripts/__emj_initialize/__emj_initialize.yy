@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"__emj_initialize",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__emj_initialize",
+  "parent":{
+    "name":"__internal",
+    "path":"folders/Emobble/__internal.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

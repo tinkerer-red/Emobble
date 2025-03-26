@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Icons8",
-    "path":"folders/Scribble Emojis/Assets/Lite/16/Icons8.yy",
+    "path":"folders/Emobble/Assets/Lite/16/Icons8.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

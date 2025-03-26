@@ -6,7 +6,7 @@
   "name":"emj_lt_twemoji_deluxe_32",
   "parent":{
     "name":"Twemoji",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/32/Twemoji.yy",
+    "path":"folders/Emobble/Assets/Deluxe/32/Twemoji.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

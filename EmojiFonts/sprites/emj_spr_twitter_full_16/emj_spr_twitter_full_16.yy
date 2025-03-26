@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Twitter",
-    "path":"folders/Scribble Emojis/Assets/Full/16/Twitter.yy",
+    "path":"folders/Emobble/Assets/Full/16/Twitter.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

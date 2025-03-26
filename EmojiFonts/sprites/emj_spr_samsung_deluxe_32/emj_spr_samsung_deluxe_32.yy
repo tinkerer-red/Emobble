@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Samsung",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/32/Samsung.yy",
+    "path":"folders/Emobble/Assets/Deluxe/32/Samsung.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

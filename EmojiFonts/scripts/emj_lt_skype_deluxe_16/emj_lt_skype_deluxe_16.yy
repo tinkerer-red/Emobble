@@ -6,7 +6,7 @@
   "name":"emj_lt_skype_deluxe_16",
   "parent":{
     "name":"Skype",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/16/Skype.yy",
+    "path":"folders/Emobble/Assets/Deluxe/16/Skype.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

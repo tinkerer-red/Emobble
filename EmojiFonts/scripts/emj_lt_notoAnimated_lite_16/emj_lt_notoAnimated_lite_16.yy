@@ -6,7 +6,7 @@
   "name":"emj_lt_notoAnimated_lite_16",
   "parent":{
     "name":"Noto Animated",
-    "path":"folders/Scribble Emojis/Assets/Lite/16/Noto Animated.yy",
+    "path":"folders/Emobble/Assets/Lite/16/Noto Animated.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

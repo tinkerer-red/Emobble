@@ -6,7 +6,7 @@
   "name":"emj_lt_softbank_full_32",
   "parent":{
     "name":"SoftBank",
-    "path":"folders/Scribble Emojis/Assets/Full/32/SoftBank.yy",
+    "path":"folders/Emobble/Assets/Full/32/SoftBank.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

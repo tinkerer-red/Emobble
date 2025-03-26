@@ -6,7 +6,7 @@
   "name":"emj_lt_emojidex_full_24",
   "parent":{
     "name":"emojidex",
-    "path":"folders/Scribble Emojis/Assets/Full/24/emojidex.yy",
+    "path":"folders/Emobble/Assets/Full/24/emojidex.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

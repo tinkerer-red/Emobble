@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Apple",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/32/Apple.yy",
+    "path":"folders/Emobble/Assets/Deluxe/32/Apple.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

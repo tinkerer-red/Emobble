@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"au by KDDI",
-    "path":"folders/Scribble Emojis/Assets/Full/24/au by KDDI.yy",
+    "path":"folders/Emobble/Assets/Full/24/au by KDDI.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

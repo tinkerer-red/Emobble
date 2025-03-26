@@ -6,7 +6,7 @@
   "name":"emj_lt_fluent3d_full_32",
   "parent":{
     "name":"Fluent3D",
-    "path":"folders/Scribble Emojis/Assets/Full/32/Fluent3D.yy",
+    "path":"folders/Emobble/Assets/Full/32/Fluent3D.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

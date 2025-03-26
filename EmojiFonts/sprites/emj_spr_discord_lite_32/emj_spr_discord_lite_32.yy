@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Discord",
-    "path":"folders/Scribble Emojis/Assets/Lite/32/Discord.yy",
+    "path":"folders/Emobble/Assets/Lite/32/Discord.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

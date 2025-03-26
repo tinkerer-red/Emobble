@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Noto",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/32/Noto.yy",
+    "path":"folders/Emobble/Assets/Deluxe/32/Noto.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

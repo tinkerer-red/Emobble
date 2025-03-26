@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"SerenityOS",
-    "path":"folders/Scribble Emojis/Assets/Lite/24/SerenityOS.yy",
+    "path":"folders/Emobble/Assets/Lite/24/SerenityOS.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

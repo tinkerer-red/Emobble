@@ -6,7 +6,7 @@
   "name":"emj_lt_whatsapp_deluxe_24",
   "parent":{
     "name":"WhatsApp",
-    "path":"folders/Scribble Emojis/Assets/Deluxe/24/WhatsApp.yy",
+    "path":"folders/Emobble/Assets/Deluxe/24/WhatsApp.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

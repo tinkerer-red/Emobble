@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scribblify_emojis",
   "parent":{
-    "name":"Scribble Emojis",
-    "path":"folders/Scribble Emojis.yy",
+    "name":"Emobble",
+    "path":"folders/Emobble.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
