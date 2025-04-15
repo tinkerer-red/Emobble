@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 //function __emj_lookup_<catagory_slug>_<mode>_<size>
-
+show_debug_overlay(true);
 
 yy = 0
 
@@ -10,7 +10,7 @@ var _arr = string_split(get_emojis(), "\n", true)
 emoji_str = get_emojis()
 string_lines = string_split(emoji_str, "\n", true)
 emoji_str = string_join_ext("\n", string_lines, 0, (__SCRIBBLE_MAX_LINES-4)/2)
-/*
+//*
 var glyph_strings = [];
 var unicode_strings = [];
 var name_strings = [];
@@ -33,14 +33,14 @@ unicode_string = string_join_ext("\n", unicode_strings);
 show_debug_overlay(true);
 
 emoji_strings = [];
-emoji_strings[0] = scribblify_emojis(glyph_string, emj_spr_emojidex_deluxe_32,   emj_lt_emojidex_deluxe_32())
-emoji_strings[1] = scribblify_emojis(glyph_string, emj_spr_fluent3d_deluxe_32,   emj_lt_fluent3d_deluxe_32())
-emoji_strings[2] = scribblify_emojis(glyph_string, emj_spr_fluentFlat_deluxe_32, emj_lt_fluentFlat_deluxe_32())
-emoji_strings[3] = scribblify_emojis(glyph_string, emj_spr_icons8_deluxe_32,	 emj_lt_icons8_deluxe_32())
-emoji_strings[4] = scribblify_emojis(glyph_string, emj_spr_noto_deluxe_32,		 emj_lt_noto_deluxe_32())
-emoji_strings[5] = scribblify_emojis(glyph_string, emj_spr_openmoji_deluxe_32,	 emj_lt_openmoji_deluxe_32())
-emoji_strings[6] = scribblify_emojis(glyph_string, emj_spr_segoeUi_deluxe_32,	 emj_lt_segoeUi_deluxe_32())
-emoji_strings[7] = scribblify_emojis(glyph_string, emj_spr_twitter_deluxe_32,	 emj_lt_twitter_deluxe_32())
+emoji_strings[0] = scribblify_emojis(glyph_string, emj_spr_emojidex_deluxe_16,   emj_lt_emojidex_deluxe_16())
+emoji_strings[1] = scribblify_emojis(glyph_string, emj_spr_fluent3d_deluxe_16,   emj_lt_fluent3d_deluxe_16())
+emoji_strings[2] = scribblify_emojis(glyph_string, emj_spr_fluentFlat_deluxe_16, emj_lt_fluentFlat_deluxe_16())
+emoji_strings[3] = scribblify_emojis(glyph_string, emj_spr_icons8_deluxe_16,	 emj_lt_icons8_deluxe_16())
+emoji_strings[4] = scribblify_emojis(glyph_string, emj_spr_noto_deluxe_16,		 emj_lt_noto_deluxe_16())
+emoji_strings[5] = scribblify_emojis(glyph_string, emj_spr_openmoji_deluxe_16,	 emj_lt_openmoji_deluxe_16())
+emoji_strings[6] = scribblify_emojis(glyph_string, emj_spr_segoeUi_deluxe_16,	 emj_lt_segoeUi_deluxe_16())
+emoji_strings[7] = scribblify_emojis(glyph_string, emj_spr_twitter_deluxe_16,	 emj_lt_twitter_deluxe_16())
 
 arrays = []
 for (var i=0; i<array_length(emoji_strings); i++){
