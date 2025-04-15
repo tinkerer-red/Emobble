@@ -59,13 +59,13 @@ Temporary Items
 *.old
 
 # Ignore everything inside Assets/Fonts and Assets/PNGs
-Assets/Fonts/*
-Assets/PNGs/*
+Tools/Assets/Fonts/*
+Tools/Assets/PNGs/*
 
 # Allow keeping the folders themselves
-# !Assets/Fonts/
-# !Assets/PNGs/
+# !Tools/Assets/Fonts/
+# !Tools/Assets/PNGs/
 
 # If you need to allow specific files or folders inside, uncomment and modify:
-# !Assets/Fonts/some-important-file.ttf
-# !Assets/PNGs/keep-this-folder/
+# !Tools/Assets/Fonts/some-important-file.ttf
+# !Tools/Assets/PNGs/keep-this-folder/

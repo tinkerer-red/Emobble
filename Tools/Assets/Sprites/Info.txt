@@ -1,0 +1,1 @@
+All of the .png files in here will be aligned to a cell grid making for bulk importing into gml sprites easier.
