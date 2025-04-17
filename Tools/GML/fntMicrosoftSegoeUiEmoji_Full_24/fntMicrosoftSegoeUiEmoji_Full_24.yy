@@ -12605,8 +12605,8 @@
     "maintainGms1Font": false,
     "name": "fntMicrosoftSegoeUiEmoji_Full_24",
     "parent": {
-        "name": "EmojiFonts",
-        "path": "EmojiFonts.yyp"
+        "name": "Emobble",
+        "path": "Emobble.yyp"
     },
     "pointRounding": 0,
     "ranges": [

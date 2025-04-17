@@ -671,8 +671,8 @@ def save_font_yy_file(path, font_name, glyph_data, size):
     "maintainGms1Font":False,
     "name":"Font1",
     "parent":{
-        "name":"EmojiFonts",
-        "path":"EmojiFonts.yyp",
+        "name":"Emobble",
+        "path":"Emobble.yyp",
     },
     "pointRounding":0,
     "ranges": ranges,

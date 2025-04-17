@@ -44,8 +44,8 @@ GMFONT_TEMPLATE = {
   "maintainGms1Font":False,
   "name":"",
   "parent":{
-    "name":"EmojiFonts",
-    "path":"EmojiFonts.yyp",
+    "name":"Emobble",
+    "path":"Emobble.yyp",
   },
   "pointRounding":0,
   "ranges":[],

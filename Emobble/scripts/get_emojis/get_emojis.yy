@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"UnicodeTool",
+  "%Name":"get_emojis",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"UnicodeTool",
+  "name":"get_emojis",
   "parent":{
-    "name":"EmojiFonts",
-    "path":"EmojiFonts.yyp",
+    "name":"Emobble",
+    "path":"Emobble.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

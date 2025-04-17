@@ -4,7 +4,7 @@ import math
 from pathlib import Path
 
 # Paths
-ROOT_DIR = Path(r"C:\Users\Red\Documents\GameMakerStudio2\_tools\EmojiFontsProject")
+ROOT_DIR = Path(r"C:\Users\Red\Documents\GameMakerStudio2\_tools\EmobbleProject")
 EMOJI_DB_PATH = ROOT_DIR / "db" / "emoji.json"
 METADATA_DIR = ROOT_DIR / "Assets" / "Sprites" / "Deluxe"
 PRUNED_JSON_PATH = ROOT_DIR / "db" / "pruned_emoji.json"

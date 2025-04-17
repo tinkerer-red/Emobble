@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"get_emojis",
+  "%Name":"string_replace_all_struct",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"get_emojis",
+  "name":"string_replace_all_struct",
   "parent":{
-    "name":"EmojiFonts",
-    "path":"EmojiFonts.yyp",
+    "name":"Emobble",
+    "path":"Emobble.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

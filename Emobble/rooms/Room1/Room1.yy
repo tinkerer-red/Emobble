@@ -17,8 +17,8 @@
   ],
   "name":"Room1",
   "parent":{
-    "name":"EmojiFonts",
-    "path":"EmojiFonts.yyp",
+    "name":"Emobble",
+    "path":"Emobble.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{

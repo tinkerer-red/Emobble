@@ -15818,8 +15818,8 @@
     "maintainGms1Font": false,
     "name": "fntFontSeguiemj_Full_32",
     "parent": {
-        "name": "EmojiFonts",
-        "path": "EmojiFonts.yyp"
+        "name": "Emobble",
+        "path": "Emobble.yyp"
     },
     "pointRounding": 0,
     "ranges": [

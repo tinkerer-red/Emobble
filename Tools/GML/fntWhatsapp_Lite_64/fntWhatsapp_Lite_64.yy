@@ -10670,8 +10670,8 @@
     "maintainGms1Font": false,
     "name": "fntWhatsapp_Lite_64",
     "parent": {
-        "name": "EmojiFonts",
-        "path": "EmojiFonts.yyp"
+        "name": "Emobble",
+        "path": "Emobble.yyp"
     },
     "pointRounding": 0,
     "ranges": [

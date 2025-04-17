@@ -10886,8 +10886,8 @@
     "maintainGms1Font": false,
     "name": "fntTwitterTwemoji_Lite_64",
     "parent": {
-        "name": "EmojiFonts",
-        "path": "EmojiFonts.yyp"
+        "name": "Emobble",
+        "path": "Emobble.yyp"
     },
     "pointRounding": 0,
     "ranges": [

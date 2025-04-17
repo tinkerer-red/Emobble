@@ -9,8 +9,8 @@
   "name":"Object1",
   "overriddenProperties":[],
   "parent":{
-    "name":"EmojiFonts",
-    "path":"EmojiFonts.yyp",
+    "name":"Emobble",
+    "path":"Emobble.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
