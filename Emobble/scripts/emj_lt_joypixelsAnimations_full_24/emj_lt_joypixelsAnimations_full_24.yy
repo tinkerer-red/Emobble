@@ -6,7 +6,7 @@
   "name":"emj_lt_joypixelsAnimations_full_24",
   "parent":{
     "name":"JoyPixels Animations",
-    "path":"folders/Emobble/Assets/Full/24/JoyPixels Animations.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Full/24/JoyPixels Animations.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -6,7 +6,7 @@
   "name":"emj_lt_huawei_deluxe_16",
   "parent":{
     "name":"Huawei",
-    "path":"folders/Emobble/Assets/Deluxe/16/Huawei.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Deluxe/16/Huawei.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

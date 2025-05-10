@@ -6,7 +6,7 @@
   "name":"emj_lt_discord_lite_32",
   "parent":{
     "name":"Discord",
-    "path":"folders/Emobble/Assets/Lite/32/Discord.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Lite/32/Discord.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

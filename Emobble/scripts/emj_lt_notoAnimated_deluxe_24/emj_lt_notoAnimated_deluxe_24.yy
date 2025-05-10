@@ -6,7 +6,7 @@
   "name":"emj_lt_notoAnimated_deluxe_24",
   "parent":{
     "name":"Noto Animated",
-    "path":"folders/Emobble/Assets/Deluxe/24/Noto Animated.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Deluxe/24/Noto Animated.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

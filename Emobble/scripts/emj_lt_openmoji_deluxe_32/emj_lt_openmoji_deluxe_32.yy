@@ -6,7 +6,7 @@
   "name":"emj_lt_openmoji_deluxe_32",
   "parent":{
     "name":"OpenMoji",
-    "path":"folders/Emobble/Assets/Deluxe/32/OpenMoji.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Deluxe/32/OpenMoji.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

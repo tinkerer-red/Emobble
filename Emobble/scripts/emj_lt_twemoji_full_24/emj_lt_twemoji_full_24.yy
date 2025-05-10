@@ -6,7 +6,7 @@
   "name":"emj_lt_twemoji_full_24",
   "parent":{
     "name":"Twemoji",
-    "path":"folders/Emobble/Assets/Full/24/Twemoji.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Full/24/Twemoji.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

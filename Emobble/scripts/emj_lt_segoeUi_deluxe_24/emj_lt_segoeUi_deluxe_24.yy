@@ -6,7 +6,7 @@
   "name":"emj_lt_segoeUi_deluxe_24",
   "parent":{
     "name":"Segoe UI",
-    "path":"folders/Emobble/Assets/Deluxe/24/Segoe UI.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Deluxe/24/Segoe UI.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

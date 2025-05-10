@@ -6,7 +6,7 @@
   "name":"emj_lt_sharp_full_16",
   "parent":{
     "name":"Sharp",
-    "path":"folders/Emobble/Assets/Full/16/Sharp.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Full/16/Sharp.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

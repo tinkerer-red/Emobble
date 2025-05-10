@@ -6,7 +6,7 @@
   "name":"emj_lt_emojidex_lite_24",
   "parent":{
     "name":"emojidex",
-    "path":"folders/Emobble/Assets/Lite/24/emojidex.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Lite/24/emojidex.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

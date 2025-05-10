@@ -6,7 +6,7 @@
   "name":"emj_lt_serenityos_deluxe_16",
   "parent":{
     "name":"SerenityOS",
-    "path":"folders/Emobble/Assets/Deluxe/16/SerenityOS.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Deluxe/16/SerenityOS.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

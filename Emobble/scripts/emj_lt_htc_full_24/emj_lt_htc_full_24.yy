@@ -6,7 +6,7 @@
   "name":"emj_lt_htc_full_24",
   "parent":{
     "name":"HTC",
-    "path":"folders/Emobble/Assets/Full/24/HTC.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Full/24/HTC.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

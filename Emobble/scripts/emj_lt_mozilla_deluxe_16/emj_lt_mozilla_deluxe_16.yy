@@ -6,7 +6,7 @@
   "name":"emj_lt_mozilla_deluxe_16",
   "parent":{
     "name":"Mozilla",
-    "path":"folders/Emobble/Assets/Deluxe/16/Mozilla.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Deluxe/16/Mozilla.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

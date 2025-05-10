@@ -1,5 +1,3 @@
-var t1 = scribble_fallback_font;
-
 function scribblify_emojis(input_string, _sprite, _lookup_table) {
 	#region Set up Optimizers
 	static read_buff = buffer_create(0, buffer_grow, 1);

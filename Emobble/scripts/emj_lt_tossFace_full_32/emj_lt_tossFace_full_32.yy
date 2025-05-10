@@ -6,7 +6,7 @@
   "name":"emj_lt_tossFace_full_32",
   "parent":{
     "name":"Toss Face",
-    "path":"folders/Emobble/Assets/Full/32/Toss Face.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Full/32/Toss Face.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

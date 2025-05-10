@@ -6,7 +6,7 @@
   "name":"emj_lt_emojipediaSampleImages_lite_32",
   "parent":{
     "name":"Emojipedia Sample Images",
-    "path":"folders/Emobble/Assets/Lite/32/Emojipedia Sample Images.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Lite/32/Emojipedia Sample Images.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -6,7 +6,7 @@
   "name":"emj_lt_facebook_full_24",
   "parent":{
     "name":"Facebook",
-    "path":"folders/Emobble/Assets/Full/24/Facebook.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Full/24/Facebook.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

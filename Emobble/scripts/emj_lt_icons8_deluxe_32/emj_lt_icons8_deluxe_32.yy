@@ -6,7 +6,7 @@
   "name":"emj_lt_icons8_deluxe_32",
   "parent":{
     "name":"Icons8",
-    "path":"folders/Emobble/Assets/Deluxe/32/Icons8.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Deluxe/32/Icons8.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

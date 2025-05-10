@@ -6,7 +6,7 @@
   "name":"emj_lt_notoEmojiFont_full_16",
   "parent":{
     "name":"Noto Emoji Font",
-    "path":"folders/Emobble/Assets/Full/16/Noto Emoji Font.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Full/16/Noto Emoji Font.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

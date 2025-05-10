@@ -6,7 +6,7 @@
   "name":"emj_lt_fluentFlat_full_24",
   "parent":{
     "name":"Fluent Flat",
-    "path":"folders/Emobble/Assets/Full/24/Fluent Flat.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Full/24/Fluent Flat.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

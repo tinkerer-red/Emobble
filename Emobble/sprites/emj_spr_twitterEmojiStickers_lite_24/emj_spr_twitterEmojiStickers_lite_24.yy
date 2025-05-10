@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Twitter Emoji Stickers",
-    "path":"folders/Emobble/Assets/Lite/24/Twitter Emoji Stickers.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Lite/24/Twitter Emoji Stickers.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6c713942-439d-46d6-b1ac-fba3f1f2ebf5","path":"sprites/emj_spr_twitterEmojiStickers_lite_24/emj_spr_twitterEmojiStickers_lite_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d7c83e37-9711-40c0-9e1f-d17b11a5154c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6c713942-439d-46d6-b1ac-fba3f1f2ebf5","path":"sprites/emj_spr_twitterEmojiStickers_lite_24/emj_spr_twitterEmojiStickers_lite_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d7c83e37-9711-40c0-9e1f-d17b11a5154c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

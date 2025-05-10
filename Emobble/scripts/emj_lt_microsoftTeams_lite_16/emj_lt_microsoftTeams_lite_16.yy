@@ -6,7 +6,7 @@
   "name":"emj_lt_microsoftTeams_lite_16",
   "parent":{
     "name":"Microsoft Teams",
-    "path":"folders/Emobble/Assets/Lite/16/Microsoft Teams.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Lite/16/Microsoft Teams.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

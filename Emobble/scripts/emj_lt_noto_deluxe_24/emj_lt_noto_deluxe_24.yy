@@ -6,7 +6,7 @@
   "name":"emj_lt_noto_deluxe_24",
   "parent":{
     "name":"Noto",
-    "path":"folders/Emobble/Assets/Deluxe/24/Noto.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Deluxe/24/Noto.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

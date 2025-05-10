@@ -6,7 +6,7 @@
   "name":"emj_lt_twitterEmojiStickers_full_24",
   "parent":{
     "name":"Twitter Emoji Stickers",
-    "path":"folders/Emobble/Assets/Full/24/Twitter Emoji Stickers.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Full/24/Twitter Emoji Stickers.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

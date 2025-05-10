@@ -6,7 +6,7 @@
   "name":"emj_lt_softbank_deluxe_24",
   "parent":{
     "name":"SoftBank",
-    "path":"folders/Emobble/Assets/Deluxe/24/SoftBank.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Deluxe/24/SoftBank.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

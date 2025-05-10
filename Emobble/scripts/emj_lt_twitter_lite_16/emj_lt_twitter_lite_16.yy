@@ -6,7 +6,7 @@
   "name":"emj_lt_twitter_lite_16",
   "parent":{
     "name":"Twitter",
-    "path":"folders/Emobble/Assets/Lite/16/Twitter.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Lite/16/Twitter.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

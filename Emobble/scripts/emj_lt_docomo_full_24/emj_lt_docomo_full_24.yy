@@ -6,7 +6,7 @@
   "name":"emj_lt_docomo_full_24",
   "parent":{
     "name":"Docomo",
-    "path":"folders/Emobble/Assets/Full/24/Docomo.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Full/24/Docomo.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

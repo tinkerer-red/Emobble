@@ -6,7 +6,7 @@
   "name":"emj_lt_whatsapp_deluxe_16",
   "parent":{
     "name":"WhatsApp",
-    "path":"folders/Emobble/Assets/Deluxe/16/WhatsApp.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Deluxe/16/WhatsApp.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

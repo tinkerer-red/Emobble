@@ -6,7 +6,7 @@
   "name":"emj_lt_auByKddi_deluxe_32",
   "parent":{
     "name":"au by KDDI",
-    "path":"folders/Emobble/Assets/Deluxe/32/au by KDDI.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Deluxe/32/au by KDDI.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

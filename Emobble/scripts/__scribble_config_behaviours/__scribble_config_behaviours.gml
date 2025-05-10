@@ -55,7 +55,7 @@
 
 //Whether to automatically scale textures to fit into the line of text. This is based on the font
 //height of the current font.
-#macro SCRIBBLE_AUTOFIT_INLINE_TEXTURES  false
+#macro SCRIBBLE_AUTOFIT_INLINE_TEXTURES  false  
 
 //Whether to adjust the horizontal distance between glyphs depending on special per-font rules. Set
 //to `false` for legacy pre-8.2 behaviour.

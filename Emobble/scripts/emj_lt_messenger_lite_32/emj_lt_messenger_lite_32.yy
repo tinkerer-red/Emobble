@@ -6,7 +6,7 @@
   "name":"emj_lt_messenger_lite_32",
   "parent":{
     "name":"Messenger",
-    "path":"folders/Emobble/Assets/Lite/32/Messenger.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Lite/32/Messenger.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

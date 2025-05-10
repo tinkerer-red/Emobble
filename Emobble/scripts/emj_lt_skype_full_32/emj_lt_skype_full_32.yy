@@ -6,7 +6,7 @@
   "name":"emj_lt_skype_full_32",
   "parent":{
     "name":"Skype",
-    "path":"folders/Emobble/Assets/Full/32/Skype.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Full/32/Skype.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

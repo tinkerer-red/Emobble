@@ -6,7 +6,7 @@
   "name":"emj_lt_joypixelsAnimations_lite_24",
   "parent":{
     "name":"JoyPixels Animations",
-    "path":"folders/Emobble/Assets/Lite/24/JoyPixels Animations.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Lite/24/JoyPixels Animations.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

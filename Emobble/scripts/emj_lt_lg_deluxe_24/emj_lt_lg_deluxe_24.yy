@@ -6,7 +6,7 @@
   "name":"emj_lt_lg_deluxe_24",
   "parent":{
     "name":"LG",
-    "path":"folders/Emobble/Assets/Deluxe/24/LG.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Deluxe/24/LG.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"__emj_initialize",
+  "%Name":"__emobble_preprocesser",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"__emj_initialize",
+  "name":"__emobble_preprocesser",
   "parent":{
     "name":"__internal",
     "path":"folders/Emobble/__internal.yy",

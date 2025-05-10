@@ -6,7 +6,7 @@
   "name":"emj_lt_sonyPlaystation_lite_32",
   "parent":{
     "name":"Sony Playstation",
-    "path":"folders/Emobble/Assets/Lite/32/Sony Playstation.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Lite/32/Sony Playstation.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

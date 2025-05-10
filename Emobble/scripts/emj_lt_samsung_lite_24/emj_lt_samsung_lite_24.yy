@@ -6,7 +6,7 @@
   "name":"emj_lt_samsung_lite_24",
   "parent":{
     "name":"Samsung",
-    "path":"folders/Emobble/Assets/Lite/24/Samsung.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Lite/24/Samsung.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

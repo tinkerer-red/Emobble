@@ -6,7 +6,7 @@
   "name":"emj_lt_apple_deluxe_16",
   "parent":{
     "name":"Apple",
-    "path":"folders/Emobble/Assets/Deluxe/16/Apple.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Deluxe/16/Apple.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

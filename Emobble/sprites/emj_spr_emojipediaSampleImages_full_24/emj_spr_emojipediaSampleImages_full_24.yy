@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Emojipedia Sample Images",
-    "path":"folders/Emobble/Assets/Full/24/Emojipedia Sample Images.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Full/24/Emojipedia Sample Images.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6e3b6a6a-0c7b-4b25-a8d0-bc6404f39ad6","path":"sprites/emj_spr_emojipediaSampleImages_full_24/emj_spr_emojipediaSampleImages_full_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fffbe26e-0aff-4866-85c6-8c5071e81f53","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6e3b6a6a-0c7b-4b25-a8d0-bc6404f39ad6","path":"sprites/emj_spr_emojipediaSampleImages_full_24/emj_spr_emojipediaSampleImages_full_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fffbe26e-0aff-4866-85c6-8c5071e81f53","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

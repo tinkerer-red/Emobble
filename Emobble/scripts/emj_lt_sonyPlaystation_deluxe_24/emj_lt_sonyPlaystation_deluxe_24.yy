@@ -6,7 +6,7 @@
   "name":"emj_lt_sonyPlaystation_deluxe_24",
   "parent":{
     "name":"Sony Playstation",
-    "path":"folders/Emobble/Assets/Deluxe/24/Sony Playstation.yy",
+    "path":"folders/Emobble/Assets - Delete what you dont need/Deluxe/24/Sony Playstation.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
