@@ -34,7 +34,6 @@ scribble("Hello world! 😎👍").draw(32, 32);
 ```
 
 You can also make use of [Emobble’s Shortcodes Data Base](https://github.com/tinkerer-red/Emobble/tree/master/Tools/db/Shortcodes) to query emoji short codes like `:smile:` for a variety of languages. Or use the provided [emoji.json](https://github.com/tinkerer-red/Emobble/blob/master/Tools/db/emoji.json) for displaying much more information about emojis, such as Name, Description, and Category.
-Great addition. Here's an updated and more complete version of that section with the extra info clearly stated:
 
 > 💡 **Using a Custom Scribble Preprocessor?**  
 > If you override the default Scribble preprocessor, make sure to call Emobble's handler inside it:
