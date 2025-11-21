@@ -1,7 +1,7 @@
 # 📙 Emobble: Emoji Support for Scribble
 ### -Render me Emobble-
 
-**Emobble** is a plug-in extension for the [Scribble](https://github.com/jujuadams/scribble) text rendering library in GameMaker. It adds seamless emoji support to your in-game text using texture atlases, custom glyph injection, and smart parsing. Simply including Emobble in your projects will add emoji support to native `scribble()` functionality.
+**Emobble** is a plug-in extension for the [Scribble](https://github.com/jujuadams/scribble) text rendering library in GameMaker. It adds seamless emoji support to your in-game text using texture atlases, custom glyph injection, and Unicode symbol/emoji parsing. Simply including Emobble in your projects will add emoji support to native `scribble()` functionality.
 
 ---
 
