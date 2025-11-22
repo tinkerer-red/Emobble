@@ -60,3 +60,6 @@ for (var i = 0; i < array_length(arrays[0]); i++) {
 }
 
 final_string = string_join_ext("\n", final_lines)
+
+show_debug_message(final_string)
+

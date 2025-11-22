@@ -48,5 +48,29 @@ draw_set_alpha(1)
 var xx = 16;
 
 gpu_set_tex_filter(true)
-scribble(emoji_str).draw(xx,yy)
+//draw_text(xx, yy, final_string)
+scribble(final_string).draw(xx,yy)
 gpu_set_tex_filter(false)
+
+
+
+
+var _tex_index = real(2);
+var _tex_x     = real(1603);
+var _tex_y     = real(305);
+var _tex_w     = real(13);
+var _tex_h     = real(16);
+
+draw_set_color(c_white)
+draw_rectangle(50, 50, 50+_tex_w, 50+_tex_h, false);
+draw_texture_part(_tex_index, _tex_x, _tex_y, _tex_w, _tex_h, 50, 50)
+
+//var _texture_tw = texture_get_texel_width(_tex_index);
+//var _texture_th = texture_get_texel_height(_tex_index);
+
+//var _u0 = _tex_x*_texture_tw;
+//var _v0 = _tex_y*_texture_th;
+//var _u1 = (_tex_x+_tex_w)*_texture_tw;
+//var _v1 = (_tex_y+_tex_h)*_texture_th;
+
+

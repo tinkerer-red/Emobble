@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Script456",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Script456",
+  "parent":{
+    "name":"Emobble",
+    "path":"Emobble.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
