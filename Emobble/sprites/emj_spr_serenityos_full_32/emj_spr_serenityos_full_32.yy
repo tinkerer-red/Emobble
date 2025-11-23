@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"69ddabe7-6ab5-41b0-8722-ec6eb5fd315c","name":"69ddabe7-6ab5-41b0-8722-ec6eb5fd315c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d99ed273-de74-40a1-8e35-a7c6dad29614","name":"d99ed273-de74-40a1-8e35-a7c6dad29614","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1314,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"7b693950-3cd4-4cc1-9ebb-19fff52b64e1","blendMode":0,"displayName":"default","isLocked":false,"name":"7b693950-3cd4-4cc1-9ebb-19fff52b64e1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"a0500b09-2f74-4b3c-a255-3a4f787d6189","blendMode":0,"displayName":"default","isLocked":false,"name":"a0500b09-2f74-4b3c-a255-3a4f787d6189","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_serenityos_full_32",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"69ddabe7-6ab5-41b0-8722-ec6eb5fd315c","path":"sprites/emj_spr_serenityos_full_32/emj_spr_serenityos_full_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2c98176b-9708-4c1b-bd9c-4355e480ea5c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d99ed273-de74-40a1-8e35-a7c6dad29614","path":"sprites/emj_spr_serenityos_full_32/emj_spr_serenityos_full_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"edd5c5b9-264c-4b14-8a59-34b3be296fc4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"75e35e4f-a8e3-4aeb-9663-04e5249b4399","name":"75e35e4f-a8e3-4aeb-9663-04e5249b4399","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ef38d134-c894-4308-845b-3bee01998fc3","name":"ef38d134-c894-4308-845b-3bee01998fc3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1330,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"2e89339e-c022-4632-ae5e-4c2ce74c16de","blendMode":0,"displayName":"default","isLocked":false,"name":"2e89339e-c022-4632-ae5e-4c2ce74c16de","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"709c168a-ec77-46f5-9a38-c659f2871eb9","blendMode":0,"displayName":"default","isLocked":false,"name":"709c168a-ec77-46f5-9a38-c659f2871eb9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_joypixels_lite_32",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"75e35e4f-a8e3-4aeb-9663-04e5249b4399","path":"sprites/emj_spr_joypixels_lite_32/emj_spr_joypixels_lite_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"36802475-3fcd-45bc-ab8a-33283aed08e5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ef38d134-c894-4308-845b-3bee01998fc3","path":"sprites/emj_spr_joypixels_lite_32/emj_spr_joypixels_lite_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4950cb0f-00db-4404-a37a-b82d736a1dc8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

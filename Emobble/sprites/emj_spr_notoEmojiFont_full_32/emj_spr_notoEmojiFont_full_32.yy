@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"cf4214af-764a-4f1a-9063-cdc3412de45e","name":"cf4214af-764a-4f1a-9063-cdc3412de45e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"48e7c387-d9a8-42aa-9f81-6549ddb91ec2","name":"48e7c387-d9a8-42aa-9f81-6549ddb91ec2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1428,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"79d829af-e8e6-4694-b809-da872ed496b6","blendMode":0,"displayName":"default","isLocked":false,"name":"79d829af-e8e6-4694-b809-da872ed496b6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"efa8fda4-6dbd-4bae-9fe5-a14c666890b4","blendMode":0,"displayName":"default","isLocked":false,"name":"efa8fda4-6dbd-4bae-9fe5-a14c666890b4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_notoEmojiFont_full_32",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cf4214af-764a-4f1a-9063-cdc3412de45e","path":"sprites/emj_spr_notoEmojiFont_full_32/emj_spr_notoEmojiFont_full_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"98d67c10-3dab-42f6-91de-1471a239cd4f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"48e7c387-d9a8-42aa-9f81-6549ddb91ec2","path":"sprites/emj_spr_notoEmojiFont_full_32/emj_spr_notoEmojiFont_full_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7c3a9a8c-7c4f-405a-8127-c442c6f4be99","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"6c713942-439d-46d6-b1ac-fba3f1f2ebf5","name":"6c713942-439d-46d6-b1ac-fba3f1f2ebf5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a45a00a3-9d2b-4910-91e2-940bd73eccdf","name":"a45a00a3-9d2b-4910-91e2-940bd73eccdf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1011,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c6e3c2cc-ea82-4300-837d-382d6c20baed","blendMode":0,"displayName":"default","isLocked":false,"name":"c6e3c2cc-ea82-4300-837d-382d6c20baed","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"9c33a6ca-7344-4634-8270-a161f0fb944a","blendMode":0,"displayName":"default","isLocked":false,"name":"9c33a6ca-7344-4634-8270-a161f0fb944a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_twitterEmojiStickers_lite_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6c713942-439d-46d6-b1ac-fba3f1f2ebf5","path":"sprites/emj_spr_twitterEmojiStickers_lite_24/emj_spr_twitterEmojiStickers_lite_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d7c83e37-9711-40c0-9e1f-d17b11a5154c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a45a00a3-9d2b-4910-91e2-940bd73eccdf","path":"sprites/emj_spr_twitterEmojiStickers_lite_24/emj_spr_twitterEmojiStickers_lite_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"255d94c0-0987-4054-8bd2-fd2cd25e52c1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

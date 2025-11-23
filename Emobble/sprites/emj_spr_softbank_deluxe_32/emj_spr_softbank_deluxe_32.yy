@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"82efc3e1-4b91-4242-bc5f-db2b7cec97af","name":"82efc3e1-4b91-4242-bc5f-db2b7cec97af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a5a9c697-1ffd-4b5d-bf91-8186060e715a","name":"a5a9c697-1ffd-4b5d-bf91-8186060e715a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":886,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"95826b72-86aa-4715-9b4b-93a91c388bf3","blendMode":0,"displayName":"default","isLocked":false,"name":"95826b72-86aa-4715-9b4b-93a91c388bf3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8d8d55b1-6207-404e-8af4-11d7f4b1bf5d","blendMode":0,"displayName":"default","isLocked":false,"name":"8d8d55b1-6207-404e-8af4-11d7f4b1bf5d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_softbank_deluxe_32",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"82efc3e1-4b91-4242-bc5f-db2b7cec97af","path":"sprites/emj_spr_softbank_deluxe_32/emj_spr_softbank_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c7950615-debf-4f0b-976a-03a7ea5167e2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a5a9c697-1ffd-4b5d-bf91-8186060e715a","path":"sprites/emj_spr_softbank_deluxe_32/emj_spr_softbank_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7c728db7-7327-47c3-8797-dbbf60f4ccf0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

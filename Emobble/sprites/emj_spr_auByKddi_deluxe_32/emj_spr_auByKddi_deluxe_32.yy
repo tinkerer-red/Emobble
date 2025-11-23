@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"ef7bacee-bce6-4406-815f-588a50e62930","name":"ef7bacee-bce6-4406-815f-588a50e62930","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6d8557e6-45bf-4f56-8ce3-c099f10d8a8f","name":"6d8557e6-45bf-4f56-8ce3-c099f10d8a8f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":770,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"8da5e90f-80b4-47b0-a167-85ce35e63ccb","blendMode":0,"displayName":"default","isLocked":false,"name":"8da5e90f-80b4-47b0-a167-85ce35e63ccb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5b6b7517-15e7-4b9e-a350-75e1f8aae527","blendMode":0,"displayName":"default","isLocked":false,"name":"5b6b7517-15e7-4b9e-a350-75e1f8aae527","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_auByKddi_deluxe_32",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ef7bacee-bce6-4406-815f-588a50e62930","path":"sprites/emj_spr_auByKddi_deluxe_32/emj_spr_auByKddi_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"540d6bea-6707-4df7-9f5d-e0ad3059340c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6d8557e6-45bf-4f56-8ce3-c099f10d8a8f","path":"sprites/emj_spr_auByKddi_deluxe_32/emj_spr_auByKddi_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e1f41dbf-50c6-4d19-9b8c-83c0a8857cb7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

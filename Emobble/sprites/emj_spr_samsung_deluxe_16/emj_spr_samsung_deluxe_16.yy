@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"93b9c6ef-2683-4ad1-95a3-f6e794e55ab2","name":"93b9c6ef-2683-4ad1-95a3-f6e794e55ab2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"98a149ae-c940-4b75-b6c4-04193e7c7fb3","name":"98a149ae-c940-4b75-b6c4-04193e7c7fb3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1057,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"278f15f9-8e0e-4263-8a1d-a60dca90bc22","blendMode":0,"displayName":"default","isLocked":false,"name":"278f15f9-8e0e-4263-8a1d-a60dca90bc22","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ea34a9cb-4fef-47a7-b3b4-5ace594db6f7","blendMode":0,"displayName":"default","isLocked":false,"name":"ea34a9cb-4fef-47a7-b3b4-5ace594db6f7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_samsung_deluxe_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"93b9c6ef-2683-4ad1-95a3-f6e794e55ab2","path":"sprites/emj_spr_samsung_deluxe_16/emj_spr_samsung_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"880e6c35-03d6-47e2-bd65-330eee3979bb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"98a149ae-c940-4b75-b6c4-04193e7c7fb3","path":"sprites/emj_spr_samsung_deluxe_16/emj_spr_samsung_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e5bba33e-ca61-46fd-88d3-efb32f9f1cce","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

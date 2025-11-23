@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"dd02ac87-d695-4ba6-8d64-47cb67999341","name":"dd02ac87-d695-4ba6-8d64-47cb67999341","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"41572a43-bb6c-4d76-a13b-f7a861d91db4","name":"41572a43-bb6c-4d76-a13b-f7a861d91db4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":169,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c27625e3-6dfd-497a-be27-350eed03059c","blendMode":0,"displayName":"default","isLocked":false,"name":"c27625e3-6dfd-497a-be27-350eed03059c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5a6e37d4-f0b4-49d0-a430-dffe1718fde1","blendMode":0,"displayName":"default","isLocked":false,"name":"5a6e37d4-f0b4-49d0-a430-dffe1718fde1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_discord_lite_32",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"dd02ac87-d695-4ba6-8d64-47cb67999341","path":"sprites/emj_spr_discord_lite_32/emj_spr_discord_lite_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"84a41ff7-1351-435d-9b75-0e685c5243ca","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"41572a43-bb6c-4d76-a13b-f7a861d91db4","path":"sprites/emj_spr_discord_lite_32/emj_spr_discord_lite_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"58bac375-5315-4d86-93fc-bb083d07f317","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

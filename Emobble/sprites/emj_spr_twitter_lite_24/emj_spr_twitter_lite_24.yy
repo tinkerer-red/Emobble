@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"f9a0f589-ccc9-414f-be4b-358f8b55bf4c","name":"f9a0f589-ccc9-414f-be4b-358f8b55bf4c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a4607df1-234b-465c-a783-c0802e1c15db","name":"a4607df1-234b-465c-a783-c0802e1c15db","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1036,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6da41c3a-dedc-4d8f-ad17-467c4deed319","blendMode":0,"displayName":"default","isLocked":false,"name":"6da41c3a-dedc-4d8f-ad17-467c4deed319","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8f1f3583-292e-4ec7-95c2-d9c21a0e5fd8","blendMode":0,"displayName":"default","isLocked":false,"name":"8f1f3583-292e-4ec7-95c2-d9c21a0e5fd8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_twitter_lite_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f9a0f589-ccc9-414f-be4b-358f8b55bf4c","path":"sprites/emj_spr_twitter_lite_24/emj_spr_twitter_lite_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"bb05489c-6059-40db-9279-cdc6d594e6eb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4607df1-234b-465c-a783-c0802e1c15db","path":"sprites/emj_spr_twitter_lite_24/emj_spr_twitter_lite_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"96b055b2-0059-4818-9386-01cc589605e7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

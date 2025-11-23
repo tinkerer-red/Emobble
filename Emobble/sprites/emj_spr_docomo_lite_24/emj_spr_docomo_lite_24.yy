@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"0810bb01-3615-45d4-bc0b-74b66a511610","name":"0810bb01-3615-45d4-bc0b-74b66a511610","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7236cd75-3f42-4d80-af43-feb8bdabb631","name":"7236cd75-3f42-4d80-af43-feb8bdabb631","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":630,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e6cf1a2f-3ddd-425b-a925-f0e4f2268f61","blendMode":0,"displayName":"default","isLocked":false,"name":"e6cf1a2f-3ddd-425b-a925-f0e4f2268f61","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3946bf75-edf4-485d-a96f-7bf66ecc794f","blendMode":0,"displayName":"default","isLocked":false,"name":"3946bf75-edf4-485d-a96f-7bf66ecc794f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_docomo_lite_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0810bb01-3615-45d4-bc0b-74b66a511610","path":"sprites/emj_spr_docomo_lite_24/emj_spr_docomo_lite_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f255a3eb-bc44-4e62-b447-35efaaf5c0b3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7236cd75-3f42-4d80-af43-feb8bdabb631","path":"sprites/emj_spr_docomo_lite_24/emj_spr_docomo_lite_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f711db60-14fc-4c16-a17f-963f834f1fdb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

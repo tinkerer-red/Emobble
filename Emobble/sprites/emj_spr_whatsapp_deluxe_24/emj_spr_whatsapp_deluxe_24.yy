@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"5e110c52-2f59-4892-bbe9-8841774cf462","name":"5e110c52-2f59-4892-bbe9-8841774cf462","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"27e6c5fe-71e1-4d3d-8fcf-740be6709a00","name":"27e6c5fe-71e1-4d3d-8fcf-740be6709a00","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1479,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"969d09ea-8f45-4d5b-b177-5c06b07e0b33","blendMode":0,"displayName":"default","isLocked":false,"name":"969d09ea-8f45-4d5b-b177-5c06b07e0b33","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"a7466968-e6dc-4f8f-b310-878b30e80b2a","blendMode":0,"displayName":"default","isLocked":false,"name":"a7466968-e6dc-4f8f-b310-878b30e80b2a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_whatsapp_deluxe_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5e110c52-2f59-4892-bbe9-8841774cf462","path":"sprites/emj_spr_whatsapp_deluxe_24/emj_spr_whatsapp_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3e9dd71c-afad-4007-89d4-26bbb79c4099","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"27e6c5fe-71e1-4d3d-8fcf-740be6709a00","path":"sprites/emj_spr_whatsapp_deluxe_24/emj_spr_whatsapp_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e5e37f24-e40a-40e7-91d7-849fc0ecd33d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"b7e447a8-f9d5-4680-bf12-eb7e1356d86f","name":"b7e447a8-f9d5-4680-bf12-eb7e1356d86f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d3db4f4b-e5bf-4856-bf38-2e4af6870ba8","name":"d3db4f4b-e5bf-4856-bf38-2e4af6870ba8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1036,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"fa6b5134-6a8e-448f-b07d-1a2b9921ec92","blendMode":0,"displayName":"default","isLocked":false,"name":"fa6b5134-6a8e-448f-b07d-1a2b9921ec92","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"e2d5c31c-88d6-4db0-8067-3ecea3695d16","blendMode":0,"displayName":"default","isLocked":false,"name":"e2d5c31c-88d6-4db0-8067-3ecea3695d16","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_twemoji_lite_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b7e447a8-f9d5-4680-bf12-eb7e1356d86f","path":"sprites/emj_spr_twemoji_lite_24/emj_spr_twemoji_lite_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5e94b709-8ae7-456e-82a6-d6c027c22d93","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d3db4f4b-e5bf-4856-bf38-2e4af6870ba8","path":"sprites/emj_spr_twemoji_lite_24/emj_spr_twemoji_lite_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"49243359-285e-457f-a164-f9e5d026b31c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

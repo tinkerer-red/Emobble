@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"1c8189e4-ce32-45c9-a7f1-7fa1670687e0","name":"1c8189e4-ce32-45c9-a7f1-7fa1670687e0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0894e70e-7f98-446c-8956-f102004eaccb","name":"0894e70e-7f98-446c-8956-f102004eaccb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1028,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d4afd1e7-06c9-4e2e-952e-2c22230f86ee","blendMode":0,"displayName":"default","isLocked":false,"name":"d4afd1e7-06c9-4e2e-952e-2c22230f86ee","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ad1d371f-fc09-4442-a849-3425576eaa37","blendMode":0,"displayName":"default","isLocked":false,"name":"ad1d371f-fc09-4442-a849-3425576eaa37","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_segoeUi_full_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1c8189e4-ce32-45c9-a7f1-7fa1670687e0","path":"sprites/emj_spr_segoeUi_full_24/emj_spr_segoeUi_full_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"dd1dee18-e424-48c9-89a7-2eba60449755","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0894e70e-7f98-446c-8956-f102004eaccb","path":"sprites/emj_spr_segoeUi_full_24/emj_spr_segoeUi_full_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"08785447-bf67-4b28-a447-e55f4089d6ac","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

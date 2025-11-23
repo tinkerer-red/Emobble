@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"ce5dfef1-b8a1-4f67-8a9b-304c949e3072","name":"ce5dfef1-b8a1-4f67-8a9b-304c949e3072","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c0221acc-217a-4c9a-8889-99da055458b9","name":"c0221acc-217a-4c9a-8889-99da055458b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":312,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"db3c054f-e5f2-44aa-9df7-df82152e6426","blendMode":0,"displayName":"default","isLocked":false,"name":"db3c054f-e5f2-44aa-9df7-df82152e6426","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"aa55bb25-763d-43e1-8feb-559f32d8d3f5","blendMode":0,"displayName":"default","isLocked":false,"name":"aa55bb25-763d-43e1-8feb-559f32d8d3f5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_discord_deluxe_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ce5dfef1-b8a1-4f67-8a9b-304c949e3072","path":"sprites/emj_spr_discord_deluxe_24/emj_spr_discord_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"54a9b0cb-d6d3-41ac-a68e-65a5006afff5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c0221acc-217a-4c9a-8889-99da055458b9","path":"sprites/emj_spr_discord_deluxe_24/emj_spr_discord_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"59363b97-e24a-4884-8486-0e5d26b30766","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

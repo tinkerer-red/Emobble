@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"03885893-b56a-4512-bb62-afe19d05703c","name":"03885893-b56a-4512-bb62-afe19d05703c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c264cef2-1ec0-45f4-99b1-9247b627c7f1","name":"c264cef2-1ec0-45f4-99b1-9247b627c7f1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1005,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"73910a25-f306-457f-a672-47ab4ff22bbe","blendMode":0,"displayName":"default","isLocked":false,"name":"73910a25-f306-457f-a672-47ab4ff22bbe","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ae0c83bd-9b75-4389-8b25-f49197c226ef","blendMode":0,"displayName":"default","isLocked":false,"name":"ae0c83bd-9b75-4389-8b25-f49197c226ef","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_samsung_lite_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"03885893-b56a-4512-bb62-afe19d05703c","path":"sprites/emj_spr_samsung_lite_24/emj_spr_samsung_lite_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"64ebff42-2779-43a2-a778-3f3e75dd2753","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c264cef2-1ec0-45f4-99b1-9247b627c7f1","path":"sprites/emj_spr_samsung_lite_24/emj_spr_samsung_lite_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"afcc32ee-12bd-4646-95d6-1cfe38a87b69","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

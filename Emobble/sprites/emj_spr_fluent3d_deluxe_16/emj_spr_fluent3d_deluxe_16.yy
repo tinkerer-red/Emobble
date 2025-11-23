@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"de65c18c-d905-458c-917c-17a34b9c4909","name":"de65c18c-d905-458c-917c-17a34b9c4909","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"906637ca-f9f8-455d-9e4b-091c14e7574f","name":"906637ca-f9f8-455d-9e4b-091c14e7574f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":919,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"dce6f090-313f-463f-9ed4-f1b7d6ffd018","blendMode":0,"displayName":"default","isLocked":false,"name":"dce6f090-313f-463f-9ed4-f1b7d6ffd018","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"eeb43980-33af-481c-90ff-c283b2d91827","blendMode":0,"displayName":"default","isLocked":false,"name":"eeb43980-33af-481c-90ff-c283b2d91827","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_fluent3d_deluxe_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"de65c18c-d905-458c-917c-17a34b9c4909","path":"sprites/emj_spr_fluent3d_deluxe_16/emj_spr_fluent3d_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"12f1d238-3f84-40c0-be68-b4ac012104c7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"906637ca-f9f8-455d-9e4b-091c14e7574f","path":"sprites/emj_spr_fluent3d_deluxe_16/emj_spr_fluent3d_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"dae14a0f-1802-4186-bf2f-6faa391c2fd7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

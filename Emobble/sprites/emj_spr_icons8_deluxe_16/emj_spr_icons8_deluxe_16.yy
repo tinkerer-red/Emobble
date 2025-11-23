@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"4f30957c-9cf6-494f-984a-aa4dbb1a3c92","name":"4f30957c-9cf6-494f-984a-aa4dbb1a3c92","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"84c9a0d6-c6ce-4d34-acc3-ef05a958e6f8","name":"84c9a0d6-c6ce-4d34-acc3-ef05a958e6f8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":736,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"35babe9e-0dd4-41d4-8c2c-fa4294897112","blendMode":0,"displayName":"default","isLocked":false,"name":"35babe9e-0dd4-41d4-8c2c-fa4294897112","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"87053fe0-675f-46b6-b2f6-21603296a5d1","blendMode":0,"displayName":"default","isLocked":false,"name":"87053fe0-675f-46b6-b2f6-21603296a5d1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_icons8_deluxe_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f30957c-9cf6-494f-984a-aa4dbb1a3c92","path":"sprites/emj_spr_icons8_deluxe_16/emj_spr_icons8_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c9425564-d43a-48db-ae57-f88e6175fc63","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"84c9a0d6-c6ce-4d34-acc3-ef05a958e6f8","path":"sprites/emj_spr_icons8_deluxe_16/emj_spr_icons8_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fbf5f6ac-45d5-4270-b7b5-f3f53e061505","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

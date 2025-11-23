@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"7763169f-0847-4faf-9b97-bf1a522b2489","name":"7763169f-0847-4faf-9b97-bf1a522b2489","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1703f3d6-50e7-4f8c-9c8d-c3048472cce6","name":"1703f3d6-50e7-4f8c-9c8d-c3048472cce6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":751,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"1c30072b-b0a4-4bfb-92e7-e46e4888ace7","blendMode":0,"displayName":"default","isLocked":false,"name":"1c30072b-b0a4-4bfb-92e7-e46e4888ace7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ee0a053d-4d5e-4e77-8e3c-6488a97d0281","blendMode":0,"displayName":"default","isLocked":false,"name":"ee0a053d-4d5e-4e77-8e3c-6488a97d0281","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_samsung_full_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7763169f-0847-4faf-9b97-bf1a522b2489","path":"sprites/emj_spr_samsung_full_16/emj_spr_samsung_full_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"31b8cc8c-d209-42f3-8982-dce2261baff5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1703f3d6-50e7-4f8c-9c8d-c3048472cce6","path":"sprites/emj_spr_samsung_full_16/emj_spr_samsung_full_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ceaa4e70-e475-42d6-a3b5-4c7c63920412","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

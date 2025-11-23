@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"ac47aabd-0f73-44ed-b295-a7e4c786837b","name":"ac47aabd-0f73-44ed-b295-a7e4c786837b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7b3ebc9d-5a88-4364-a513-61ac4b17b307","name":"7b3ebc9d-5a88-4364-a513-61ac4b17b307","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":208,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"8d9cf037-66c2-42b7-b045-87a82e569e51","blendMode":0,"displayName":"default","isLocked":false,"name":"8d9cf037-66c2-42b7-b045-87a82e569e51","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"a20aa21f-bac0-40ed-ba37-cfe227f1ac74","blendMode":0,"displayName":"default","isLocked":false,"name":"a20aa21f-bac0-40ed-ba37-cfe227f1ac74","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_discord_full_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac47aabd-0f73-44ed-b295-a7e4c786837b","path":"sprites/emj_spr_discord_full_24/emj_spr_discord_full_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c98d5344-68ce-4c83-9dd5-687845697b6d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7b3ebc9d-5a88-4364-a513-61ac4b17b307","path":"sprites/emj_spr_discord_full_24/emj_spr_discord_full_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8e1cb26a-2a03-4583-8d72-0e9fe5ba36a8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

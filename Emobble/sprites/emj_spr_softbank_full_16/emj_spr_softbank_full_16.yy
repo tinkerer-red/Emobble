@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"670ce1e7-0e03-40e5-9c54-d9c55cba5783","name":"670ce1e7-0e03-40e5-9c54-d9c55cba5783","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ac5e27f6-7217-42c8-aa2b-ff2e2ba15300","name":"ac5e27f6-7217-42c8-aa2b-ff2e2ba15300","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":479,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"172e61c3-617d-4248-add3-02a57bc12caf","blendMode":0,"displayName":"default","isLocked":false,"name":"172e61c3-617d-4248-add3-02a57bc12caf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"915e2b49-bea9-455d-b090-a1f04a8f690e","blendMode":0,"displayName":"default","isLocked":false,"name":"915e2b49-bea9-455d-b090-a1f04a8f690e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_softbank_full_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"670ce1e7-0e03-40e5-9c54-d9c55cba5783","path":"sprites/emj_spr_softbank_full_16/emj_spr_softbank_full_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7d05d528-4ee5-4b38-8048-5e7bc0229720","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac5e27f6-7217-42c8-aa2b-ff2e2ba15300","path":"sprites/emj_spr_softbank_full_16/emj_spr_softbank_full_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"aedd47a9-0b89-45cc-a853-8b38d6257ee5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

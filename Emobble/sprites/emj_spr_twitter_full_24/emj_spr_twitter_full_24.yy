@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"70546ba3-4523-4a4b-b75d-094ef7da2e54","name":"70546ba3-4523-4a4b-b75d-094ef7da2e54","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f7e7e8ed-8dfd-4ffc-b3d9-25f195b685f7","name":"f7e7e8ed-8dfd-4ffc-b3d9-25f195b685f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1112,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"fe809b9f-0abb-4bc2-b396-cc5a0ab2276c","blendMode":0,"displayName":"default","isLocked":false,"name":"fe809b9f-0abb-4bc2-b396-cc5a0ab2276c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"689b3ee2-dea0-4f51-944a-39adb1cf8999","blendMode":0,"displayName":"default","isLocked":false,"name":"689b3ee2-dea0-4f51-944a-39adb1cf8999","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_twitter_full_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"70546ba3-4523-4a4b-b75d-094ef7da2e54","path":"sprites/emj_spr_twitter_full_24/emj_spr_twitter_full_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d8b011c4-5d37-4525-8517-533688e20b89","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f7e7e8ed-8dfd-4ffc-b3d9-25f195b685f7","path":"sprites/emj_spr_twitter_full_24/emj_spr_twitter_full_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b8e6ccc1-8767-43b3-816f-ee77054aebff","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

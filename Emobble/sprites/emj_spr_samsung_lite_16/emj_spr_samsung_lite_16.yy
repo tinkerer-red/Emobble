@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"eb8d4ad5-ae6c-4ffa-9a21-9547111b6c95","name":"eb8d4ad5-ae6c-4ffa-9a21-9547111b6c95","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6e8e0961-2bf0-445e-9b72-29e93c6a9a4b","name":"6e8e0961-2bf0-445e-9b72-29e93c6a9a4b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":699,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"31a1425e-9d9c-4676-9cef-a755761f6d13","blendMode":0,"displayName":"default","isLocked":false,"name":"31a1425e-9d9c-4676-9cef-a755761f6d13","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c2133d6a-5f79-4504-9684-d20a0f2a8160","blendMode":0,"displayName":"default","isLocked":false,"name":"c2133d6a-5f79-4504-9684-d20a0f2a8160","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_samsung_lite_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"eb8d4ad5-ae6c-4ffa-9a21-9547111b6c95","path":"sprites/emj_spr_samsung_lite_16/emj_spr_samsung_lite_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5f9d08d5-5a48-438b-bc11-b57b0e3b1217","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6e8e0961-2bf0-445e-9b72-29e93c6a9a4b","path":"sprites/emj_spr_samsung_lite_16/emj_spr_samsung_lite_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1043666e-b6a0-4393-9c26-e17abb2f4240","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

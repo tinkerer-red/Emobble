@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"ca86b91a-a70e-462d-8da6-c8daf04ff67b","name":"ca86b91a-a70e-462d-8da6-c8daf04ff67b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cd0bd649-2741-4ec9-bd83-2136cab4cbab","name":"cd0bd649-2741-4ec9-bd83-2136cab4cbab","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1009,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"366aae67-f070-4e4e-8d82-a99639a72eb9","blendMode":0,"displayName":"default","isLocked":false,"name":"366aae67-f070-4e4e-8d82-a99639a72eb9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"1bffe7c5-c255-47bc-90e0-2bfac2421980","blendMode":0,"displayName":"default","isLocked":false,"name":"1bffe7c5-c255-47bc-90e0-2bfac2421980","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_skype_deluxe_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ca86b91a-a70e-462d-8da6-c8daf04ff67b","path":"sprites/emj_spr_skype_deluxe_24/emj_spr_skype_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"24306889-e268-4453-927f-50d7da4e2616","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd0bd649-2741-4ec9-bd83-2136cab4cbab","path":"sprites/emj_spr_skype_deluxe_24/emj_spr_skype_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"454e36bc-8e1f-4622-bd43-9fc3018106db","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

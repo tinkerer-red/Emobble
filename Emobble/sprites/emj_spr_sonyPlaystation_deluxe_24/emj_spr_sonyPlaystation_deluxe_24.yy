@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"96e00bf6-7bca-4b5b-b955-e47c8c911f71","name":"96e00bf6-7bca-4b5b-b955-e47c8c911f71","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"47f4fb6b-c9b1-40c8-af48-27cb5bb3e2da","name":"47f4fb6b-c9b1-40c8-af48-27cb5bb3e2da","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1269,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"21e3a015-3c02-4346-a15b-16263ccf0787","blendMode":0,"displayName":"default","isLocked":false,"name":"21e3a015-3c02-4346-a15b-16263ccf0787","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"e8e07bba-207b-4e5e-9bb7-c6c7cc2a7e1c","blendMode":0,"displayName":"default","isLocked":false,"name":"e8e07bba-207b-4e5e-9bb7-c6c7cc2a7e1c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_sonyPlaystation_deluxe_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"96e00bf6-7bca-4b5b-b955-e47c8c911f71","path":"sprites/emj_spr_sonyPlaystation_deluxe_24/emj_spr_sonyPlaystation_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f2a5c523-0fa6-405b-a2e0-d37b4c446638","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"47f4fb6b-c9b1-40c8-af48-27cb5bb3e2da","path":"sprites/emj_spr_sonyPlaystation_deluxe_24/emj_spr_sonyPlaystation_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"83338f02-8a6d-419c-bfbd-76e1ee65cfee","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

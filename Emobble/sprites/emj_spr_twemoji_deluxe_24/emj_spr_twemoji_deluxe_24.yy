@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"5f7e2370-613f-4430-80df-2f791bf21bd4","name":"5f7e2370-613f-4430-80df-2f791bf21bd4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7e34c9c2-f96a-4d25-81dd-7ed7b8b0c2d3","name":"7e34c9c2-f96a-4d25-81dd-7ed7b8b0c2d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1541,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d6d4ece3-9b44-4851-8ac5-f5ccee186932","blendMode":0,"displayName":"default","isLocked":false,"name":"d6d4ece3-9b44-4851-8ac5-f5ccee186932","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"853ab6ef-12d9-434a-9765-325e8ffd0138","blendMode":0,"displayName":"default","isLocked":false,"name":"853ab6ef-12d9-434a-9765-325e8ffd0138","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_twemoji_deluxe_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5f7e2370-613f-4430-80df-2f791bf21bd4","path":"sprites/emj_spr_twemoji_deluxe_24/emj_spr_twemoji_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6d8a0e87-6fe8-40d3-9f68-5ee6d212022b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7e34c9c2-f96a-4d25-81dd-7ed7b8b0c2d3","path":"sprites/emj_spr_twemoji_deluxe_24/emj_spr_twemoji_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4f22a4ac-22aa-46f3-9a24-a76d9d243bb8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

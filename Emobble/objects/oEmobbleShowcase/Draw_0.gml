@@ -56,10 +56,10 @@ gpu_set_tex_filter(false)
 
 
 var _tex_index = real(2);
-var _tex_x     = real(1603);
-var _tex_y     = real(305);
-var _tex_w     = real(13);
-var _tex_h     = real(16);
+var _tex_x     = 1602;
+var _tex_y     = 304;
+var _tex_w     = 13;
+var _tex_h     = 16;
 
 draw_set_color(c_white)
 draw_rectangle(50, 50, 50+_tex_w, 50+_tex_h, false);

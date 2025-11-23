@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"4b053741-42ea-4b21-9ada-9faa1aa7acb6","name":"4b053741-42ea-4b21-9ada-9faa1aa7acb6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2534cd7a-2be8-4102-a5f2-6107035106ff","name":"2534cd7a-2be8-4102-a5f2-6107035106ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1395,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6c5ad590-c708-4062-97ab-1f1a5c00bfca","blendMode":0,"displayName":"default","isLocked":false,"name":"6c5ad590-c708-4062-97ab-1f1a5c00bfca","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"40824d32-6754-484d-821e-0cc5071e73df","blendMode":0,"displayName":"default","isLocked":false,"name":"40824d32-6754-484d-821e-0cc5071e73df","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_whatsapp_full_32",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4b053741-42ea-4b21-9ada-9faa1aa7acb6","path":"sprites/emj_spr_whatsapp_full_32/emj_spr_whatsapp_full_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b9432a3b-d8e2-4506-9981-b653a023ad45","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2534cd7a-2be8-4102-a5f2-6107035106ff","path":"sprites/emj_spr_whatsapp_full_32/emj_spr_whatsapp_full_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"60a00c91-f9c9-40a0-bda4-e1e0300d9c6b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

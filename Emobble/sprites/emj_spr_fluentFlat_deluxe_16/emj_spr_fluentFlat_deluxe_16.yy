@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"2136e78d-0fdd-4169-9381-d778c2083dc6","name":"2136e78d-0fdd-4169-9381-d778c2083dc6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7a63a488-352e-4206-88e3-5c69de6c187b","name":"7a63a488-352e-4206-88e3-5c69de6c187b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1002,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"cc96784b-699e-45bd-9b99-36c598701200","blendMode":0,"displayName":"default","isLocked":false,"name":"cc96784b-699e-45bd-9b99-36c598701200","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"0265e232-886b-4868-99e2-e756d420ad67","blendMode":0,"displayName":"default","isLocked":false,"name":"0265e232-886b-4868-99e2-e756d420ad67","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_fluentFlat_deluxe_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2136e78d-0fdd-4169-9381-d778c2083dc6","path":"sprites/emj_spr_fluentFlat_deluxe_16/emj_spr_fluentFlat_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7abc428e-3b9f-4b1f-ae23-b661febcdbb8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7a63a488-352e-4206-88e3-5c69de6c187b","path":"sprites/emj_spr_fluentFlat_deluxe_16/emj_spr_fluentFlat_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"07e8eedb-f09a-4f1e-b10f-378148e3862d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

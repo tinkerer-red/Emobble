@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"72ec391e-4f9c-4176-9443-f8384d3f3e41","name":"72ec391e-4f9c-4176-9443-f8384d3f3e41","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5acd6980-99b1-4084-91a2-79e3f4f13a68","name":"5acd6980-99b1-4084-91a2-79e3f4f13a68","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1812,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d1a1ef72-684c-4122-a930-9d79bb8cec5d","blendMode":0,"displayName":"default","isLocked":false,"name":"d1a1ef72-684c-4122-a930-9d79bb8cec5d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8d5099c8-ca05-4927-bf29-285b962d520e","blendMode":0,"displayName":"default","isLocked":false,"name":"8d5099c8-ca05-4927-bf29-285b962d520e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_tossFace_deluxe_32",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"72ec391e-4f9c-4176-9443-f8384d3f3e41","path":"sprites/emj_spr_tossFace_deluxe_32/emj_spr_tossFace_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7ef0cc44-d307-4d97-8068-9c68509a92b9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5acd6980-99b1-4084-91a2-79e3f4f13a68","path":"sprites/emj_spr_tossFace_deluxe_32/emj_spr_tossFace_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1824aebb-6fd1-443f-8de7-8ddc216d3e01","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

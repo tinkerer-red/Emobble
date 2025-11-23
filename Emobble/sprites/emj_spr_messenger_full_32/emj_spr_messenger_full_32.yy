@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"cfdef8f3-d7e2-434d-a75d-ed513913b316","name":"cfdef8f3-d7e2-434d-a75d-ed513913b316","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3efb8221-f634-43db-b06a-1c25ab4ef0d9","name":"3efb8221-f634-43db-b06a-1c25ab4ef0d9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":988,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e9f83d52-4326-47fe-bfd6-5456ded3e70c","blendMode":0,"displayName":"default","isLocked":false,"name":"e9f83d52-4326-47fe-bfd6-5456ded3e70c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"a686c719-d426-40c3-9e26-597c6ef4a4b6","blendMode":0,"displayName":"default","isLocked":false,"name":"a686c719-d426-40c3-9e26-597c6ef4a4b6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_messenger_full_32",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cfdef8f3-d7e2-434d-a75d-ed513913b316","path":"sprites/emj_spr_messenger_full_32/emj_spr_messenger_full_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"95fc9846-0605-4a91-8681-ec1020d1f807","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3efb8221-f634-43db-b06a-1c25ab4ef0d9","path":"sprites/emj_spr_messenger_full_32/emj_spr_messenger_full_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"919f7528-9910-494e-94f6-330552993190","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

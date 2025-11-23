@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"383ef918-2216-4147-a7e5-8bb636549ed0","name":"383ef918-2216-4147-a7e5-8bb636549ed0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0b53dcff-c25e-4ca5-a347-57cd4bf48852","name":"0b53dcff-c25e-4ca5-a347-57cd4bf48852","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":607,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"a60bd826-7c7c-4ed7-9d60-869eee84b338","blendMode":0,"displayName":"default","isLocked":false,"name":"a60bd826-7c7c-4ed7-9d60-869eee84b338","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"b67148bf-29ba-4fe4-bd69-bd5e08c9a012","blendMode":0,"displayName":"default","isLocked":false,"name":"b67148bf-29ba-4fe4-bd69-bd5e08c9a012","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_emojidex_full_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"383ef918-2216-4147-a7e5-8bb636549ed0","path":"sprites/emj_spr_emojidex_full_16/emj_spr_emojidex_full_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"390a80fc-c75d-41cc-9b49-1145624a7731","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0b53dcff-c25e-4ca5-a347-57cd4bf48852","path":"sprites/emj_spr_emojidex_full_16/emj_spr_emojidex_full_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"824dbabd-3cf6-4e48-a733-e5bd5ddf58aa","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

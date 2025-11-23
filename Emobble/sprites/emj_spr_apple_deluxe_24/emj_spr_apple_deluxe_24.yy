@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"cd6f3637-5f98-4a1e-88ac-bf36c3ea690f","name":"cd6f3637-5f98-4a1e-88ac-bf36c3ea690f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3340d10b-eb59-4450-b437-2383179c0cce","name":"3340d10b-eb59-4450-b437-2383179c0cce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1606,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"9cdbb3b0-248a-4426-9e4f-9aaff63fcc10","blendMode":0,"displayName":"default","isLocked":false,"name":"9cdbb3b0-248a-4426-9e4f-9aaff63fcc10","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"773fc9c0-e593-4228-bc30-883ab8f197b0","blendMode":0,"displayName":"default","isLocked":false,"name":"773fc9c0-e593-4228-bc30-883ab8f197b0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_apple_deluxe_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd6f3637-5f98-4a1e-88ac-bf36c3ea690f","path":"sprites/emj_spr_apple_deluxe_24/emj_spr_apple_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"39c6ccd4-8ab1-4062-ae41-dbfd14a8a768","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3340d10b-eb59-4450-b437-2383179c0cce","path":"sprites/emj_spr_apple_deluxe_24/emj_spr_apple_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f335373d-5510-4219-8892-dafcb3b65ab5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

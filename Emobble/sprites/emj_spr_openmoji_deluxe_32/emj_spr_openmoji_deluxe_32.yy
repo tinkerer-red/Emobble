@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"59e4113f-32c3-4ec6-a4ac-9ed4470a329f","name":"59e4113f-32c3-4ec6-a4ac-9ed4470a329f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5fa9ee4e-880e-4873-8693-37467ecfc94a","name":"5fa9ee4e-880e-4873-8693-37467ecfc94a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1638,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"bd96a112-eb92-415d-b1fb-cf1a2812533e","blendMode":0,"displayName":"default","isLocked":false,"name":"bd96a112-eb92-415d-b1fb-cf1a2812533e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"0ac8d16b-651a-4a8b-867e-e29764d964c1","blendMode":0,"displayName":"default","isLocked":false,"name":"0ac8d16b-651a-4a8b-867e-e29764d964c1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_openmoji_deluxe_32",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"59e4113f-32c3-4ec6-a4ac-9ed4470a329f","path":"sprites/emj_spr_openmoji_deluxe_32/emj_spr_openmoji_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"73d0680f-2a66-465a-afe6-dc8d82f83622","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5fa9ee4e-880e-4873-8693-37467ecfc94a","path":"sprites/emj_spr_openmoji_deluxe_32/emj_spr_openmoji_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7bdba20f-0ca4-447e-bca3-aae21d1f602f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

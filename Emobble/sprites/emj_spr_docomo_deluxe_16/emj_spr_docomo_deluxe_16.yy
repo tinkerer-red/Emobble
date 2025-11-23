@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"314e2f19-66b7-40c8-a558-19104899af90","name":"314e2f19-66b7-40c8-a558-19104899af90","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3563865a-2d55-4532-8b45-f1ef4ad003ee","name":"3563865a-2d55-4532-8b45-f1ef4ad003ee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":443,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"48bab762-d69c-4136-a952-ce3372ffbb8d","blendMode":0,"displayName":"default","isLocked":false,"name":"48bab762-d69c-4136-a952-ce3372ffbb8d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"bb6b1fbb-3dd7-4847-96c0-cbeb5c567139","blendMode":0,"displayName":"default","isLocked":false,"name":"bb6b1fbb-3dd7-4847-96c0-cbeb5c567139","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_docomo_deluxe_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"314e2f19-66b7-40c8-a558-19104899af90","path":"sprites/emj_spr_docomo_deluxe_16/emj_spr_docomo_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"deb0c44d-0827-424f-955a-3cd3ff8d9aa9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3563865a-2d55-4532-8b45-f1ef4ad003ee","path":"sprites/emj_spr_docomo_deluxe_16/emj_spr_docomo_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e5b550e6-471f-43df-9423-7cf1f1ad5398","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

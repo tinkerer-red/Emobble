@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"bd5478f0-a1b5-42fc-bf78-8b7e20c6454e","name":"bd5478f0-a1b5-42fc-bf78-8b7e20c6454e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"72a2cf81-6d9f-4753-b1b1-67be7ac134d9","name":"72a2cf81-6d9f-4753-b1b1-67be7ac134d9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1937,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"8f2682ef-955a-44a2-87c3-8c354be37b90","blendMode":0,"displayName":"default","isLocked":false,"name":"8f2682ef-955a-44a2-87c3-8c354be37b90","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"32804cab-7c51-4cad-9571-337294e9836c","blendMode":0,"displayName":"default","isLocked":false,"name":"32804cab-7c51-4cad-9571-337294e9836c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_twitterEmojiStickers_deluxe_32",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bd5478f0-a1b5-42fc-bf78-8b7e20c6454e","path":"sprites/emj_spr_twitterEmojiStickers_deluxe_32/emj_spr_twitterEmojiStickers_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c65cc3ad-8feb-4227-8cc3-4a4e35ea156f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"72a2cf81-6d9f-4753-b1b1-67be7ac134d9","path":"sprites/emj_spr_twitterEmojiStickers_deluxe_32/emj_spr_twitterEmojiStickers_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b8867c34-eef7-49d0-b389-8ee2b9785bf1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"7fba53bf-5abf-48b1-b136-6687a9289f63","name":"7fba53bf-5abf-48b1-b136-6687a9289f63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ac4b84fb-657f-4f64-93b3-c0c68bee038f","name":"ac4b84fb-657f-4f64-93b3-c0c68bee038f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":502,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"8b40f404-cc56-489c-b257-cc727891f1b9","blendMode":0,"displayName":"default","isLocked":false,"name":"8b40f404-cc56-489c-b257-cc727891f1b9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"49b83544-66a8-40c3-81e6-af2b7228e39d","blendMode":0,"displayName":"default","isLocked":false,"name":"49b83544-66a8-40c3-81e6-af2b7228e39d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_mozilla_full_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7fba53bf-5abf-48b1-b136-6687a9289f63","path":"sprites/emj_spr_mozilla_full_16/emj_spr_mozilla_full_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"51969557-ffbb-4611-8a4a-43861410f7f4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac4b84fb-657f-4f64-93b3-c0c68bee038f","path":"sprites/emj_spr_mozilla_full_16/emj_spr_mozilla_full_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"424a48cb-b798-429e-8ba0-742897abc49b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

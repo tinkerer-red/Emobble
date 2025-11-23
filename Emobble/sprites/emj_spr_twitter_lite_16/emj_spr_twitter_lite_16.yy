@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"66168559-744a-4a07-b90f-ad01da435d25","name":"66168559-744a-4a07-b90f-ad01da435d25","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"42e4b856-8b75-4b7c-aedd-212455033f13","name":"42e4b856-8b75-4b7c-aedd-212455033f13","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":713,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"20aa9cfb-cdfe-4c12-950d-afff80b6e8d1","blendMode":0,"displayName":"default","isLocked":false,"name":"20aa9cfb-cdfe-4c12-950d-afff80b6e8d1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"58291b50-92e3-40d3-8157-bf259fa56283","blendMode":0,"displayName":"default","isLocked":false,"name":"58291b50-92e3-40d3-8157-bf259fa56283","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_twitter_lite_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"66168559-744a-4a07-b90f-ad01da435d25","path":"sprites/emj_spr_twitter_lite_16/emj_spr_twitter_lite_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"77865148-47c0-4a1f-8eb8-163c59c05013","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"42e4b856-8b75-4b7c-aedd-212455033f13","path":"sprites/emj_spr_twitter_lite_16/emj_spr_twitter_lite_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5db64c29-fd0e-4261-90de-4e14723f8098","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"1c4e11af-df2f-4c58-9c58-c23b14e7b889","name":"1c4e11af-df2f-4c58-9c58-c23b14e7b889","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"54e5da82-d465-424d-a1a3-9aa1026c94e8","name":"54e5da82-d465-424d-a1a3-9aa1026c94e8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1383,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e0279190-0c66-4cec-9407-b2ccf1030c3f","blendMode":0,"displayName":"default","isLocked":false,"name":"e0279190-0c66-4cec-9407-b2ccf1030c3f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"59bc8bea-f52d-455e-ac6e-9fe8600e0a93","blendMode":0,"displayName":"default","isLocked":false,"name":"59bc8bea-f52d-455e-ac6e-9fe8600e0a93","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_samsung_full_32",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1c4e11af-df2f-4c58-9c58-c23b14e7b889","path":"sprites/emj_spr_samsung_full_32/emj_spr_samsung_full_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6c280805-8817-439a-9c10-1717f5b2560d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"54e5da82-d465-424d-a1a3-9aa1026c94e8","path":"sprites/emj_spr_samsung_full_32/emj_spr_samsung_full_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"903774df-24b3-4bf7-b92f-6c3027b288bf","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

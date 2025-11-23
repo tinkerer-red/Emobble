@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d2665987-a791-4709-af7d-73ab36f02661","name":"d2665987-a791-4709-af7d-73ab36f02661","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5b54ad0e-b0d5-4074-a113-7c43197aafbd","name":"5b54ad0e-b0d5-4074-a113-7c43197aafbd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":757,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"63af14f9-436d-4989-8432-122007af5721","blendMode":0,"displayName":"default","isLocked":false,"name":"63af14f9-436d-4989-8432-122007af5721","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"517b099c-cfdf-4e58-a5dd-bb727ad4d1e4","blendMode":0,"displayName":"default","isLocked":false,"name":"517b099c-cfdf-4e58-a5dd-bb727ad4d1e4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_facebook_full_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d2665987-a791-4709-af7d-73ab36f02661","path":"sprites/emj_spr_facebook_full_16/emj_spr_facebook_full_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b76dd5c9-8493-4e6f-850c-76083aa25c7b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5b54ad0e-b0d5-4074-a113-7c43197aafbd","path":"sprites/emj_spr_facebook_full_16/emj_spr_facebook_full_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"12012f49-7be6-4e92-aa52-403927fa3004","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

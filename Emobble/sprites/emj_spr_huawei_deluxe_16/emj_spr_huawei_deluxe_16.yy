@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"561f1fa3-de07-454a-9bce-d10656a56e44","name":"561f1fa3-de07-454a-9bce-d10656a56e44","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e584a222-0da9-4aaa-a25c-2a5d79ac6467","name":"e584a222-0da9-4aaa-a25c-2a5d79ac6467","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1009,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"ebd28636-b7bc-4e6b-8e56-6f6299f30bf3","blendMode":0,"displayName":"default","isLocked":false,"name":"ebd28636-b7bc-4e6b-8e56-6f6299f30bf3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d09b3576-7b90-442d-b478-c299f3be0ee4","blendMode":0,"displayName":"default","isLocked":false,"name":"d09b3576-7b90-442d-b478-c299f3be0ee4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_huawei_deluxe_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"561f1fa3-de07-454a-9bce-d10656a56e44","path":"sprites/emj_spr_huawei_deluxe_16/emj_spr_huawei_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d0801b4e-75e2-4997-a59a-e0a9ea44aa89","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e584a222-0da9-4aaa-a25c-2a5d79ac6467","path":"sprites/emj_spr_huawei_deluxe_16/emj_spr_huawei_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ad0f8827-6013-4395-a19d-24aef7de3b84","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

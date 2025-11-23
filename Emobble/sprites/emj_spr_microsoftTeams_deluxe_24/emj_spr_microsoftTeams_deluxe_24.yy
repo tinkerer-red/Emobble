@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"7a943439-6393-4d78-8915-5b7fbe772e22","name":"7a943439-6393-4d78-8915-5b7fbe772e22","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6deb4c3d-64fc-4c3e-b5fa-a02af2fd6a2c","name":"6deb4c3d-64fc-4c3e-b5fa-a02af2fd6a2c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1235,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"28a189fd-55f0-428a-8066-ffd2daeb64b5","blendMode":0,"displayName":"default","isLocked":false,"name":"28a189fd-55f0-428a-8066-ffd2daeb64b5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"b8f07681-a019-46b0-b915-eb8d3fa245fd","blendMode":0,"displayName":"default","isLocked":false,"name":"b8f07681-a019-46b0-b915-eb8d3fa245fd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_microsoftTeams_deluxe_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7a943439-6393-4d78-8915-5b7fbe772e22","path":"sprites/emj_spr_microsoftTeams_deluxe_24/emj_spr_microsoftTeams_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"23e161b6-b23f-4799-a139-fd69b14d3ff2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6deb4c3d-64fc-4c3e-b5fa-a02af2fd6a2c","path":"sprites/emj_spr_microsoftTeams_deluxe_24/emj_spr_microsoftTeams_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"03dd2215-63f1-4d22-9ad7-5dd60dfb2708","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

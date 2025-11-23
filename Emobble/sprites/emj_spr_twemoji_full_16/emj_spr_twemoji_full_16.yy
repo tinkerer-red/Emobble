@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"edfc5523-d133-43bf-a5c8-b067563252be","name":"edfc5523-d133-43bf-a5c8-b067563252be","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8add137d-7ab7-486e-a511-7ac3123c9621","name":"8add137d-7ab7-486e-a511-7ac3123c9621","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":771,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"df49e9e6-e951-4811-8075-a38100a3dff9","blendMode":0,"displayName":"default","isLocked":false,"name":"df49e9e6-e951-4811-8075-a38100a3dff9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"49a3c375-c735-4806-855b-36d41124ce5b","blendMode":0,"displayName":"default","isLocked":false,"name":"49a3c375-c735-4806-855b-36d41124ce5b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_twemoji_full_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"edfc5523-d133-43bf-a5c8-b067563252be","path":"sprites/emj_spr_twemoji_full_16/emj_spr_twemoji_full_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fb3c94ca-9212-4d07-b0f4-b49ceabb5925","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8add137d-7ab7-486e-a511-7ac3123c9621","path":"sprites/emj_spr_twemoji_full_16/emj_spr_twemoji_full_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"36657f83-7dad-4196-9b5c-ae5bfec3a815","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

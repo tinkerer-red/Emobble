@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"0eb1bf96-b783-464a-93cf-5f034c15856b","name":"0eb1bf96-b783-464a-93cf-5f034c15856b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a9a90722-7d9c-42ed-bc8d-1628e85a4a03","name":"a9a90722-7d9c-42ed-bc8d-1628e85a4a03","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1109,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"98d09576-de54-467a-b735-c1d53e6027c3","blendMode":0,"displayName":"default","isLocked":false,"name":"98d09576-de54-467a-b735-c1d53e6027c3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8ed9779b-fe7f-4f09-a25b-a8428a4f900f","blendMode":0,"displayName":"default","isLocked":false,"name":"8ed9779b-fe7f-4f09-a25b-a8428a4f900f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_sonyPlaystation_lite_32",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0eb1bf96-b783-464a-93cf-5f034c15856b","path":"sprites/emj_spr_sonyPlaystation_lite_32/emj_spr_sonyPlaystation_lite_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"38a5cb4c-0ec2-4f05-a6f3-256ed0b25950","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a9a90722-7d9c-42ed-bc8d-1628e85a4a03","path":"sprites/emj_spr_sonyPlaystation_lite_32/emj_spr_sonyPlaystation_lite_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"391c8070-9355-4f68-9bcf-46574086e22f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d3d44b22-a679-4415-97af-b2d70a437db7","name":"d3d44b22-a679-4415-97af-b2d70a437db7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8c91f484-87b9-4508-aac3-acf97183d97f","name":"8c91f484-87b9-4508-aac3-acf97183d97f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1118,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"218c766d-b7c3-48c3-af08-160ef56922d5","blendMode":0,"displayName":"default","isLocked":false,"name":"218c766d-b7c3-48c3-af08-160ef56922d5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"bf993fb8-b8f6-4e80-ad65-c845c4442d8d","blendMode":0,"displayName":"default","isLocked":false,"name":"bf993fb8-b8f6-4e80-ad65-c845c4442d8d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_openmoji_lite_32",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d3d44b22-a679-4415-97af-b2d70a437db7","path":"sprites/emj_spr_openmoji_lite_32/emj_spr_openmoji_lite_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"03b2f259-1882-4488-a7cd-b903fd3a8c26","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8c91f484-87b9-4508-aac3-acf97183d97f","path":"sprites/emj_spr_openmoji_lite_32/emj_spr_openmoji_lite_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bc013b3e-4368-4dae-ad4a-5ac4fff1f2e4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"8497d4cb-3ad2-4d99-b643-74560a85928b","name":"8497d4cb-3ad2-4d99-b643-74560a85928b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5f0de253-ab71-4249-9036-301fb55d46cb","name":"5f0de253-ab71-4249-9036-301fb55d46cb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":854,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"3ee12883-df28-4155-acc7-fbf7d69379e7","blendMode":0,"displayName":"default","isLocked":false,"name":"3ee12883-df28-4155-acc7-fbf7d69379e7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d73d93bd-1c16-47a3-9b4b-b00373a1ac95","blendMode":0,"displayName":"default","isLocked":false,"name":"d73d93bd-1c16-47a3-9b4b-b00373a1ac95","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_messenger_deluxe_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8497d4cb-3ad2-4d99-b643-74560a85928b","path":"sprites/emj_spr_messenger_deluxe_24/emj_spr_messenger_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"68d80fca-8e6f-47eb-8556-765f71640468","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5f0de253-ab71-4249-9036-301fb55d46cb","path":"sprites/emj_spr_messenger_deluxe_24/emj_spr_messenger_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"37057780-526c-4c81-92eb-8c59da1430b3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

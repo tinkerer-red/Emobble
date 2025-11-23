@@ -794,8 +794,8 @@ def pack_texture_images(images, keys, padding=1):
 
             placement_plan.append((image, key, x + padding, y + padding))
             metadata[key] = {
-                "x": x + padding,
-                "y": y + padding,
+                "x": x,
+                "y": y,
                 "w": image.width,
                 "h": image.height
             }

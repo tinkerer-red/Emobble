@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"cc86a6b3-be88-458a-9219-4e18e28840ae","name":"cc86a6b3-be88-458a-9219-4e18e28840ae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"45bb3d7c-abd1-4b34-aa84-e4efec67ea5d","name":"45bb3d7c-abd1-4b34-aa84-e4efec67ea5d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":706,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"82c1c7ee-224c-4f57-9963-3844ea36031e","blendMode":0,"displayName":"default","isLocked":false,"name":"82c1c7ee-224c-4f57-9963-3844ea36031e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"cd7f5ad0-ce18-45ce-9721-d6961df5c14a","blendMode":0,"displayName":"default","isLocked":false,"name":"cd7f5ad0-ce18-45ce-9721-d6961df5c14a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_skype_deluxe_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cc86a6b3-be88-458a-9219-4e18e28840ae","path":"sprites/emj_spr_skype_deluxe_16/emj_spr_skype_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"58cbbbe0-4b42-4b81-8d83-40e3f2829613","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"45bb3d7c-abd1-4b34-aa84-e4efec67ea5d","path":"sprites/emj_spr_skype_deluxe_16/emj_spr_skype_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"53996421-338a-4344-8729-53b7de3a882b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

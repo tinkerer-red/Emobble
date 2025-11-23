@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"54f25559-d01d-4fc6-8945-18a36115125d","name":"54f25559-d01d-4fc6-8945-18a36115125d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9e214489-b5c4-48e4-a3f0-775a273d6ce0","name":"9e214489-b5c4-48e4-a3f0-775a273d6ce0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1541,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"3b76a8ed-7d03-45e7-9957-bf533c39912a","blendMode":0,"displayName":"default","isLocked":false,"name":"3b76a8ed-7d03-45e7-9957-bf533c39912a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"10f310db-85e8-4860-ac0b-1b382d59f6a5","blendMode":0,"displayName":"default","isLocked":false,"name":"10f310db-85e8-4860-ac0b-1b382d59f6a5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_twitter_deluxe_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"54f25559-d01d-4fc6-8945-18a36115125d","path":"sprites/emj_spr_twitter_deluxe_24/emj_spr_twitter_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"604d4aab-91fa-4dfb-b9af-e2538c75ae16","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9e214489-b5c4-48e4-a3f0-775a273d6ce0","path":"sprites/emj_spr_twitter_deluxe_24/emj_spr_twitter_deluxe_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"59e6b270-a1ce-495f-986b-a5f7301782f2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"5ae32987-a067-4077-a1ca-b806f939ce74","name":"5ae32987-a067-4077-a1ca-b806f939ce74","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9094981b-5ee6-4aed-be41-c2229c4cc6e1","name":"9094981b-5ee6-4aed-be41-c2229c4cc6e1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1935,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"fe3ed00f-8fa3-4eb5-b3b2-c0380f3e413a","blendMode":0,"displayName":"default","isLocked":false,"name":"fe3ed00f-8fa3-4eb5-b3b2-c0380f3e413a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8599ab33-a5a3-4382-addc-6cf515321555","blendMode":0,"displayName":"default","isLocked":false,"name":"8599ab33-a5a3-4382-addc-6cf515321555","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_joypixels_deluxe_32",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5ae32987-a067-4077-a1ca-b806f939ce74","path":"sprites/emj_spr_joypixels_deluxe_32/emj_spr_joypixels_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d32a42bc-b062-432a-8858-ef31a9aafd6c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9094981b-5ee6-4aed-be41-c2229c4cc6e1","path":"sprites/emj_spr_joypixels_deluxe_32/emj_spr_joypixels_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2bd89f95-7e04-4737-bae1-1a5e897b00cb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

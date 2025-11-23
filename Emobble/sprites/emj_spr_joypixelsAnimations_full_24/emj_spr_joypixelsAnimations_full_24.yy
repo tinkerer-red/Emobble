@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"066e6fce-5870-412f-9286-b72e00d402ba","name":"066e6fce-5870-412f-9286-b72e00d402ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7a0c1707-d7c8-46ed-b9d2-0239177ab955","name":"7a0c1707-d7c8-46ed-b9d2-0239177ab955","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":295,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f58683e5-1fd2-4502-8a9b-e60e9f333f43","blendMode":0,"displayName":"default","isLocked":false,"name":"f58683e5-1fd2-4502-8a9b-e60e9f333f43","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"12de2c8c-e43b-422a-8b06-5cd96bba8a76","blendMode":0,"displayName":"default","isLocked":false,"name":"12de2c8c-e43b-422a-8b06-5cd96bba8a76","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_joypixelsAnimations_full_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"066e6fce-5870-412f-9286-b72e00d402ba","path":"sprites/emj_spr_joypixelsAnimations_full_24/emj_spr_joypixelsAnimations_full_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ed1da17d-f645-4b71-8e45-28fc640ea7b1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7a0c1707-d7c8-46ed-b9d2-0239177ab955","path":"sprites/emj_spr_joypixelsAnimations_full_24/emj_spr_joypixelsAnimations_full_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a57e39d8-68d1-4c0d-97a4-fb3d5b736274","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"2dcf3131-768c-4efb-ba5d-8e835f85f4ad","name":"2dcf3131-768c-4efb-ba5d-8e835f85f4ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"17e9692d-c7d8-422a-bfe7-1c20eb9071b2","name":"17e9692d-c7d8-422a-bfe7-1c20eb9071b2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":998,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"41b07437-4459-4f26-80fe-b09a6645cb06","blendMode":0,"displayName":"default","isLocked":false,"name":"41b07437-4459-4f26-80fe-b09a6645cb06","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d1c3a080-7f84-4850-b152-24fd668a3b60","blendMode":0,"displayName":"default","isLocked":false,"name":"d1c3a080-7f84-4850-b152-24fd668a3b60","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_tossFace_full_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2dcf3131-768c-4efb-ba5d-8e835f85f4ad","path":"sprites/emj_spr_tossFace_full_24/emj_spr_tossFace_full_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"85bb8aa2-a833-474b-becf-e4415c2b44ff","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"17e9692d-c7d8-422a-bfe7-1c20eb9071b2","path":"sprites/emj_spr_tossFace_full_24/emj_spr_tossFace_full_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d2c82de9-c6ac-422b-a2aa-fbaf02af9b94","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

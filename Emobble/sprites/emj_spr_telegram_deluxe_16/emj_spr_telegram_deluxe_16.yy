@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"9d38f091-24d3-42ba-875c-d5b5ae4d9c5d","name":"9d38f091-24d3-42ba-875c-d5b5ae4d9c5d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"415d37cf-ba34-40da-a89e-342fc97875a2","name":"415d37cf-ba34-40da-a89e-342fc97875a2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":236,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"3f5f22a1-1e65-492d-afae-21add7afbaff","blendMode":0,"displayName":"default","isLocked":false,"name":"3f5f22a1-1e65-492d-afae-21add7afbaff","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"41e7466f-d75c-46f4-ace2-fbdaa3e25a59","blendMode":0,"displayName":"default","isLocked":false,"name":"41e7466f-d75c-46f4-ace2-fbdaa3e25a59","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_telegram_deluxe_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9d38f091-24d3-42ba-875c-d5b5ae4d9c5d","path":"sprites/emj_spr_telegram_deluxe_16/emj_spr_telegram_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3cd7811e-1417-4f8d-9b02-bc3bb42e09f1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"415d37cf-ba34-40da-a89e-342fc97875a2","path":"sprites/emj_spr_telegram_deluxe_16/emj_spr_telegram_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"59cb12d6-c7ce-45ec-8561-ef4c4eaef236","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

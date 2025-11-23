@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"7a7c00e9-93b9-47f0-8994-2a88a889e84b","name":"7a7c00e9-93b9-47f0-8994-2a88a889e84b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d9c2c863-1814-4d34-b67a-72b9972bd181","name":"d9c2c863-1814-4d34-b67a-72b9972bd181","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":713,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"59963097-9769-41d2-becf-2028867d9bdc","blendMode":0,"displayName":"default","isLocked":false,"name":"59963097-9769-41d2-becf-2028867d9bdc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c8abe474-428c-4f1b-a189-e424b630c30e","blendMode":0,"displayName":"default","isLocked":false,"name":"c8abe474-428c-4f1b-a189-e424b630c30e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_twemoji_lite_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7a7c00e9-93b9-47f0-8994-2a88a889e84b","path":"sprites/emj_spr_twemoji_lite_16/emj_spr_twemoji_lite_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"94503052-6fe4-4771-b8d1-924802359711","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d9c2c863-1814-4d34-b67a-72b9972bd181","path":"sprites/emj_spr_twemoji_lite_16/emj_spr_twemoji_lite_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"17d0078b-c0b7-4f5c-a1dd-bb6018446f02","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

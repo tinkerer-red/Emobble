@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d43d8847-30d1-42b8-8e01-2c578154ef49","name":"d43d8847-30d1-42b8-8e01-2c578154ef49","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"11ae1b2e-f617-45b0-908c-1151e8da9b16","name":"11ae1b2e-f617-45b0-908c-1151e8da9b16","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":421,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c145de30-d013-4053-b50c-ac4d8edd20da","blendMode":0,"displayName":"default","isLocked":false,"name":"c145de30-d013-4053-b50c-ac4d8edd20da","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"146fb053-9734-4b7d-ab0a-07a08ac7e25d","blendMode":0,"displayName":"default","isLocked":false,"name":"146fb053-9734-4b7d-ab0a-07a08ac7e25d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_notoAnimated_full_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d43d8847-30d1-42b8-8e01-2c578154ef49","path":"sprites/emj_spr_notoAnimated_full_24/emj_spr_notoAnimated_full_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"68fcec3c-7a2e-49c5-bcae-66ce2a138f8d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"11ae1b2e-f617-45b0-908c-1151e8da9b16","path":"sprites/emj_spr_notoAnimated_full_24/emj_spr_notoAnimated_full_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f319ad45-fe7c-484d-8a45-7a5c23d7b0ba","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

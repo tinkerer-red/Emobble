@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"77a74dbd-d4df-44a9-bbf1-e39482f8111d","name":"77a74dbd-d4df-44a9-bbf1-e39482f8111d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fe3c3784-4b6a-40ea-a03f-acbc97a5dc3c","name":"fe3c3784-4b6a-40ea-a03f-acbc97a5dc3c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":335,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"04f2eec1-6105-4a42-ad30-13975da6bbad","blendMode":0,"displayName":"default","isLocked":false,"name":"04f2eec1-6105-4a42-ad30-13975da6bbad","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"917e2949-0684-4809-8314-624d12e5050f","blendMode":0,"displayName":"default","isLocked":false,"name":"917e2949-0684-4809-8314-624d12e5050f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_telegram_full_24",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"77a74dbd-d4df-44a9-bbf1-e39482f8111d","path":"sprites/emj_spr_telegram_full_24/emj_spr_telegram_full_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f9c194e6-1d48-4072-a15c-fd442ce4b0df","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fe3c3784-4b6a-40ea-a03f-acbc97a5dc3c","path":"sprites/emj_spr_telegram_full_24/emj_spr_telegram_full_24.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cf45f45c-84ae-42c8-aec6-4156e6271884","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

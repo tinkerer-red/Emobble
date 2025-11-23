@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"dc6818e3-4cb7-46a0-aa91-fdeb56bc7923","name":"dc6818e3-4cb7-46a0-aa91-fdeb56bc7923","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ddd695ee-a319-494e-8e58-2dea5570b6c5","name":"ddd695ee-a319-494e-8e58-2dea5570b6c5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":2011,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"05b17957-ac52-4b45-a67b-a0661759bf9f","blendMode":0,"displayName":"default","isLocked":false,"name":"05b17957-ac52-4b45-a67b-a0661759bf9f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"9cf13cee-daa1-4884-9601-0e61499ecc35","blendMode":0,"displayName":"default","isLocked":false,"name":"9cf13cee-daa1-4884-9601-0e61499ecc35","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_facebook_deluxe_32",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc6818e3-4cb7-46a0-aa91-fdeb56bc7923","path":"sprites/emj_spr_facebook_deluxe_32/emj_spr_facebook_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8f5f622a-89ff-4e12-91da-7192e2067352","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ddd695ee-a319-494e-8e58-2dea5570b6c5","path":"sprites/emj_spr_facebook_deluxe_32/emj_spr_facebook_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7f3e6482-c7af-489e-925e-7555a27c58db","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

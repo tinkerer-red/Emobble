@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"80bae39c-9e0b-4a46-afcf-2985ed445661","name":"80bae39c-9e0b-4a46-afcf-2985ed445661","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d3ffcfcc-457f-46c8-b542-4fd97933cda9","name":"d3ffcfcc-457f-46c8-b542-4fd97933cda9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1916,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"8b7f4d2c-fdc5-4ae6-b762-92df650f2eb8","blendMode":0,"displayName":"default","isLocked":false,"name":"8b7f4d2c-fdc5-4ae6-b762-92df650f2eb8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"57c59b12-6da6-4043-9527-11a0b6e6971f","blendMode":0,"displayName":"default","isLocked":false,"name":"57c59b12-6da6-4043-9527-11a0b6e6971f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_noto_deluxe_32",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"80bae39c-9e0b-4a46-afcf-2985ed445661","path":"sprites/emj_spr_noto_deluxe_32/emj_spr_noto_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2df3d278-f890-4b5d-bd5f-82a06983a150","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d3ffcfcc-457f-46c8-b542-4fd97933cda9","path":"sprites/emj_spr_noto_deluxe_32/emj_spr_noto_deluxe_32.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"02d4e692-37ff-4f0b-be2e-0f9200edc094","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

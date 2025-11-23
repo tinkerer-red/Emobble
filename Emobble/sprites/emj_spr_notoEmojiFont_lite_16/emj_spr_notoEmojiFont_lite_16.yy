@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"a0c813a3-4b8b-418a-9431-dada83473243","name":"a0c813a3-4b8b-418a-9431-dada83473243","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3af2f6e2-9b9f-4cb9-9e5a-f7178148bc63","name":"3af2f6e2-9b9f-4cb9-9e5a-f7178148bc63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":738,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e316d999-25d0-428b-ae2d-ba2f123e4798","blendMode":0,"displayName":"default","isLocked":false,"name":"e316d999-25d0-428b-ae2d-ba2f123e4798","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"81036041-e5e0-4833-aa71-461ab46dc17c","blendMode":0,"displayName":"default","isLocked":false,"name":"81036041-e5e0-4833-aa71-461ab46dc17c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_notoEmojiFont_lite_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a0c813a3-4b8b-418a-9431-dada83473243","path":"sprites/emj_spr_notoEmojiFont_lite_16/emj_spr_notoEmojiFont_lite_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b9a436a6-26fb-4ad8-bc90-2e4cc7f6275e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3af2f6e2-9b9f-4cb9-9e5a-f7178148bc63","path":"sprites/emj_spr_notoEmojiFont_lite_16/emj_spr_notoEmojiFont_lite_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"95f9ed9d-02dc-4882-ac86-a81c652a6bb2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

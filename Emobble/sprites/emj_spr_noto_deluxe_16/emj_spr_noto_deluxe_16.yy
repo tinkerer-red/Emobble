@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"088207e0-7407-417c-977e-a98a019c6794","name":"088207e0-7407-417c-977e-a98a019c6794","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e915e172-4316-4536-ba8a-37dff279ba9a","name":"e915e172-4316-4536-ba8a-37dff279ba9a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1027,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"869cd2da-7a72-4df9-bd35-c786025ab8af","blendMode":0,"displayName":"default","isLocked":false,"name":"869cd2da-7a72-4df9-bd35-c786025ab8af","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"a126a901-42a3-4c54-a8c4-109e206d529b","blendMode":0,"displayName":"default","isLocked":false,"name":"a126a901-42a3-4c54-a8c4-109e206d529b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"emj_spr_noto_deluxe_16",
   "nineSlice":null,
@@ -68,7 +68,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"088207e0-7407-417c-977e-a98a019c6794","path":"sprites/emj_spr_noto_deluxe_16/emj_spr_noto_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2dcc0db9-7a87-432b-b0a2-f2fecb0e7764","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e915e172-4316-4536-ba8a-37dff279ba9a","path":"sprites/emj_spr_noto_deluxe_16/emj_spr_noto_deluxe_16.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d3c29bd9-b7ec-4bf7-a6ae-3f4633a3b302","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
