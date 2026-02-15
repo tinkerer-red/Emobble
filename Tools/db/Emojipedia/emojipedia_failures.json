@@ -1,0 +1,697 @@
+{
+  "note": "Sample of up to 100 failures (hexcode/vendor/step) to help tune vendor slugs and parsing.",
+  "items": [
+    {
+      "hexcode": "1F600",
+      "vendor": "icons8",
+      "step": "vendor_or_image",
+      "base_path": "/grinning-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F603",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/grinning-face-with-big-eyes/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F603",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/grinning-face-with-big-eyes/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F604",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/grinning-face-with-smiling-eyes/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F604",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/grinning-face-with-smiling-eyes/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F601",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/beaming-face-with-smiling-eyes/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F601",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/beaming-face-with-smiling-eyes/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F606",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/grinning-squinting-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F606",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/grinning-squinting-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F605",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/grinning-face-with-sweat/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F605",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/grinning-face-with-sweat/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE0",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/melting-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE0",
+      "vendor": "microsoft-fluent-flat",
+      "step": "vendor_or_image",
+      "base_path": "/melting-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE0",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/melting-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F970",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/smiling-face-with-hearts/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F970",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/smiling-face-with-hearts/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F60D",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/smiling-face-with-heart-eyes/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F60D",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/smiling-face-with-heart-eyes/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F929",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/star-struck/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F929",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/star-struck/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F618",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/face-blowing-a-kiss/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F618",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/face-blowing-a-kiss/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "263A",
+      "vendor": "openmoji",
+      "step": "fallback_failed",
+      "base_path": "/smiling-face/"
+    },
+    {
+      "hexcode": "263A",
+      "vendor": "google",
+      "step": "fallback_failed",
+      "base_path": "/smiling-face/"
+    },
+    {
+      "hexcode": "263A",
+      "vendor": "noto-emoji",
+      "step": "fallback_failed",
+      "base_path": "/smiling-face/"
+    },
+    {
+      "hexcode": "263A",
+      "vendor": "microsoft-windows-10",
+      "step": "fallback_failed",
+      "base_path": "/smiling-face/"
+    },
+    {
+      "hexcode": "263A",
+      "vendor": "microsoft-fluent-flat",
+      "step": "fallback_failed",
+      "base_path": "/smiling-face/"
+    },
+    {
+      "hexcode": "263A",
+      "vendor": "microsoft-3D-fluent",
+      "step": "fallback_failed",
+      "base_path": "/smiling-face/"
+    },
+    {
+      "hexcode": "263A",
+      "vendor": "emojidex",
+      "step": "fallback_failed",
+      "base_path": "/smiling-face/"
+    },
+    {
+      "hexcode": "263A",
+      "vendor": "icons8",
+      "step": "fallback_failed",
+      "base_path": "/smiling-face/"
+    },
+    {
+      "hexcode": "1F972",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/smiling-face-with-tear/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F972",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/smiling-face-with-tear/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F60B",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/face-savoring-food/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F60B",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/face-savoring-food/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F61B",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-tongue/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F61B",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-tongue/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F61C",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/winking-face-with-tongue/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F61C",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/winking-face-with-tongue/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F92A",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/zany-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F92A",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/zany-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F61D",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/squinting-face-with-tongue/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F61D",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/squinting-face-with-tongue/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F92D",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-hand-over-mouth/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F92D",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-hand-over-mouth/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE2",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-open-eyes-and-hand-over-mouth/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE2",
+      "vendor": "microsoft-fluent-flat",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-open-eyes-and-hand-over-mouth/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE2",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-open-eyes-and-hand-over-mouth/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE3",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-peeking-eye/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE3",
+      "vendor": "microsoft-fluent-flat",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-peeking-eye/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE3",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-peeking-eye/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F92B",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/shushing-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F92B",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/shushing-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE1",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/saluting-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE1",
+      "vendor": "microsoft-fluent-flat",
+      "step": "vendor_or_image",
+      "base_path": "/saluting-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE1",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/saluting-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F928",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-raised-eyebrow/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F928",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-raised-eyebrow/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE5",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/dotted-line-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE5",
+      "vendor": "microsoft-fluent-flat",
+      "step": "vendor_or_image",
+      "base_path": "/dotted-line-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE5",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/dotted-line-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F636-200D-1F32B-FE0F",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/face-in-clouds/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F636-200D-1F32B-FE0F",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/face-in-clouds/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F62E-200D-1F4A8",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/face-exhaling/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F62E-200D-1F4A8",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/face-exhaling/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE8",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/shaking-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE8",
+      "vendor": "microsoft-fluent-flat",
+      "step": "vendor_or_image",
+      "base_path": "/shaking-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE8",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/shaking-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE8",
+      "vendor": "icons8",
+      "step": "vendor_or_image",
+      "base_path": "/shaking-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F642-200D-2194-FE0F",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/head-shaking-horizontally/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F642-200D-2194-FE0F",
+      "vendor": "microsoft-fluent-flat",
+      "step": "vendor_or_image",
+      "base_path": "/head-shaking-horizontally/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F642-200D-2194-FE0F",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/head-shaking-horizontally/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F642-200D-2194-FE0F",
+      "vendor": "icons8",
+      "step": "vendor_or_image",
+      "base_path": "/head-shaking-horizontally/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F642-200D-2195-FE0F",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/head-shaking-vertically/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F642-200D-2195-FE0F",
+      "vendor": "microsoft-fluent-flat",
+      "step": "vendor_or_image",
+      "base_path": "/head-shaking-vertically/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F642-200D-2195-FE0F",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/head-shaking-vertically/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F642-200D-2195-FE0F",
+      "vendor": "icons8",
+      "step": "vendor_or_image",
+      "base_path": "/head-shaking-vertically/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE9",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-bags-under-eyes/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE9",
+      "vendor": "microsoft-fluent-flat",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-bags-under-eyes/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE9",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-bags-under-eyes/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE9",
+      "vendor": "icons8",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-bags-under-eyes/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F92E",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/face-vomiting/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F92E",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/face-vomiting/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F975",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/hot-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F975",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/hot-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F976",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/cold-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F976",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/cold-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F974",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/woozy-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F974",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/woozy-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F635-200D-1F4AB",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-spiral-eyes/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F635-200D-1F4AB",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-spiral-eyes/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F92F",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/exploding-head/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F92F",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/exploding-head/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F920",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/cowboy-hat-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F920",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/cowboy-hat-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F973",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/partying-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F973",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/partying-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F978",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/disguised-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F978",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/disguised-face/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1F9D0",
+      "vendor": "emojidex",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-monocle/",
+      "error": "HTTPError"
+    },
+    {
+      "hexcode": "1FAE4",
+      "vendor": "microsoft-windows-10",
+      "step": "vendor_or_image",
+      "base_path": "/face-with-diagonal-mouth/",
+      "error": "HTTPError"
+    }
+  ]
+}

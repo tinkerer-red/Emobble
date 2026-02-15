@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"get_emojis",
   "parent":{
-    "name":"Emobble",
-    "path":"Emobble.yyp",
+    "name":"Emobble Scripts",
+    "path":"folders/Emobble Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

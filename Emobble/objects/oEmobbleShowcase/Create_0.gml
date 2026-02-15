@@ -20,7 +20,7 @@ for(var _i=0; _i < _length; _i++) {
 	var _str = string_lines[_i];
 	_str = string_replace_all(_str, @'" :: "', "|");
 	_str = string_replace_all(_str, @'"', "");
-	var _arr = string_split(_str, "|")
+	_arr = string_split(_str, "|")
 	glyph_strings[_i] = _arr[0];
 	unicode_strings[_i] = " :: " + _arr[1] + " :: " + _arr[2];
 	//name_strings[_i] = _arr[2];
@@ -32,14 +32,14 @@ unicode_string = string_join_ext("\n", unicode_strings);
 show_debug_overlay(true);
 
 emoji_strings = [];
-emoji_strings[0] = scribblify_emojis(glyph_string, emj_spr_emojidex_deluxe_16,   emj_lt_emojidex_deluxe_16())
-emoji_strings[1] = scribblify_emojis(glyph_string, emj_spr_fluent3d_deluxe_16,   emj_lt_fluent3d_deluxe_16())
-emoji_strings[2] = scribblify_emojis(glyph_string, emj_spr_fluentFlat_deluxe_16, emj_lt_fluentFlat_deluxe_16())
-emoji_strings[3] = scribblify_emojis(glyph_string, emj_spr_icons8_deluxe_16,	 emj_lt_icons8_deluxe_16())
-emoji_strings[4] = scribblify_emojis(glyph_string, emj_spr_noto_deluxe_16,		 emj_lt_noto_deluxe_16())
-emoji_strings[5] = scribblify_emojis(glyph_string, emj_spr_openmoji_deluxe_16,	 emj_lt_openmoji_deluxe_16())
-emoji_strings[6] = scribblify_emojis(glyph_string, emj_spr_segoeUi_deluxe_16,	 emj_lt_segoeUi_deluxe_16())
-emoji_strings[7] = scribblify_emojis(glyph_string, emj_spr_twitter_deluxe_16,	 emj_lt_twitter_deluxe_16())
+emoji_strings[0] = scribblify_emojis($"[fnt_emojidex_16]{ string_join_ext("[/f]\n[fnt_emojidex_16]", glyph_strings)}[/f]", spr_emojidex_16,   __lt_emojidex_16())
+emoji_strings[1] = scribblify_emojis($"[fnt_Fluent3D_16]{ string_join_ext("[/f]\n[fnt_Fluent3D_16]", glyph_strings)}[/f]", spr_Fluent3D_16,   __lt_Fluent3D_16())
+emoji_strings[2] = scribblify_emojis($"[fnt_FluentFlat_16]{ string_join_ext("[/f]\n[fnt_FluentFlat_16]", glyph_strings)}[/f]", spr_FluentFlat_16, __lt_FluentFlat_16())
+emoji_strings[3] = scribblify_emojis($"[fnt_icons8_16]{ string_join_ext("[/f]\n[fnt_icons8_16]", glyph_strings)}[/f]", spr_icons8_16,	 __lt_icons8_16())
+emoji_strings[4] = scribblify_emojis($"[fnt_googleNotoColored_16]{ string_join_ext("[/f]\n[fnt_googleNotoColored_16]", glyph_strings)}[/f]", spr_googleNotoColored_16,		 __lt_googleNotoColored_16())
+emoji_strings[5] = scribblify_emojis($"[fnt_openmoji_16]{ string_join_ext("[/f]\n[fnt_openmoji_16]", glyph_strings)}[/f]", spr_openmoji_16,	 __lt_openmoji_16())
+emoji_strings[6] = scribblify_emojis($"[fnt_SegoeUI_16]{ string_join_ext("[/f]\n[fnt_SegoeUI_16]", glyph_strings)}[/f]", spr_SegoeUI_16,	 __lt_SegoeUI_16())
+emoji_strings[7] = scribblify_emojis($"[fnt_twemoji_16]{ string_join_ext("[/f]\n[fnt_twemoji_16]", glyph_strings)}[/f]", spr_twemoji_16,	 __lt_twemoji_16())
 
 arrays = []
 for (var i=0; i<array_length(emoji_strings); i++){
@@ -63,3 +63,12 @@ final_string = string_join_ext("\n", final_lines)
 
 show_debug_message(final_string)
 
+var _force_include = [fnt_emojidex_16,
+fnt_Fluent3D_16,
+fnt_FluentFlat_16,
+fnt_icons8_16,
+fnt_googleNotoColored_16,
+fnt_openmoji_16,
+fnt_SegoeUI_16,
+fnt_twemoji_16,
+]

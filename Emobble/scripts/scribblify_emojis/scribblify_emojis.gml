@@ -5,6 +5,8 @@ function scribblify_emojis(input_string, _sprite, _lookup_table) {
 	static input_buff = buffer_create(0, buffer_grow, 1);
 	static output_buff = buffer_create(0, buffer_grow, 1);
 	
+	static __cache = {};
+	
 	//micro optimization
 	var _read_buff = read_buff;
 	var _emoji_buff = emoji_buff;
@@ -24,7 +26,7 @@ function scribblify_emojis(input_string, _sprite, _lookup_table) {
 	
 	//People will forget to call the function, we can just handle it for them since it's really just a name space
 	if (is_callable(_lookup_table)) {
-		_lookup_table = script_execute(_lookup_table);
+		_lookup_table = _lookup_table();
 	}
 	if (!is_struct(_lookup_table)) {
 		throw $"Lookup table is not a struct :: {typeof(_lookup_table)} :: {_lookup_table}"
@@ -38,6 +40,14 @@ function scribblify_emojis(input_string, _sprite, _lookup_table) {
 	
 	// Variables
 	var _sprite_name = sprite_get_name(_sprite);
+	
+	// Convert raw lookup tables (rect structs) into Scribble format tags once.
+	// __lt_* scripts return { "emoji": {x,y,w,h}, ... } — we need { "emoji": "[texture,...]", ... }.
+	var _tag_table = __cache[$ _sprite_name];
+	if (_tag_table == undefined) {
+		_tag_table = __emj_build_format_tags_for_lookup_table(_lookup_table, _sprite_name);
+		__cache[$ _sprite_name] = _tag_table;
+	}
 	
 	//used for keeping track of the last found replacement
 	var _previous_codepoint = undefined;
@@ -88,11 +98,11 @@ function scribblify_emojis(input_string, _sprite, _lookup_table) {
 					//show_debug_message(_candidate)
 					buffer_resize(_read_buff, 0);
 					
-					//show_debug_message($"Attempting to find _candidate :: '{_candidate}' :: {struct_exists(_lookup_table, _candidate)}")
+					show_debug_message($"Attempting to find _candidate :: '{_candidate}' :: {struct_exists(_tag_table, _candidate)}")
 					
-					if (_lookup_table[$ _candidate] != undefined) {
-						//show_debug_message($"Found _candidate :: '{_candidate}' == {_lookup_table[$ _candidate]}")
-						var _replacement = _lookup_table[$ _candidate];
+					if (_tag_table[$ _candidate] != undefined) {
+						//show_debug_message($"Found _candidate :: '{_candidate}' == {_tag_table[$ _candidate]}")
+						var _replacement = _tag_table[$ _candidate];
 						buffer_write(_output_buff, buffer_text, _replacement);
 
 						read_pos += length;

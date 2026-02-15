@@ -1,0 +1,150 @@
+{
+  "$GMSprite": "",
+  "%Name": "spr_SegoeUI_64",
+  "bboxMode": 0,
+  "bbox_bottom": 2045,
+  "bbox_left": 0,
+  "bbox_right": 2064,
+  "bbox_top": 0,
+  "collisionKind": 1,
+  "collisionTolerance": 0,
+  "DynamicTexturePage": false,
+  "edgeFiltering": false,
+  "For3D": false,
+  "frames": [
+    {
+      "$GMSpriteFrame": "",
+      "%Name": "2b61c838-c27a-50b9-8590-da58d3085935",
+      "name": "2b61c838-c27a-50b9-8590-da58d3085935",
+      "resourceType": "GMSpriteFrame",
+      "resourceVersion": "2.0"
+    }
+  ],
+  "gridX": 0,
+  "gridY": 0,
+  "height": 2046,
+  "HTile": false,
+  "layers": [
+    {
+      "$GMImageLayer": "",
+      "%Name": "d1239163-18e8-5a44-bb2f-a4a049a0c22f",
+      "blendMode": 0,
+      "displayName": "default",
+      "isLocked": false,
+      "name": "d1239163-18e8-5a44-bb2f-a4a049a0c22f",
+      "opacity": 100.0,
+      "resourceType": "GMImageLayer",
+      "resourceVersion": "2.0",
+      "visible": true
+    }
+  ],
+  "name": "spr_SegoeUI_64",
+  "nineSlice": null,
+  "origin": 0,
+  "parent": {
+    "name": "SegoeUI_64",
+    "path": "folders/_Libraries/Emobble/SegoeUI/SegoeUI_64.yy"
+  },
+  "preMultiplyAlpha": false,
+  "resourceType": "GMSprite",
+  "resourceVersion": "2.0",
+  "sequence": {
+    "$GMSequence": "",
+    "%Name": "spr_SegoeUI_64",
+    "autoRecord": true,
+    "backdropHeight": 768,
+    "backdropImageOpacity": 0.5,
+    "backdropImagePath": "",
+    "backdropWidth": 1366,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "events": {
+      "$KeyframeStore<MessageEventKeyframe>": "",
+      "Keyframes": [],
+      "resourceType": "KeyframeStore<MessageEventKeyframe>",
+      "resourceVersion": "2.0"
+    },
+    "eventStubScript": null,
+    "eventToFunction": {},
+    "length": 1.0,
+    "lockOrigin": false,
+    "moments": {
+      "$KeyframeStore<MomentsEventKeyframe>": "",
+      "Keyframes": [],
+      "resourceType": "KeyframeStore<MomentsEventKeyframe>",
+      "resourceVersion": "2.0"
+    },
+    "name": "spr_SegoeUI_64",
+    "playback": 1,
+    "playbackSpeed": 0.0,
+    "playbackSpeedType": 0,
+    "resourceType": "GMSequence",
+    "resourceVersion": "2.0",
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "timeUnits": 1,
+    "tracks": [
+      {
+        "$GMSpriteFramesTrack": "",
+        "builtinName": 0,
+        "events": [],
+        "inheritsTrackColour": true,
+        "interpolation": 1,
+        "isCreationTrack": false,
+        "keyframes": {
+          "$KeyframeStore<SpriteFrameKeyframe>": "",
+          "Keyframes": [
+            {
+              "$Keyframe<SpriteFrameKeyframe>": "",
+              "Channels": {
+                "0": {
+                  "$SpriteFrameKeyframe": "",
+                  "Id": {
+                    "name": "2b61c838-c27a-50b9-8590-da58d3085935",
+                    "path": "sprites/spr_SegoeUI_64/spr_SegoeUI_64.yy"
+                  },
+                  "resourceType": "SpriteFrameKeyframe",
+                  "resourceVersion": "2.0"
+                }
+              },
+              "Disabled": false,
+              "id": "e37b7aa7-b1ff-5831-9d60-3a0123691529",
+              "IsCreationKey": false,
+              "Key": 0.0,
+              "Length": 1.0,
+              "resourceType": "Keyframe<SpriteFrameKeyframe>",
+              "resourceVersion": "2.0",
+              "Stretch": false
+            }
+          ],
+          "resourceType": "KeyframeStore<SpriteFrameKeyframe>",
+          "resourceVersion": "2.0"
+        },
+        "modifiers": [],
+        "name": "frames",
+        "resourceType": "GMSpriteFramesTrack",
+        "resourceVersion": "2.0",
+        "spriteId": null,
+        "trackColour": 0,
+        "tracks": [],
+        "traits": 0
+      }
+    ],
+    "visibleRange": null,
+    "volume": 1.0,
+    "xorigin": 0,
+    "yorigin": 0
+  },
+  "swatchColours": null,
+  "swfPrecision": 0.5,
+  "tags": [
+    "emoji"
+  ],
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default"
+  },
+  "type": 0,
+  "VTile": false,
+  "width": 2065
+}

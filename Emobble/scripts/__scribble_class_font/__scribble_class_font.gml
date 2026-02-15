@@ -130,13 +130,17 @@ function __scribble_class_font(_name, _glyph_count, _render_type, _from_bundle, 
         //TODO - Use some kind of cool optimization if the font is a standard font and every glyph has the same material
         
         var _all_ready = true;
-        var _i = 0;
-        repeat(_glyph_count)
+        var _i = 1;
+        repeat(_glyph_count-1)
         {
             if (not _glyph_data_grid[# _i, SCRIBBLE_GLYPH.TEXELS_VALID])
             {
                 var _material = _glyph_data_grid[# _i, SCRIBBLE_GLYPH.MATERIAL];
                 
+				//if (_material = 0) {
+				//	++_i; continue;
+				//}
+				
                 var _texture_index = _material.__texture;
                 if ((_texture_index != undefined) && texture_is_ready(_texture_index))
                 {

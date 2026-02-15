@@ -1,1 +1,0 @@
-All of the .png in here are intended for use with UV lookup tables, as the sprites are not aligned.

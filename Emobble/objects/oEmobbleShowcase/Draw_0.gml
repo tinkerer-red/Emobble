@@ -29,9 +29,17 @@ if (mouse_check_button(mb_middle)) {
 	yy -= (mouse_y - mouse_middle_y_start) / 10;
 }
 
-/// Line drawing
-var _lines = string_count("\n", get_emojis());
+var _lines = array_length(final_lines);
 var _height = 16 + _sep;
+
+if (keyboard_check_pressed(vk_home)) {
+	yy = 0;
+}
+if (keyboard_check_pressed(vk_end)) {
+	yy = -_lines*_height + window_get_height();
+}
+
+/// Line drawing
 draw_set_alpha(0.1)
 for(var _i=0; _i<_lines; _i+=2){
 	draw_rectangle(
@@ -61,9 +69,9 @@ var _tex_y     = 304;
 var _tex_w     = 13;
 var _tex_h     = 16;
 
-draw_set_color(c_white)
-draw_rectangle(50, 50, 50+_tex_w, 50+_tex_h, false);
-draw_texture_part(_tex_index, _tex_x, _tex_y, _tex_w, _tex_h, 50, 50)
+//draw_set_color(c_white)
+//draw_rectangle(50, 50, 50+_tex_w, 50+_tex_h, false);
+//draw_texture_part(_tex_index, _tex_x, _tex_y, _tex_w, _tex_h, 50, 50)
 
 //var _texture_tw = texture_get_texel_width(_tex_index);
 //var _texture_th = texture_get_texel_height(_tex_index);

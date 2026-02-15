@@ -1,0 +1,22 @@
+{
+  "emojibase_version": "17.0.0",
+  "locales": [
+    "en"
+  ],
+  "with_data": true,
+  "with_compact": true,
+  "with_shortcodes": true,
+  "with_images": [
+    "emojipedia"
+  ],
+  "emojipedia_vendors": [
+    "openmoji",
+    "google",
+    "noto-emoji",
+    "microsoft-windows-10",
+    "microsoft-fluent-flat",
+    "microsoft-3D-fluent",
+    "emojidex",
+    "icons8"
+  ]
+}

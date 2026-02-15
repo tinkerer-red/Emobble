@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scribblify_emojis",
   "parent":{
-    "name":"Public - Functions",
-    "path":"folders/Emobble/Public - Functions.yy",
+    "name":"Emobble",
+    "path":"Emobble.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

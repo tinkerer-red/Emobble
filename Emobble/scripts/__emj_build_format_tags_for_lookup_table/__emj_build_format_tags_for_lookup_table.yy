@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"__emj_build_format_tags_for_lookup_table",
   "parent":{
-    "name":"__internal",
-    "path":"folders/Emobble/__internal.yy",
+    "name":"Emobble Scripts",
+    "path":"folders/Emobble Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

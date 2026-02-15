@@ -1,0 +1,8 @@
+{
+  "emojibase_version": "17.0.0",
+  "attempted": 3979,
+  "downloaded": 3657,
+  "skipped": 0,
+  "failed": 322,
+  "note": "Twemoji filenames may omit FE0F; scraper tries both with/without FE0F."
+}

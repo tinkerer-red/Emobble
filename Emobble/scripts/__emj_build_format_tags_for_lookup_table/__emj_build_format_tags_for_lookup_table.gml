@@ -65,7 +65,7 @@ function __emj_build_format_tags_for_lookup_table(_lookup, _sprite_name){
 	if (!sprite_exists(_sprite)) {
 		__scribble_trace($"Emoji Module :: Sprite resource '{_sprite_name}' is missing from project. This may indicate that unused assets have been stripped from the project\nPlease untick \"Automatically remove unused assets when compiling\" in Game Options")
 	}
-		
+	
 	var _tex_id = sprite_get_info(_sprite).frames[0].texture;
 	var _tex_uv = sprite_get_uvs(_sprite, 0);
 		
@@ -74,15 +74,15 @@ function __emj_build_format_tags_for_lookup_table(_lookup, _sprite_name){
 		
 	var _tex_l = _tex_uv[0]/_tex_tw;
 	var _tex_t = _tex_uv[1]/_tex_th;
-		
+	
+	var _output = {};
+	
 	var _keys = struct_get_names(_lookup);
 	var _i=0; repeat(array_length(_keys)) {
 		var _key = _keys[_i];
 		var _struct = _lookup[$ _key];
 		
-		_lookup[$ _key] = $"[texture,{_tex_id},{_tex_l+_struct.x},{_tex_t+_struct.y},{_struct.w},{_struct.h}]";
+		_output[$ _key] = $"[texture,{_tex_id},{_tex_l+_struct.x},{_tex_t+_struct.y},{_struct.w},{_struct.h}]";
 	_i++}
-	return _lookup;
+	return _output;
 }
-
-

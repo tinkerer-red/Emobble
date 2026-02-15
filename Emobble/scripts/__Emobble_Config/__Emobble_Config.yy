@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"__Emobble_Config",
   "parent":{
-    "name":"Config - Please edit these!",
-    "path":"folders/Emobble/Config - Please edit these!.yy",
+    "name":"Emobble Scripts",
+    "path":"folders/Emobble Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

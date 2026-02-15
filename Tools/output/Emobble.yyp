@@ -1,0 +1,12 @@
+{
+  "$GMProject":"v1",
+  "%Name":"Emobble",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,}
+  ],
+  "Folders":[],
+  "resources":[],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "defaultScriptType":1
+}

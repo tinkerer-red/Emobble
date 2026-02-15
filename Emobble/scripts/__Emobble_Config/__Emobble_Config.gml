@@ -1,4 +1,3 @@
-#macro EMOBBLE_ATLAS_SPRITE emj_spr_openmoji_deluxe_16
-#macro EMOBBLE_ATLAS_LOOKUP emj_lt_openmoji_deluxe_16
-
-
+#macro EMOBBLE_ATLAS_FONT fnt_openmoji_16
+#macro EMOBBLE_ATLAS_SPRITE spr_openmoji_16
+#macro EMOBBLE_ATLAS_LOOKUP __lt_openmoji_16

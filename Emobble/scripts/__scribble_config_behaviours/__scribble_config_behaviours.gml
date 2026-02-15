@@ -55,7 +55,7 @@
 
 //Whether to automatically scale surfaces to fit into the line of text. This is based on the font
 //height of the current font.
-#macro SCRIBBLE_AUTOFIT_INLINE_SURFACES  true
+#macro SCRIBBLE_AUTOFIT_INLINE_SURFACES  false
 
 //Whether to automatically scale textures to fit into the line of text. This is based on the font
 //height of the current font.
@@ -73,7 +73,7 @@
 // 0 = Legacy. Align centre of sprites to the centre of the line height
 // 1 = Recommended. Align centre of sprites to the centre of the ascender
 // 2 = Align bottom of sprites to the baseline
-#macro SCRIBBLE_SPRITE_ALIGN_MODE  2
+#macro SCRIBBLE_SPRITE_ALIGN_MODE  0
 
 //Whether to adjust the horizontal distance between glyphs depending on special per-font rules. Set
 //to `false` for legacy pre-8.2 behaviour.
@@ -110,9 +110,9 @@
 
 #region Advanced Features
 
-//Animation tick size per step. The default macro `(delta_time / 16666)` ensures that animations
-//are smooth and consistent at all framerates.
-#macro SCRIBBLE_TICK_SIZE  (delta_time / 16666)
+//Animation tick size per step. The out-of-the-box macro ensures that animations are smooth and
+//consistent at all framerates.
+#macro SCRIBBLE_TICK_SIZE  min(5, (delta_time / 16666))
 
 //Default value to use for text element unique IDs. This is used when no unique ID is specified.
 //This value must be a string, and must end with a colon (:).
